@@ -1,0 +1,15 @@
+.Main_Header{
+    position: fixed;
+    top:0px
+}
+.header_conatainer{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    flex-direction: row;
+}
+
+.header_logo > img{
+    height: 90px;
+
+}
