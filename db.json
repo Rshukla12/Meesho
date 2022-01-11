@@ -1741,6 +1741,782 @@
             },
             "rating": 4.8,
             "seller_id": 12
+        },
+        {
+            "id": 73,
+            "category": "Mens Top Were",
+            "title": "Trendy Fashionable Men Shirts",
+            "original_price" : 416,
+            "discounted_price": 316,
+            "sizes": ["M","L","XL"],
+            "images": ["https://images.meesho.com/images/products/63508767/wukoz_512.jpg"],
+            "details": {
+                "Fabric" : "Cotton",
+                "Sleeve Length" : "Long Sleeves",
+                "Multipack" : 1
+            },
+            "rating": 4,
+            "seller_id": 12
+        },
+        {
+            "id": 74,
+            "category": "Mens Top Were",
+            "title": "Trendy Glamorous Men Shirts",
+            "original_price" : 416,
+            "discounted_price": 316,
+            "sizes": ["M","L","XL"],
+            "images": ["https://images.meesho.com/images/products/66279137/qtgpw_512.jpg"],
+            "details": {
+                "Fabric" : "Cotton",
+                "Sleeve Length" : "Long Sleeves",
+                "Multipack" : 1
+            },
+            "rating": 5,
+            "seller_id": 12
+        },
+        {
+            "id": 75,
+            "category": "Mens Top Were",
+            "title": "Classic Glamorous Men Shirts",
+            "original_price" : 331,
+            "discounted_price": 216,
+            "sizes": ["M","L","XL"],
+            "images": ["https://images.meesho.com/images/products/15192112/85caa_512.jpg"],
+            "details": {
+                "Fabric" : "Cotton",
+                "Sleeve Length" : "Long Sleeves",
+                "Multipack" : 1
+            },
+            "rating": 3,
+            "seller_id": 12
+        },
+        {
+            "id": 76,
+            "category": "Mens Top Were",
+            "title": "Classic Solid Double Pocket Men's Shirt",
+            "original_price" : 423,
+            "discounted_price": 326,
+            "sizes": ["M","L","XL"],
+            "images": ["https://images.meesho.com/images/products/12502475/19206_512.jpg"],
+            "details": {
+                "Fabric" : "Cotton",
+                "Sleeve Length" : "Long Sleeves",
+                "Multipack" : 1
+            },
+            "rating": 3,
+            "seller_id": 12
+        },
+        {
+            "id": 77,
+            "category": "Mens Top Were",
+            "title": "Stylish Casual Shirt For Mens",
+            "original_price" : 496,
+            "discounted_price": 396,
+            "sizes": ["M","L","XL"],
+            "images": ["https://images.meesho.com/images/products/65687648/souou_512.jpg"],
+            "details": {
+                "Fabric" : "Cotton",
+                "Sleeve Length" : "Long Sleeves",
+                "Multipack" : 1
+            },
+            "rating": 3,
+            "seller_id": 12
+        },
+        {
+            "id": 78,
+            "category": "Mens Top Were",
+            "title": "Trendy Men Tshirts",
+            "original_price" : 472,
+            "discounted_price": 376,
+            "sizes": ["M","L","XL"],
+            "images": ["https://images.meesho.com/images/products/22366620/c3138_512.jpg"],
+            "details": {
+                "Fabric" : "Cotton",
+                "Sleeve Length" : "Long Sleeves",
+                "Multipack" : 1
+            },
+            "rating": 4,
+            "seller_id": 12
+        },
+        {
+            "id": 79,
+            "category": "Mens Top Were",
+            "title": "Mens Tshirt",
+            "original_price" : 376,
+            "discounted_price": 254,
+            "sizes": ["M","L","XL"],
+            "images": ["https://images.meesho.com/images/products/33884328/qow7z_512.jpg"],
+            "details": {
+                "Fabric" : "Cotton",
+                "Sleeve Length" : "Long Sleeves",
+                "Multipack" : 1
+            },
+            "rating": 4,
+            "seller_id": 12
+        },
+        {
+            "id": 80,
+            "category": "Mens Top Were",
+            "title": "Mens cotton gym vest combo pack of 5",
+            "original_price" : 465,
+            "discounted_price": 337,
+            "sizes": ["M","L","XL"],
+            "images": ["https://images.meesho.com/images/products/67181538/cn8tq_512.jpg"],
+            "details": {
+                "Fabric" : "Cotton",
+                "Sleeve Length" : "Long Sleeves",
+                "Multipack" : 1
+            },
+            "rating": 5,
+            "seller_id": 12
+        },
+        {
+            "id": 81,
+            "category": "Mens Top Were",
+            "title": "Black Royal Enfield T-shirt",
+            "original_price" : 286,
+            "discounted_price": 200,
+            "sizes": ["M","L","XL"],
+            "images": ["https://images.meesho.com/images/products/59377590/tnjnx_512.jpg"],
+            "details": {
+                "Fabric" : "Cotton",
+                "Sleeve Length" : "Long Sleeves",
+                "Multipack" : 1
+            },
+            "rating": 2,
+            "seller_id": 12
+        },
+        {
+            "id": 82,
+            "category": "Mens Top Were",
+            "title": "Stylish Strip Pattern Men Shirt Fabric (Unstiched)",
+            "original_price" : 416,
+            "discounted_price": 316,
+            "sizes": ["M","L","XL"],
+            "images": ["https://images.meesho.com/images/products/71022916/tcu4d_512.jpg"],
+            "details": {
+                "Fabric" : "Cotton",
+                "Sleeve Length" : "Long Sleeves",
+                "Multipack" : 1
+            },
+            "rating": 5,
+            "seller_id": 12
+        },
+        {
+            "id": 83,
+            "category": "Mens Top Were",
+            "title": "Trendy Modern Men Tshirts",
+            "original_price" : 500,
+            "discounted_price": 300,
+            "sizes": ["M","L","XL"],
+            "images": [""],
+            "details": {
+                "Fabric" : "Cotton",
+                "Sleeve Length" : "Long Sleeves",
+                "Multipack" : 1
+            },
+            "rating": 3,
+            "seller_id": 12
+        },
+        {
+            "id": 84,
+            "category": "Beauty and health",
+            "title": "gans play,walk,fly and run deodorant pack of 4 Deodorant & Fragrances",
+            "original_price" : 767,
+            "discounted_price": 667,
+            "sizes": "Free Size",
+            "images": ["https://images.meesho.com/images/products/70234561/cw8vv_512.jpg"],
+            "details": {
+                "Type" : "Deodorant",
+                "Brand" : "19V69",
+                "Flavour" : "Apple Cider Vinegar",
+                "Add on" : "Perfume",
+                "Multipack" : 4
+            },
+            "rating": 4.1,
+            "seller_id": 12
+        },
+        {
+            "id": 85,
+            "category": "Beauty and health",
+            "title": "Beardo SPY Perfume Body Spray (120ml+120ml) Deodorant & Fragrances",
+            "original_price" : 490,
+            "discounted_price": 390,
+            "sizes": "Free Size",
+            "images": ["https://images.meesho.com/images/products/70702124/nwgmd_512.jpg"],
+            "details": {
+                "Type" : "Deodorant",
+                "Brand" : "19V69",
+                "Flavour" : "Apple Cider Vinegar",
+                "Add on" : "Perfume",
+                "Multipack" : 4
+            },
+            "rating": 5,
+            "seller_id": 12
+        },
+        {
+            "id": 86,
+            "category": "Beauty and health",
+            "title": "Fogg amaze and charm and scent 15ml 2 prince pack of 4 80ml Deodorant & Fragrances",
+            "original_price" : 305,
+            "discounted_price": 214,
+            "sizes": "Free Size",
+            "images": ["https://images.meesho.com/images/products/70640576/4dwes_512.jpg"],
+            "details": {
+                "Type" : "Deodorant",
+                "Brand" : "19V69",
+                "Flavour" : "Apple Cider Vinegar",
+                "Add on" : "Perfume",
+                "Multipack" : 4
+            },
+            "rating": 3.6,
+            "seller_id": 12
+        },
+        {
+            "id": 87,
+            "category": "Beauty and health",
+            "title": "Sensational Natural Deodrant & Frangrances",
+            "original_price" : 194,
+            "discounted_price": 136,
+            "sizes": "Free Size",
+            "images": ["https://images.meesho.com/images/products/61990959/gi0zg_512.jpg"],
+            "details": {
+                "Type" : "Deodorant",
+                "Brand" : "19V69",
+                "Flavour" : "Apple Cider Vinegar",
+                "Add on" : "Perfume",
+                "Multipack" : 4
+            },
+            "rating": 3.3,
+            "seller_id": 12
+        },
+        {
+            "id": 88,
+            "category": "Beauty and health",
+            "title": "DENVER Hamilton Gift Set Deodorant & Fragrances",
+            "original_price" : 399,
+            "discounted_price": 299,
+            "sizes": "Free Size",
+            "images": ["https://images.meesho.com/images/products/66514307/gr5gv_512.jpg"],
+            "details": {
+                "Type" : "Deodorant",
+                "Brand" : "19V69",
+                "Flavour" : "Apple Cider Vinegar",
+                "Add on" : "Perfume",
+                "Multipack" : 4
+            },
+            "rating": 4,
+            "seller_id": 12
+        },
+        {
+            "id": 89,
+            "category": "Beauty and health",
+            "title": "Wow Vitamin facewash 150ml(Pack of 2)",
+            "original_price" : 493,
+            "discounted_price": 393,
+            "sizes": "Free Size",
+            "images": ["https://images.meesho.com/images/products/71051073/c8nwu_512.jpg"],
+            "details": {
+                "Type" : "Deodorant",
+                "Brand" : "19V69",
+                "Flavour" : "Apple Cider Vinegar",
+                "Add on" : "Perfume",
+                "Multipack" : 4
+            },
+            "rating": 4.0,
+            "seller_id": 12
+        },
+        {
+            "id": 90,
+            "category": "Beauty and health",
+            "title": "Original Swiss beauty concealer - Light Moyen",
+            "original_price" : 183,
+            "discounted_price": 129,
+            "sizes": "Free Size",
+            "images": ["https://images.meesho.com/images/products/71030282/vbba3_512.jpg"],
+            "details": {
+                "Type" : "Deodorant",
+                "Brand" : "19V69",
+                "Flavour" : "Apple Cider Vinegar",
+                "Add on" : "Perfume",
+                "Multipack" : 4
+            },
+            "rating": 3.3,
+            "seller_id": 12
+        },
+        {
+            "id": 91,
+            "category": "Beauty and health",
+            "title": "AKilli Teeth Whitening Charcoal Activated Carbon Powder",
+            "original_price" : 310,
+            "discounted_price": 217,
+            "sizes": "Free Size",
+            "images": ["https://images.meesho.com/images/products/2668142/1_512.jpg"],
+            "details": {
+                "Type" : "Deodorant",
+                "Brand" : "19V69",
+                "Flavour" : "Apple Cider Vinegar",
+                "Add on" : "Perfume",
+                "Multipack" : 4
+            },
+            "rating": 3.5,
+            "seller_id": 12
+        },
+        {
+            "id": 92,
+            "category": "Beauty and health",
+            "title": "Oral Tongue Cleaner Brush Scraper Pack of-2",
+            "original_price" : 182,
+            "discounted_price": 119,
+            "sizes": "Free Size",
+            "images": ["https://images.meesho.com/images/products/61022657/ewsm4_512.jpg"],
+            "details": {
+                "Type" : "Deodorant",
+                "Brand" : "19V69",
+                "Flavour" : "Apple Cider Vinegar",
+                "Add on" : "Perfume",
+                "Multipack" : 4
+            },
+            "rating": 5,
+            "seller_id": 12
+        },
+        {
+            "id": 93,
+            "category": "Beauty and health",
+            "title": "nail paint set of 12",
+            "original_price" : 85,
+            "discounted_price": 60,
+            "sizes": "Free Size",
+            "images": ["https://images.meesho.com/images/products/70867248/kuynn_512.jpg"],
+            "details": {
+                "Type" : "Deodorant",
+                "Brand" : "19V69",
+                "Flavour" : "Apple Cider Vinegar",
+                "Add on" : "Perfume",
+                "Multipack" : 4
+            },
+            "rating": 2.5,
+            "seller_id": 12
+        },
+        {
+            "id": 94,
+            "category": "Beauty and health",
+            "title": "Premium combo glitter nail paint",
+            "original_price" : 194,
+            "discounted_price": 136,
+            "sizes": "Free Size",
+            "images": ["https://images.meesho.com/images/products/70586121/mxn5l_512.jpg"],
+            "details": {
+                "Type" : "Deodorant",
+                "Brand" : "19V69",
+                "Flavour" : "Apple Cider Vinegar",
+                "Add on" : "Perfume",
+                "Multipack" : 4
+            },
+            "rating": 4.0,
+            "seller_id": 12
+        },
+        {
+            "id": 95,
+            "category": "Beauty and health",
+            "title": "Flower music gel eyeliners",
+            "original_price" : 115,
+            "discounted_price": 73,
+            "sizes": "Free Size",
+            "images": ["https://images.meesho.com/images/products/59419044/fnkqp_512.jpg"],
+            "details": {
+                "Type" : "Deodorant",
+                "Brand" : "19V69",
+                "Flavour" : "Apple Cider Vinegar",
+                "Add on" : "Perfume",
+                "Multipack" : 4
+            },
+            "rating": 3.5,
+            "seller_id": 12
+        },
+        {
+            "id": 96,
+            "category": "Bags and Footwear",
+            "title": "sew magic pure leather woman casual designer jutti",
+            "original_price" : 1168,
+            "discounted_price": 1068,
+            "sizes": ["IND-8","IND-9","IND-10","IND-12"],
+            "images": ["https://images.meesho.com/images/products/71026958/6ajve_512.jpg"],
+            "details": {
+                "Type" : "juti",
+                "Brand" : "Lether",
+                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+            },
+            "rating": 2.5,
+            "seller_id": 12
+        },
+        {
+            "id": 97,
+            "category": "Bags and Footwear",
+            "title": "Ladies Juti for winter.",
+            "original_price" : 240,
+            "discounted_price": 168,
+            "sizes": ["IND-8","IND-9","IND-10","IND-12"],
+            "images": ["https://images.meesho.com/images/products/71006705/2ic9e_512.jpg"],
+            "details": {
+                "Type" : "juti",
+                "Brand" : "Lether",
+                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+            },
+            "rating": 4,
+            "seller_id": 12
+        },
+        {
+            "id": 98,
+            "category": "Bags and Footwear",
+            "title": "Aadab Fabulous Men Sports Shoes",
+            "original_price" : 750,
+            "discounted_price": 650,
+            "sizes": ["IND-8","IND-9","IND-10","IND-12"],
+            "images": ["https://images.meesho.com/images/products/71046310/kycun_512.jpg","https://images.meesho.com/images/products/71046310/hl2cy_512.jpg","https://images.meesho.com/images/products/71046310/vg8x1_512.jpg"],
+            "details": {
+                "Type" : "juti",
+                "Brand" : "Lether",
+                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+            },
+            "rating": 99,
+            "seller_id": 12
+        },
+        {
+            "id": 100,
+            "category": "Bags and Footwear",
+            "title": "SOCKS Running Sports Shoes",
+            "original_price" : 511,
+            "discounted_price": 411,
+            "sizes": ["IND-8","IND-9","IND-10","IND-12"],
+            "images": ["https://images.meesho.com/images/products/71022212/t0pnm_512.jpg","https://images.meesho.com/images/products/71022212/uyysv_512.jpg"],
+            "details": {
+                "Type" : "juti",
+                "Brand" : "Lether",
+                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+            },
+            "rating": 4.5,
+            "seller_id": 12
+        },
+        {
+            "id": 101,
+            "category": "Bags and Footwear",
+            "title": "Liberty Force 10 Mens Sports Black Non Lacing BRAXTON-1E",
+            "original_price" : 995,
+            "discounted_price": 895,
+            "sizes": ["IND-8","IND-9","IND-10","IND-12"],
+            "images": ["https://images.meesho.com/images/products/71020315/funov_512.jpg","https://images.meesho.com/images/products/71020315/7rj1z_512.jpg","https://images.meesho.com/images/products/71020315/a96e7_512.jpg"],
+            "details": {
+                "Type" : "juti",
+                "Brand" : "Lether",
+                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+            },
+            "rating": 3.7,
+            "seller_id": 12
+        },
+        {
+            "id": 102,
+            "category": "Bags and Footwear",
+            "title": "BELLO MEN'S BORWN FORMAL OFFICE SHOES",
+            "original_price" : 501,
+            "discounted_price": 401,
+            "sizes": ["IND-8","IND-9","IND-10","IND-12"],
+            "images": ["https://images.meesho.com/images/products/71053557/7tu5k_512.jpg","https://images.meesho.com/images/products/71053557/xh80a_512.jpg","https://images.meesho.com/images/products/71053557/d7y7y_512.jpg"],
+            "details": {
+                "Type" : "juti",
+                "Brand" : "Lether",
+                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+            },
+            "rating": 4.2,
+            "seller_id": 12
+        },
+        {
+            "id": 103,
+            "category": "Bags and Footwear",
+            "title": "Elegant Fashionable Women Handbags",
+            "original_price" : 800,
+            "discounted_price": 700,
+            "sizes": ["IND-8","IND-9","IND-10","IND-12"],
+            "images": ["https://images.meesho.com/images/products/71029571/ulrdl_512.jpg"],
+            "details": {
+                "Type" : "juti",
+                "Brand" : "Lether",
+                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+            },
+            "rating": 3.5,
+            "seller_id": 12
+        },
+        {
+            "id": 104,
+            "category": "Bags and Footwear",
+            "title": "ELETTIVO LUXURY HANDBAG",
+            "original_price" : 524,
+            "discounted_price": 424,
+            "sizes": ["IND-8","IND-9","IND-10","IND-12"],
+            "images": ["https://images.meesho.com/images/products/71053229/5fk3t_512.jpg"],
+            "details": {
+                "Type" : "juti",
+                "Brand" : "Lether",
+                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+            },
+            "rating": 3.6,
+            "seller_id": 12
+        },
+        {
+            "id": 105,
+            "category": "Bags and Footwear",
+            "title": "PREMIUM HANDBAG",
+            "original_price" : 464,
+            "discounted_price": 364,
+            "sizes": ["IND-8","IND-9","IND-10","IND-12"],
+            "images": ["https://images.meesho.com/images/products/71051194/1fclf_512.jpg"],
+            "details": {
+                "Type" : "juti",
+                "Brand" : "Lether",
+                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+            },
+            "rating": 5,
+            "seller_id": 12
+        },
+        {
+            "id": 106,
+            "category": "Bags and Footwear",
+            "title": "Bag Pack",
+            "original_price" : 584,
+            "discounted_price": 350,
+            "sizes": ["IND-8","IND-9","IND-10","IND-12"],
+            "images": ["https://images.meesho.com/images/products/70975736/rdjil_512.jpg"],
+            "details": {
+                "Type" : "juti",
+                "Brand" : "Lether",
+                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+            },
+            "rating": 3.5,
+            "seller_id": 12
+        },
+        {
+            "id": 107,
+            "category": "Bags and Footwear",
+            "title": "Large 35 L Backpack Waterproof School Bag (Blue)",
+            "original_price" : 424,
+            "discounted_price": 300,
+            "sizes": ["IND-8","IND-9","IND-10","IND-12"],
+            "images": ["https://images.meesho.com/images/products/70992655/00aan_512.jpg"],
+            "details": {
+                "Type" : "juti",
+                "Brand" : "Lether",
+                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+            },
+            "rating": 4.2,
+            "seller_id": 12
+        },
+        {
+            "id": 108,
+            "category": "Bags and Footwear",
+            "title": "BIRJIS STYLISH LIGHTWEIGHT TRENDING LAPTOP BACKPACK BAG 25 LTRS",
+            "original_price" : 399,
+            "discounted_price": 299,
+            "sizes": ["IND-8","IND-9","IND-10","IND-12"],
+            "images": ["https://images.meesho.com/images/products/71008719/fbhox_512.jpg","https://images.meesho.com/images/products/71008719/vbuqu_512.jpg","https://images.meesho.com/images/products/71008719/hnr4t_512.jpg"],
+            "details": {
+                "Type" : "juti",
+                "Brand" : "Lether",
+                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+            },
+            "rating": 5.0,
+            "seller_id": 12
+        },
+        {
+            "id": 109,
+            "category": "Home and Kitchen",
+            "title": "Cotton Kids Bedsheets |Kids Bedsheet",
+            "original_price" : 1250,
+            "discounted_price": 1000,
+            "sizes": ["Quen","Single bed","Dobble bed"],
+            "images": ["https://images.meesho.com/images/products/23863364/2aaa1_512.jpg"],
+            "details": {
+                "Type" : "Micro Fibel",
+                "Brand" : "Bomaby Dining",
+                "Pattern" : "sky line with dark shading"
+            },
+            "rating": 4.0,
+            "seller_id": 12
+        },
+        {
+            "id": 110,
+            "category": "Home and Kitchen",
+            "title": "Indian Glace Cotton Double bedsheet 90x90 Pack of 4 Bedsheets With 16 Pillow Covers",
+            "original_price" : 1350,
+            "discounted_price": 1200,
+            "sizes": ["Quen","Single bed","Dobble bed"],
+            "images": ["https://images.meesho.com/images/products/16361047/2b30c_512.jpg"],
+            "details": {
+                "Type" : "Micro Fibel",
+                "Brand" : "Bomaby Dining",
+                "Pattern" : "sky line with dark shading"
+            },
+            "rating": 4.5,
+            "seller_id": 12
+        },
+        {
+            "id": 111,
+            "category": "Home and Kitchen",
+            "title": "Trendy Attractive Bedsheets",
+            "original_price" : 725,
+            "discounted_price": 700,
+            "sizes": ["Quen","Single bed","Dobble bed"],
+            "images": ["https://images.meesho.com/images/products/61232836/9gfeg_512.jpg"],
+            "details": {
+                "Type" : "Micro Fibel",
+                "Brand" : "Bomaby Dining",
+                "Pattern" : "sky line with dark shading"
+            },
+            "rating": 3.0,
+            "seller_id": 12
+        },
+        {
+            "id": 112,
+            "category": "Home and Kitchen",
+            "title": "Handloom Eyelet Polyester Door Curtains ,7ft (Set of 2)(white)",
+            "original_price" : 500,
+            "discounted_price": 412,
+            "sizes": ["Quen","Single bed","Dobble bed"],
+            "images": ["https://images.meesho.com/images/products/71036999/1cj49_512.jpg"],
+            "details": {
+                "Type" : "Micro Fibel",
+                "Brand" : "Bomaby Dining",
+                "Pattern" : "sky line with dark shading"
+            },
+            "rating": 4.0,
+            "seller_id": 12
+        },
+        {
+            "id": 113,
+            "category": "Home and Kitchen",
+            "title": "Handloom Polyester Door Curtain, Long 9 feet, Red, Pack of 2",
+            "original_price" : 899,
+            "discounted_price": 699,
+            "sizes": ["Quen","Single bed","Dobble bed"],
+            "images": ["https://images.meesho.com/images/products/71054096/skou8_512.jpg"],
+            "details": {
+                "Type" : "Micro Fibel",
+                "Brand" : "Bomaby Dining",
+                "Pattern" : "sky line with dark shading"
+            },
+            "rating": 3.0,
+            "seller_id": 12
+        },
+        {
+            "id": 114,
+            "category": "Home and Kitchen",
+            "title": "Handloom Polyester Door Curtain, Long 9 feet, Multicolor Pack of 2",
+            "original_price" : 2999,
+            "discounted_price": 2599,
+            "sizes": ["Quen","Single bed","Dobble bed"],
+            "images": ["https://images.meesho.com/images/products/71053569/vyjdf_512.jpg"],
+            "details": {
+                "Type" : "Micro Fibel",
+                "Brand" : "Bomaby Dining",
+                "Pattern" : "sky line with dark shading"
+            },
+            "rating": 5.0,
+            "seller_id": 12
+        },
+        {
+            "id": 115,
+            "category": "Home and Kitchen",
+            "title": "Colorful Religious Wall Hangings",
+            "original_price" : 399,
+            "discounted_price": 250,
+            "sizes": ["Free Size"],
+            "images": ["https://images.meesho.com/images/products/25323660/6ebe2_512.jpg"],
+            "details": {
+                "Type" : "Micro Fibel",
+                "Brand" : "Bomaby Dining",
+                "Pattern" : "sky line with dark shading"
+            },
+            "rating": 3.0,
+            "seller_id": 12
+        },
+        {
+            "id": 116,
+            "category": "Home and Kitchen",
+            "title": "Home decoration",
+            "original_price" : 999,
+            "discounted_price": 666,
+            "sizes": ["Free size"],
+            "images": ["https://images.meesho.com/images/products/35623500/cuems_512.jpg"],
+            "details": {
+                "Type" : "Micro Fibel",
+                "Brand" : "Bomaby Dining",
+                "Pattern" : "sky line with dark shading"
+            },
+            "rating": 4.5,
+            "seller_id": 12
+        },
+        {
+            "id": 117,
+            "category": "Home and Kitchen",
+            "title": "Useful Furniture Pouf",
+            "original_price" : 699,
+            "discounted_price": 599,
+            "sizes": ["Free Size"],
+            "images": ["https://images.meesho.com/images/products/3976995/1_512.jpg"],
+            "details": {
+                "Type" : "Micro Fibel",
+                "Brand" : "Bomaby Dining",
+                "Pattern" : "sky line with dark shading"
+            },
+            "rating": 3.0,
+            "seller_id": 12
+        },
+        {
+            "id": 118,
+            "category": "Home and Kitchen",
+            "title": "Elite Power Tools",
+            "original_price" : 1100,
+            "discounted_price": 999,
+            "sizes": ["Free Size"],
+            "images": ["https://images.meesho.com/images/products/43456458/4l28f_512.jpg"],
+            "details": {
+                "Type" : "Micro Fibel",
+                "Brand" : "Bomaby Dining",
+                "Pattern" : "sky line with dark shading"
+            },
+            "rating": 3.5,
+            "seller_id": 12
+        },
+        {
+            "id": 119,
+            "category": "Home and Kitchen",
+            "title": "Cello Mark Stainless Steel Lunch Box 4 N",
+            "original_price" : 1220,
+            "discounted_price": 1000,
+            "sizes": ["Free Size"],
+            "images": ["https://images.meesho.com/images/products/71022084/iesy9_512.jpg"],
+            "details": {
+                "Type" : "Micro Fibel",
+                "Brand" : "Bomaby Dining",
+                "Pattern" : "sky line with dark shading"
+            },
+            "rating": 5.0,
+            "seller_id": 12
+        },
+        {
+            "id": 120,
+            "category": "Home and Kitchen",
+            "title": "Jar & Container",
+            "original_price" : 999,
+            "discounted_price": 899,
+            "sizes": ["Free Size"],
+            "images": ["https://images.meesho.com/images/products/71043971/js0s9_512.jpg"],
+            "details": {
+                "Type" : "Micro Fibel",
+                "Brand" : "Bomaby Dining",
+                "Pattern" : "sky line with dark shading"
+            },
+            "rating": 3.0,
+            "seller_id": 12
         }
     ]
 }
