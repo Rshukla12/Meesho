@@ -10,8 +10,8 @@
 
 .logo {
     position: fixed;
-    left: 3%;
-    top: 3%;
+    left: 7%;
+    top: 2%;
 }
 
 .list {
@@ -50,7 +50,7 @@
     position: absolute;
     background-color: #DFDFDF;
     top: calc(50% - 0.5px);
-    right: calc(100% + 1px);
+    right: calc(100% + 0.7px);
 }
 
 .firstChild::before {

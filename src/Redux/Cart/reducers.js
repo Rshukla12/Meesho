@@ -35,6 +35,29 @@ const initCart = {
             "rating": 3.9,
             "seller_id": 1,
             "qty": 1
+        },
+        {
+            "id": 27,
+            "category": "Jewellery",
+            "title": "TRADTIONAL JWELLERY WITH AMAZING FREE GIFT OFFER",
+            "original_price" : 924,
+            "discounted_price": 774,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71018901/t1fbp_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Brass",
+                "Plating" : "Gold Plating",
+                "Stone Type" : "American Bead",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 4.2,
+            "seller_id": 7,
+            "qty": 2
         }
     ],
     orders: []
