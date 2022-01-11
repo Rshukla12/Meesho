@@ -1,0 +1,1746 @@
+    {
+        "products":[
+        {
+            "id": 1,
+            "category": "Sarees",
+            "title": "WETLESS RAINBOW ZARI WITH DIGITAL PRINT SATIN BLOUSE",
+            "original_price" : 416,
+            "discounted_price": 316,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71034092/roaia_64.jpg",
+                "https://images.meesho.com/images/products/71034092/jjcxa_64.jpg",
+                "https://images.meesho.com/images/products/71034092/1upja_64.jpg",
+                "https://images.meesho.com/images/products/71034092/aghvl_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Georgette",
+                "Blouse" : "Separate Blouse Piece",
+                "Blouse Fabric" : "Satin",
+                "Pattern" : "Woven Design",
+                "Blouse Pattern" : "Foil Printed",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 3.9,
+            "seller_id": 1 
+        },
+        {
+            "id": 2,
+            "category": "Sarees",
+            "title": "SGI Fancy Heavy Daani Saree",
+            "original_price" : 314,
+            "discounted_price": 220,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71042884/uuctu_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Chiffon",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Satin",
+                "Pattern" : "Self Design",
+                "Blouse Pattern" : "Solid",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating":2.4, 
+            "seller_id": 2
+        },
+        {
+            "id": 3,
+            "category": "Sarees",
+            "title": "Kanchipuram Silk Orange Saree",
+            "original_price" : 676,
+            "discounted_price": 576,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71051237/kugr5_64.jpg",
+                "https://images.meesho.com/images/products/71051237/bzflu_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Kota Doria Silk",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Jacquard",
+                "Pattern" : "Zari Woven Design",
+                "Blouse Pattern" : "Jacquard",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 2.9,
+            "seller_id": 3 
+        },
+        {
+            "id": 4,
+            "category": "Sarees",
+            "title": "RIDDHI IKKAT SILK SAREE",
+            "original_price" : 553,
+            "discounted_price": 453,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71044944/p82pj_64.jpg",
+                "https://images.meesho.com/images/products/71044944/tvwam_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Cotton",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Cotton",
+                "Pattern" : "Woven Design",
+                "Blouse Pattern" : "Solid",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 3.6,
+            "seller_id": 4
+        },
+        {
+            "id": 1,
+            "category": "Sarees",
+            "title": "WETLESS RAINBOW ZARI WITH DIGITAL PRINT SATIN BLOUSE",
+            "original_price" : 416,
+            "discounted_price": 316,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71034092/roaia_64.jpg",
+                "https://images.meesho.com/images/products/71034092/jjcxa_64.jpg",
+                "https://images.meesho.com/images/products/71034092/1upja_64.jpg",
+                "https://images.meesho.com/images/products/71034092/aghvl_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Georgette",
+                "Blouse" : "Separate Blouse Piece",
+                "Blouse Fabric" : "Satin",
+                "Pattern" : "Woven Design",
+                "Blouse Pattern" : "Foil Printed",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 3.9,
+            "seller_id": 1 
+        },
+        {
+            "id": 2,
+            "category": "Sarees",
+            "title": "SGI Fancy Heavy Daani Saree",
+            "original_price" : 314,
+            "discounted_price": 220,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71042884/uuctu_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Chiffon",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Satin",
+                "Pattern" : "Self Design",
+                "Blouse Pattern" : "Solid",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating":2.4, 
+            "seller_id": 2
+        },
+        {
+            "id": 3,
+            "category": "Sarees",
+            "title": "Kanchipuram Silk Orange Saree",
+            "original_price" : 676,
+            "discounted_price": 576,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71051237/kugr5_64.jpg",
+                "https://images.meesho.com/images/products/71051237/bzflu_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Kota Doria Silk",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Jacquard",
+                "Pattern" : "Zari Woven Design",
+                "Blouse Pattern" : "Jacquard",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 2.9,
+            "seller_id": 3 
+        },
+        {
+            "id": 4,
+            "category": "Sarees",
+            "title": "RIDDHI IKKAT SILK SAREE",
+            "original_price" : 553,
+            "discounted_price": 453,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71044944/p82pj_64.jpg",
+                "https://images.meesho.com/images/products/71044944/tvwam_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Cotton",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Cotton",
+                "Pattern" : "Woven Design",
+                "Blouse Pattern" : "Solid",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 3.6,
+            "seller_id": 4
+        },
+        {
+            "id": 5,
+            "category": "Sarees",
+            "title": "Saree",
+            "original_price" : 1273,
+            "discounted_price": 1173,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71042843/qws3q_512.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Cotton Slub",
+                "Blouse" : "Saree with Multiple Blouse",
+                "Blouse Fabric" : "Acrylic",
+                "Pattern" : "Woven Design"  ,
+                "Blouse Pattern" : "Foil Printed",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 3.3,
+            "seller_id": 3 
+        },
+        {
+            "id": 6,
+            "category": "Sarees",
+            "title": "Pink Designer Wedding Partywear Silk Zari Hand Embroidery Work Bridal Saree Sari With Blouse Piece H005",
+            "original_price" : 1121,
+            "discounted_price": 1232,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71055066/ij803_64.jpg",
+                "https://images.meesho.com/images/products/71055066/uokx8_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Silk",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Satin",
+                "Pattern" : "Self Design",
+                "Blouse Pattern" : "Solid",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating":2.7, 
+            "seller_id": 2
+        },
+        {
+            "id": 7,
+            "category": "Sarees",
+            "title": "Fashion Mall Presending by Embroidery work & Mirror work Linen Saree.",
+            "original_price" : 667,
+            "discounted_price": 567,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71032690/rb3ra_64.jpg",
+                "https://images.meesho.com/images/products/71032690/vvdhy_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Linen",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Jacquard",
+                "Pattern" : "Zari Woven Design",
+                "Blouse Pattern" : "Jacquard",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 4.2,
+            "seller_id": 4 
+        },
+        {
+            "id": 8,
+            "category": "Sarees",
+            "title": "Beautiful heavy multy with black sequence work saree",
+            "original_price" : 924,
+            "discounted_price": 1024,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71055896/stej3_512.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Cotton",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Cotton",
+                "Pattern" : "Woven Design",
+                "Blouse Pattern" : "Solid",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 1.6,
+            "seller_id": 1
+        },
+        {
+            "id": 9,
+            "category": "Sarees",
+            "title": "raviraj Saree Brand like laxmipati saree Sparsh design no -101",
+            "original_price" : 1124,
+            "discounted_price": 1024,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71025367/nbc88_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Cotton",
+                "Blouse" : "Separate Blouse Piece",
+                "Blouse Fabric" : "Satin",
+                "Pattern" : "Woven Design",
+                "Blouse Pattern" : "Foil Printed",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 2.4,
+            "seller_id": 2 
+        },
+        {
+            "id": 10,
+            "category": "Sarees",
+            "title": "Khhan Saree",
+            "original_price" : 454,
+            "discounted_price": 340,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71035280/jjqta_512.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Aura Silk",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Satin",
+                "Pattern" : "Self Design",
+                "Blouse Pattern" : "Solid",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating":3.6, 
+            "seller_id": 4
+        },
+        {
+            "id": 11,
+            "category": "Sarees",
+            "title": "J&T Attractive Georgette Floral Print Saree With Satin Printed Blouse",
+            "original_price" : 448,
+            "discounted_price": 548,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/70941048/30slv_512.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Georgette",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Jacquard",
+                "Pattern" : "Zari Woven Design",
+                "Blouse Pattern" : "Jacquard",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 2.5,
+            "seller_id": 4
+        },
+        {
+            "id": 12,
+            "category": "Sarees",
+            "title": "RIDDHI IKKAT SILK SAREE",
+            "original_price" : 1653,
+            "discounted_price": 1553,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71044421/bkcqz_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Cotton",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Cotton",
+                "Pattern" : "Woven Design",
+                "Blouse Pattern" : "Solid",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 4.6,
+            "seller_id": 3
+        },
+        {
+            "id": 13,
+            "category": "Sarees",
+            "title": "WETLESS RAINBOW ZARI WITH DIGITAL PRINT SATIN BLOUSE",
+            "original_price" : 816,
+            "discounted_price": 716,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71033841/po0bp_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Chanderi Cotton",
+                "Blouse" : "Separate Blouse Piece",
+                "Blouse Fabric" : "Satin",
+                "Pattern" : "Woven Design",
+                "Blouse Pattern" : "Foil Printed",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 3.5,
+            "seller_id": 1 
+        },
+        {
+            "id": 14,
+            "category": "Sarees",
+            "title": "New heavy Jaquard saree with pallu with regular blouse",
+            "original_price" : 567,
+            "discounted_price": 667,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71024211/wvwhc_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Chiffon",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Satin",
+                "Pattern" : "Self Design",
+                "Blouse Pattern" : "Solid",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating":2.8, 
+            "seller_id": 2
+        },
+        {
+            "id": 15,
+            "category": "Sarees",
+            "title": "SILVER MEENA SAREE",
+            "original_price" : 616,
+            "discounted_price": 516,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71056297/hqbfu_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Jacquard",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Jacquard",
+                "Pattern" : "Zari Woven Design",
+                "Blouse Pattern" : "Jacquard",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 2.9,
+            "seller_id": 3 
+        },
+        {
+            "id": 16,
+            "category": "Sarees",
+            "title": "RIDDHI IKKAT SILK SAREE",
+            "original_price" : 553,
+            "discounted_price": 453,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71044944/p82pj_64.jpg",
+                "https://images.meesho.com/images/products/71044944/tvwam_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Cotton",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Cotton",
+                "Pattern" : "Woven Design",
+                "Blouse Pattern" : "Solid",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 2.6,
+            "seller_id": 4
+        },
+        {
+            "id": 17,
+            "category": "Sarees",
+            "title": "WETLESS RAINBOW ZARI WITH DIGITAL PRINT SATIN BLOUSE",
+            "original_price" : 416,
+            "discounted_price": 316,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71034092/roaia_64.jpg",
+                "https://images.meesho.com/images/products/71034092/jjcxa_64.jpg",
+                "https://images.meesho.com/images/products/71034092/1upja_64.jpg",
+                "https://images.meesho.com/images/products/71034092/aghvl_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Georgette",
+                "Blouse" : "Separate Blouse Piece",
+                "Blouse Fabric" : "Satin",
+                "Pattern" : "Woven Design",
+                "Blouse Pattern" : "Foil Printed",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 1.9,
+            "seller_id": 1 
+        },
+        {
+            "id": 18,
+            "category": "Sarees",
+            "title": "SGI Fancy Heavy Daani Saree",
+            "original_price" : 314,
+            "discounted_price": 220,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71056821/lzxnc_512.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Chiffon",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Satin",
+                "Pattern" : "Self Design",
+                "Blouse Pattern" : "Solid",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating":4.4, 
+            "seller_id": 2
+        },
+        {
+            "id": 19,
+            "category": "Sarees",
+            "title": "Kanchipuram Silk Orange Saree",
+            "original_price" : 676,
+            "discounted_price": 576,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71051237/kugr5_64.jpg",
+                "https://images.meesho.com/images/products/71051237/bzflu_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Kota Doria Silk",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Jacquard",
+                "Pattern" : "Zari Woven Design",
+                "Blouse Pattern" : "Jacquard",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 4.3,
+            "seller_id": 3 
+        },
+        {
+            "id": 20,
+            "category": "Sarees",
+            "title": "RIDDHI IKKAT SILK SAREE",
+            "original_price" : 553,
+            "discounted_price": 453,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71044944/p82pj_64.jpg",
+                "https://images.meesho.com/images/products/71044944/tvwam_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Cotton",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Cotton",
+                "Pattern" : "Woven Design",
+                "Blouse Pattern" : "Solid",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 3.6,
+            "seller_id": 4
+        },
+        {
+            "id": 21,
+            "category": "Sarees",
+            "title": "Pink Designer Wedding Partywear Silk Zari Hand Embroidery Work Bridal Saree Sari With Blouse Piece H005",
+            "original_price" : 1121,
+            "discounted_price": 1232,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71055066/ij803_64.jpg",
+                "https://images.meesho.com/images/products/71055066/uokx8_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Silk",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Satin",
+                "Pattern" : "Self Design",
+                "Blouse Pattern" : "Solid",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating":2.7, 
+            "seller_id": 2
+        },
+        {
+            "id": 22,
+            "category": "Sarees",
+            "title": "Fashion Mall Presending by Embroidery work & Mirror work Linen Saree.",
+            "original_price" : 667,
+            "discounted_price": 567,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71032690/rb3ra_64.jpg",
+                "https://images.meesho.com/images/products/71032690/vvdhy_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Linen",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Jacquard",
+                "Pattern" : "Zari Woven Design",
+                "Blouse Pattern" : "Jacquard",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 4.2,
+            "seller_id": 4 
+        },
+        {
+            "id": 23,
+            "category": "Sarees",
+            "title": "Beautiful heavy multy with black sequence work saree",
+            "original_price" : 924,
+            "discounted_price": 1024,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71055896/stej3_512.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Cotton",
+                "Blouse" : "Running Blouse",
+                "Blouse Fabric" : "Cotton",
+                "Pattern" : "Woven Design",
+                "Blouse Pattern" : "Solid",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 1.6,
+            "seller_id": 1
+        },
+        {
+            "id": 24,
+            "category": "Sarees",
+            "title": "raviraj Saree Brand like laxmipati saree Sparsh design no -101",
+            "original_price" : 1124,
+            "discounted_price": 1024,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71025367/nbc88_64.jpg"
+            ],
+            "details": {
+                "Saree Fabric" : "Cotton",
+                "Blouse" : "Separate Blouse Piece",
+                "Blouse Fabric" : "Satin",
+                "Pattern" : "Woven Design",
+                "Blouse Pattern" : "Foil Printed",
+                "Multipack" : "Single",
+                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+            },
+            "rating": 2.4,
+            "seller_id": 2 
+        }
+        ,{
+            "id": 25,
+            "category": "Jewellery",
+            "title": "TRADTIONAL JWELLERY WITH AMAZING FREE GIFT OFFER",
+            "original_price" : 224,
+            "discounted_price": 174,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71025367/nbc88_64.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Brass",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 4.4,
+            "seller_id": 5 
+        },
+        {
+            "id": 26,
+            "category": "Jewellery",
+            "title": "Bridal Pearl and Stone Combo Necklace Set for Women",
+            "original_price" : 1024,
+            "discounted_price": 974,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71023711/fpoax_64.jpg",
+                "https://images.meesho.com/images/products/71023711/rasws_64.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Alloy",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 3.4,
+            "seller_id": 6 
+        },
+        {
+            "id": 27,
+            "category": "Jewellery",
+            "title": "TRADTIONAL JWELLERY WITH AMAZING FREE GIFT OFFER",
+            "original_price" : 924,
+            "discounted_price": 774,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71018901/t1fbp_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Brass",
+                "Plating" : "Gold Plating",
+                "Stone Type" : "American Bead",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 4.2,
+            "seller_id": 7 
+        },
+        {
+            "id": 28,
+            "category": "Jewellery",
+            "title": "LOCKET WITH EARRING AND BRACELET COMBO",
+            "original_price" : 1024,
+            "discounted_price": 974,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71023768/djf56_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Alloy",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 3.7,
+            "seller_id": 8
+        },
+        {
+            "id": 29,
+            "category": "Jewellery",
+            "title": "Elite Chunky Jewellery Sets",
+            "original_price" : 324,
+            "discounted_price": 174,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71054834/xqybx_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Brass",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 4.4,
+            "seller_id": 5 
+        },
+        {
+            "id": 30,
+            "category": "Jewellery",
+            "title": "Feminine Glittering Jewellery Sets",
+            "original_price" : 324,
+            "discounted_price": 274,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/69270612/7uwky_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Copper",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 2.1,
+            "seller_id": 6 
+        },
+        {
+            "id": 31,
+            "category": "Jewellery",
+            "title": "Green Oxidized Jewellery",
+            "original_price" : 624,
+            "discounted_price": 574,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71057079/afppr_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Brass and Copper",
+                "Plating" : "Gold Plating",
+                "Stone Type" : "American Bead",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 3.2,
+            "seller_id": 7 
+        },
+        {
+            "id": 32,
+            "category": "Jewellery",
+            "title": "KISARA JEWELS OXIDISED JEWELLERY PARTY WEAR COMBO PACK. Jewellery Set",
+            "original_price" : 444,
+            "discounted_price": 384,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71046199/wg7r2_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "German Silver",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 3.6,
+            "seller_id": 8
+        },
+        {
+            "id": 33,
+            "category": "Jewellery",
+            "title": "White Crystal flower choker necklase set",
+            "original_price" : 325,
+            "discounted_price": 171,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71019152/9hk0d_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Brass",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 4.1,
+            "seller_id": 6 
+        },
+        {
+            "id": 34,
+            "category": "Jewellery",
+            "title": "Black Set Flower Girl Pearl Necklace Bracelet Earring One Single Strand Simplle Necklace",
+            "original_price" : 249,
+            "discounted_price": 177,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71040507/2ocm4_512.jpg",
+                "https://images.meesho.com/images/products/71040507/svmzd_64.jpg",
+                "https://images.meesho.com/images/products/71040507/lg02p_64.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Brass and Copper",
+                "Plating" : "Gold Plating",
+                "Stone Type" : "American Bead",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 4.6,
+            "seller_id": 8 
+        },
+        {
+            "id": 35,
+            "category": "Jewellery",
+            "title": "Feminine Colorful Jewellery Sets",
+            "original_price" : 857,
+            "discounted_price": 782,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71050553/bmtd3_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "German Silver",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 3.3,
+            "seller_id": 8
+        },
+        {
+            "id": 36,
+            "category": "Jewellery",
+            "title": "DESIGNED Jewellery Set",
+            "original_price" : 294,
+            "discounted_price": 174,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71025393/eqkjy_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Copper",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 1.6,
+            "seller_id": 6 
+        },
+        {
+            "id": 37,
+            "category": "Jewellery",
+            "title": "TRADTIONAL JWELLERY WITH AMAZING FREE GIFT OFFER",
+            "original_price" : 224,
+            "discounted_price": 174,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71025367/nbc88_64.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Brass",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 4.4,
+            "seller_id": 5 
+        },
+        {
+            "id": 38,
+            "category": "Jewellery",
+            "title": "Bridal Pearl and Stone Combo Necklace Set for Women",
+            "original_price" : 1024,
+            "discounted_price": 974,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71023711/fpoax_64.jpg",
+                "https://images.meesho.com/images/products/71023711/rasws_64.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Alloy",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 3.4,
+            "seller_id": 6 
+        },
+        {
+            "id": 39,
+            "category": "Jewellery",
+            "title": "TRADTIONAL JWELLERY WITH AMAZING FREE GIFT OFFER",
+            "original_price" : 924,
+            "discounted_price": 774,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71018901/t1fbp_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Brass",
+                "Plating" : "Gold Plating",
+                "Stone Type" : "American Bead",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 4.2,
+            "seller_id": 7 
+        },
+        {
+            "id": 40,
+            "category": "Jewellery",
+            "title": "LOCKET WITH EARRING AND BRACELET COMBO",
+            "original_price" : 1024,
+            "discounted_price": 974,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71023768/djf56_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Alloy",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 3.7,
+            "seller_id": 8
+        },
+        {
+            "id": 41,
+            "category": "Jewellery",
+            "title": "Elite Chunky Jewellery Sets",
+            "original_price" : 324,
+            "discounted_price": 174,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71054834/xqybx_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Brass",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 4.4,
+            "seller_id": 5 
+        },
+        {
+            "id": 42,
+            "category": "Jewellery",
+            "title": "Feminine Glittering Jewellery Sets",
+            "original_price" : 324,
+            "discounted_price": 274,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/69270612/7uwky_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Copper",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 2.1,
+            "seller_id": 6 
+        },
+        {
+            "id": 43,
+            "category": "Jewellery",
+            "title": "Green Oxidized Jewellery",
+            "original_price" : 624,
+            "discounted_price": 574,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71057079/afppr_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Brass and Copper",
+                "Plating" : "Gold Plating",
+                "Stone Type" : "American Bead",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 3.2,
+            "seller_id": 7 
+        },
+        {
+            "id": 44,
+            "category": "Jewellery",
+            "title": "KISARA JEWELS OXIDISED JEWELLERY PARTY WEAR COMBO PACK. Jewellery Set",
+            "original_price" : 444,
+            "discounted_price": 384,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71046199/wg7r2_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "German Silver",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 3.6,
+            "seller_id": 8
+        },
+        {
+            "id": 45,
+            "category": "Jewellery",
+            "title": "White Crystal flower choker necklase set",
+            "original_price" : 325,
+            "discounted_price": 171,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71019152/9hk0d_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Brass",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 4.1,
+            "seller_id": 6 
+        },
+        {
+            "id": 46,
+            "category": "Jewellery",
+            "title": "Black Set Flower Girl Pearl Necklace Bracelet Earring One Single Strand Simplle Necklace",
+            "original_price" : 249,
+            "discounted_price": 177,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71040507/2ocm4_512.jpg",
+                "https://images.meesho.com/images/products/71040507/svmzd_64.jpg",
+                "https://images.meesho.com/images/products/71040507/lg02p_64.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Brass and Copper",
+                "Plating" : "Gold Plating",
+                "Stone Type" : "American Bead",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 4.6,
+            "seller_id": 8 
+        },
+        {
+            "id":47,
+            "category": "Jewellery",
+            "title": "Feminine Colorful Jewellery Sets",
+            "original_price" : 857,
+            "discounted_price": 782,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71050553/bmtd3_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "German Silver",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 3.3,
+            "seller_id": 8
+        },
+        {
+            "id": 48,
+            "category": "Jewellery",
+            "title": "DESIGNED Jewellery Set",
+            "original_price" : 294,
+            "discounted_price": 174,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71025393/eqkjy_512.jpg"
+            ],
+            "details": {
+                "Base Metal" : "Copper",
+                "Plating" : "Micro Plating",
+                "Stone Type" : "Artificial Stones & Beads",
+                "Sizing" : "Adjustable",
+                "Multipack" : 1
+            },
+            "rating": 1.6,
+            "seller_id": 6 
+        }
+        ,{
+            "id": 49,
+            "category": "Dresses",
+            "title": "Women's Dress",
+            "original_price" : 294,
+            "discounted_price": 174,
+            "sizes": [
+                "XL"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71036137/b4aq1_512.jpg",
+                "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+            ],
+            "details": {
+                "Fabric" : "Cotton",
+                "Combo of" : "Single",
+                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+            },
+            "rating": 1.6,
+            "seller_id": 9
+        },
+        {
+            "id": 50,
+            "category": "Dresses",
+            "title": "PILI PATTI & BLUE IN RED WHITE PATTI Dresses",
+            "original_price" : 560,
+            "discounted_price": 460,
+            "sizes": [
+                "S",
+                "XL",
+                "L",
+                "M",
+                "XXL"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71033877/6cl5l_512.jpg",
+                "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+            ],
+            "details": {
+                "Fabric" : "Crepe",
+                "Sleeve Length" : "Sleeveless",
+                "Multipack" : 2
+            },
+            "rating": 4.8,
+            "seller_id": 10
+        },
+        {
+            "id": 51,
+            "category": "Dresses",
+            "title": "WOMEN BEAUTIFUL WINE LONG DRESS",
+            "original_price" : 394,
+            "discounted_price": 294,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71020721/nxtrf_512.jpg"
+            ],
+            "details": {
+                "Fabric" : "Cotton",
+                "Combo of" : "Single",
+                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+            },
+            "rating": 3.6,
+            "seller_id": 11
+        },
+        {
+            "id": 52,
+            "category": "Dresses",
+            "title": "Dress",
+            "original_price" : 1060,
+            "discounted_price": 960,
+            "sizes": [
+                "M"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
+            ],
+            "details": {
+                "Fabric" : "Crepe",
+                "Sleeve Length" : "Sleeveless",
+                "Multipack" : 2
+            },
+            "rating": 4.8,
+            "seller_id": 12
+        },
+        {
+            "id": 53,
+            "category": "Dresses",
+            "title": "Women's Dress",
+            "original_price" : 294,
+            "discounted_price": 174,
+            "sizes": [
+                "XL"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71036137/b4aq1_512.jpg",
+                "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+            ],
+            "details": {
+                "Fabric" : "Cotton",
+                "Combo of" : "Single",
+                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+            },
+            "rating": 1.6,
+            "seller_id": 9
+        },
+        {
+            "id": 54,
+            "category": "Dresses",
+            "title": "PILI PATTI & BLUE IN RED WHITE PATTI Dresses",
+            "original_price" : 560,
+            "discounted_price": 460,
+            "sizes": [
+                "S",
+                "XL",
+                "L",
+                "M",
+                "XXL"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71033877/6cl5l_512.jpg",
+                "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+            ],
+            "details": {
+                "Fabric" : "Crepe",
+                "Sleeve Length" : "Sleeveless",
+                "Multipack" : 2
+            },
+            "rating": 4.8,
+            "seller_id": 10
+        },
+        {
+            "id": 55,
+            "category": "Dresses",
+            "title": "WOMEN BEAUTIFUL WINE LONG DRESS",
+            "original_price" : 394,
+            "discounted_price": 294,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71020721/nxtrf_512.jpg"
+            ],
+            "details": {
+                "Fabric" : "Cotton",
+                "Combo of" : "Single",
+                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+            },
+            "rating": 3.6,
+            "seller_id": 11
+        },
+        {
+            "id": 56,
+            "category": "Dresses",
+            "title": "Dress",
+            "original_price" : 1060,
+            "discounted_price": 960,
+            "sizes": [
+                "M"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
+            ],
+            "details": {
+                "Fabric" : "Crepe",
+                "Sleeve Length" : "Sleeveless",
+                "Multipack" : 2
+            },
+            "rating": 4.8,
+            "seller_id": 12
+        },
+        {
+            "id": 57,
+            "category": "Dresses",
+            "title": "Women's Dress",
+            "original_price" : 294,
+            "discounted_price": 174,
+            "sizes": [
+                "XL"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71036137/b4aq1_512.jpg",
+                "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+            ],
+            "details": {
+                "Fabric" : "Cotton",
+                "Combo of" : "Single",
+                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+            },
+            "rating": 1.6,
+            "seller_id": 9
+        },
+        {
+            "id": 58,
+            "category": "Dresses",
+            "title": "PILI PATTI & BLUE IN RED WHITE PATTI Dresses",
+            "original_price" : 560,
+            "discounted_price": 460,
+            "sizes": [
+                "S",
+                "XL",
+                "L",
+                "M",
+                "XXL"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71033877/6cl5l_512.jpg",
+                "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+            ],
+            "details": {
+                "Fabric" : "Crepe",
+                "Sleeve Length" : "Sleeveless",
+                "Multipack" : 2
+            },
+            "rating": 4.8,
+            "seller_id": 10
+        },
+        {
+            "id": 59,
+            "category": "Dresses",
+            "title": "WOMEN BEAUTIFUL WINE LONG DRESS",
+            "original_price" : 394,
+            "discounted_price": 294,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71020721/nxtrf_512.jpg"
+            ],
+            "details": {
+                "Fabric" : "Cotton",
+                "Combo of" : "Single",
+                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+            },
+            "rating": 3.6,
+            "seller_id": 11
+        },
+        {
+            "id": 60,
+            "category": "Dresses",
+            "title": "Dress",
+            "original_price" : 1060,
+            "discounted_price": 960,
+            "sizes": [
+                "M"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
+            ],
+            "details": {
+                "Fabric" : "Crepe",
+                "Sleeve Length" : "Sleeveless",
+                "Multipack" : 2
+            },
+            "rating": 4.8,
+            "seller_id": 12
+        },
+        {
+            "id": 61,
+            "category": "Dresses",
+            "title": "Women's Dress",
+            "original_price" : 294,
+            "discounted_price": 174,
+            "sizes": [
+                "XL"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71036137/b4aq1_512.jpg",
+                "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+            ],
+            "details": {
+                "Fabric" : "Cotton",
+                "Combo of" : "Single",
+                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+            },
+            "rating": 1.6,
+            "seller_id": 9
+        },
+        {
+            "id": 62,
+            "category": "Dresses",
+            "title": "PILI PATTI & BLUE IN RED WHITE PATTI Dresses",
+            "original_price" : 560,
+            "discounted_price": 460,
+            "sizes": [
+                "S",
+                "XL",
+                "L",
+                "M",
+                "XXL"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71033877/6cl5l_512.jpg",
+                "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+            ],
+            "details": {
+                "Fabric" : "Crepe",
+                "Sleeve Length" : "Sleeveless",
+                "Multipack" : 2
+            },
+            "rating": 4.8,
+            "seller_id": 10
+        },
+        {
+            "id": 63,
+            "category": "Dresses",
+            "title": "WOMEN BEAUTIFUL WINE LONG DRESS",
+            "original_price" : 394,
+            "discounted_price": 294,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71020721/nxtrf_512.jpg"
+            ],
+            "details": {
+                "Fabric" : "Cotton",
+                "Combo of" : "Single",
+                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+            },
+            "rating": 3.6,
+            "seller_id": 11
+        },
+        {
+            "id": 64,
+            "category": "Dresses",
+            "title": "Dress",
+            "original_price" : 1060,
+            "discounted_price": 960,
+            "sizes": [
+                "M"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
+            ],
+            "details": {
+                "Fabric" : "Crepe",
+                "Sleeve Length" : "Sleeveless",
+                "Multipack" : 2
+            },
+            "rating": 4.8,
+            "seller_id": 12
+        },
+        {
+            "id": 65,
+            "category": "Dresses",
+            "title": "Women's Dress",
+            "original_price" : 294,
+            "discounted_price": 174,
+            "sizes": [
+                "XL"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71036137/b4aq1_512.jpg",
+                "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+            ],
+            "details": {
+                "Fabric" : "Cotton",
+                "Combo of" : "Single",
+                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+            },
+            "rating": 1.6,
+            "seller_id": 9
+        },
+        {
+            "id": 66,
+            "category": "Dresses",
+            "title": "PILI PATTI & BLUE IN RED WHITE PATTI Dresses",
+            "original_price" : 560,
+            "discounted_price": 460,
+            "sizes": [
+                "S",
+                "XL",
+                "L",
+                "M",
+                "XXL"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71033877/6cl5l_512.jpg",
+                "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+            ],
+            "details": {
+                "Fabric" : "Crepe",
+                "Sleeve Length" : "Sleeveless",
+                "Multipack" : 2
+            },
+            "rating": 4.8,
+            "seller_id": 10
+        },
+        {
+            "id": 67,
+            "category": "Dresses",
+            "title": "WOMEN BEAUTIFUL WINE LONG DRESS",
+            "original_price" : 394,
+            "discounted_price": 294,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71020721/nxtrf_512.jpg"
+            ],
+            "details": {
+                "Fabric" : "Cotton",
+                "Combo of" : "Single",
+                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+            },
+            "rating": 3.6,
+            "seller_id": 11
+        },
+        {
+            "id": 68,
+            "category": "Dresses",
+            "title": "Dress",
+            "original_price" : 1060,
+            "discounted_price": 960,
+            "sizes": [
+                "M"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
+            ],
+            "details": {
+                "Fabric" : "Crepe",
+                "Sleeve Length" : "Sleeveless",
+                "Multipack" : 2
+            },
+            "rating": 4.8,
+            "seller_id": 12
+        },
+        {
+            "id": 69,
+            "category": "Dresses",
+            "title": "Women's Dress",
+            "original_price" : 294,
+            "discounted_price": 174,
+            "sizes": [
+                "XL"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71036137/b4aq1_512.jpg",
+                "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+            ],
+            "details": {
+                "Fabric" : "Cotton",
+                "Combo of" : "Single",
+                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+            },
+            "rating": 1.6,
+            "seller_id": 9
+        },
+        {
+            "id": 70,
+            "category": "Dresses",
+            "title": "PILI PATTI & BLUE IN RED WHITE PATTI Dresses",
+            "original_price" : 560,
+            "discounted_price": 460,
+            "sizes": [
+                "S",
+                "XL",
+                "L",
+                "M",
+                "XXL"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71033877/6cl5l_512.jpg",
+                "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+            ],
+            "details": {
+                "Fabric" : "Crepe",
+                "Sleeve Length" : "Sleeveless",
+                "Multipack" : 2
+            },
+            "rating": 4.8,
+            "seller_id": 10
+        },
+        {
+            "id": 71,
+            "category": "Dresses",
+            "title": "WOMEN BEAUTIFUL WINE LONG DRESS",
+            "original_price" : 394,
+            "discounted_price": 294,
+            "sizes": [
+                "Free Size"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71020721/nxtrf_512.jpg"
+            ],
+            "details": {
+                "Fabric" : "Cotton",
+                "Combo of" : "Single",
+                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+            },
+            "rating": 3.6,
+            "seller_id": 11
+        },
+        {
+            "id": 72,
+            "category": "Dresses",
+            "title": "Dress",
+            "original_price" : 1060,
+            "discounted_price": 960,
+            "sizes": [
+                "M"
+            ],
+            "imgs": [
+                "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
+            ],
+            "details": {
+                "Fabric" : "Crepe",
+                "Sleeve Length" : "Sleeveless",
+                "Multipack" : 2
+            },
+            "rating": 4.8,
+            "seller_id": 12
+        }
+    ]
+}
