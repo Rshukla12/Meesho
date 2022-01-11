@@ -46,7 +46,7 @@
 .listItem::before {
     content: "";
     height: 1.5px;
-    width: 6rem;
+    width: 6.05rem;
     position: absolute;
     background-color: #DFDFDF;
     top: calc(50% - 0.5px);
