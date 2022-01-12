@@ -1,6 +1,8 @@
 .Main_Header{
     position: fixed;
-    top:0px
+    top:0px;
+    width:100%;
+    color: grey;
 }
 .header_conatainer{
     display: flex;
@@ -83,12 +85,18 @@ p {
     /* margin-top: 200px; */
     width: 250px;
     padding-left:15px ;
-    z-index: 1000;
     text-align: left;
     position: absolute;
+    left: 50%;
+    top: 65px;
     display: none;
+    /* align-self: center; */
 
 }
-.profile:hover .profileContent{display: block;}
+#android{
+    fill:antiquewhite
+}
+.profile:hover .profileContent{display: block;} 
+.profile:hover #android{fill:"purple"}
  .cards:hover .dropdownContent{display:block;}
  .cards:hover .cards{font-size: 30px;}

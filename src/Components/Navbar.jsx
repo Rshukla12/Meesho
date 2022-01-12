@@ -3,8 +3,27 @@ import SearchIcon from '@mui/icons-material/Search';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import { Button } from "@mui/material";
+import { styled } from '@mui/material/styles';
 const NavBar =()=>{
+    const SignUpButton = styled(Button)({
+    boxShadow: 'none',
+  textTransform: 'none',
+  fontSize: 16,
+  width:"80%",
+  padding: '12px',
+  margin:"auto",
+  border: '1px solid',
+  lineHeight: 1.5,
+  backgroundColor: '#f43397',
+  borderColor: '#f43397',
+  '&:hover': {
+    backgroundColor: '#f43397',
+    borderColor: '#f43397',
+    boxShadow: 'none',
+  },
+});
     return(
     <div className={styles.Main_Header}>
         <div>
@@ -21,7 +40,7 @@ const NavBar =()=>{
                 </div>
                 <div className={styles.cards_container}>
                     <div className={styles.cards}>
-                        <PhoneAndroidIcon/>
+                        <PhoneAndroidIcon id="android"/>
                         <p>Download App</p>
                         <div className={styles.dropdownContent}>
                             <h5>Downlaod From</h5>
@@ -36,11 +55,11 @@ const NavBar =()=>{
                         <PermIdentityIcon/>
                         <p>Profile</p>
                         <div className={styles.profileContent}>
-                            <h3>Hello User</h3>
-                            <p>To access your Meesho account</p>
-                            <Button variant="contained">SIGN UP</Button>
+                            <p style={{fontSize :"18px",marginBlockStart:"0.5em",marginBlockEnd:"0.2em",fontWeight:"bold"}}>Hello User</p>
+                            <p style={{fontSize:"12px",marginBlockEnd:"0.5em"}}>To access your Meesho account</p>
+                            <SignUpButton variant="contained">SIGN UP</SignUpButton>
                             <div className={styles.dividerLines}></div>
-                            <h4>My Orders</h4>
+                            <h4 style={{alignItems:"center"}}><ShoppingBagIcon fontSize="medium"/>My Orders</h4>
 
                         </div>
                     </div>
@@ -57,7 +76,8 @@ const NavBar =()=>{
         </div>
         </div>
         <div className={styles.dividerLines}></div>
-        <div className="links"></div>
+        <div className="links">
+        </div>
     </div>
     )
 }
