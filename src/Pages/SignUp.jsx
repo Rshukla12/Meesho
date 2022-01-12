@@ -1,5 +1,7 @@
 import React from 'react'
 import "./SignUp.css"
+import TextField from '@mui/material/TextField'
+
 export const SignUp = () => {
     return (
         <>
@@ -14,7 +16,10 @@ export const SignUp = () => {
             Sign Up to view your profile
         </p>
         <p className='country'>Country</p>
+        <div className='number'>
         <p className='Phone_number'>IN +91</p>
+        <TextField id="standard-basic" label="Phone Number" variant="standard" />
+        </div>
         <button className='otp'>Send OTP</button>
 
         </div>

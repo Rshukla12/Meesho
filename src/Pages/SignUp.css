@@ -41,19 +41,20 @@
     font-size: 12px;
     line-height: 16px;
     font-family: "Mier book";
-    margin:10% 62% 0% 0%;
+    margin:10% 70% 0% 0%;
     padding: 2px 0px;
 
 }
 .Phone_number{
-    margin:3% 62% 0% 0%;
+    margin:3% 2% 0% 2%;
     font-weight: 600;
+    width: 30%;
 }
 .otp{
     cursor: pointer;
     font-weight: 600;
     text-align: center;
-    letter-spacing: 0.0015em;
+    letter-spacing: 2px;
     font-size: 15px;
     line-height: 20px;
     border-radius: 4px;
@@ -63,4 +64,12 @@
     padding: 12px;
     margin-top: 40px;
     width: 400px;
+}
+.number{
+display: flex;
+width: 100%;
+}
+.standard-basic{
+ background-color: rgb(244, 51, 151);
+ 
 }
