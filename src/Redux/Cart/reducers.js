@@ -6,7 +6,7 @@ const address =  loadData("Address");
 
 const initCart = {
     stage: 1,
-    address: address || [],
+    address: address,
     cart: cart || [
         {
             "id": 1,
@@ -68,7 +68,7 @@ const cartReducer = ( state=initCart, action ) => {
         case cartConstants.ADD_ADDRESS: {
             return {
                 ...state,
-                cart: state.address.push( action.payload.address )
+                address: action.payload.address
             }
         }
         case cartConstants.ADD_TO_CART: {
