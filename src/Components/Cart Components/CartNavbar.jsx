@@ -1,4 +1,4 @@
-import cartLogoIcon from "../../SVG/CartLogoIcon.svg";
+import {ReactComponent as CartLogo} from '../../SVG/CartLogoIcon.svg';
 import styles from "./CartNavbar.module.css";
 
 const details = [
@@ -9,7 +9,7 @@ const CartNavbar = ({ active=1 }) => {
     return (
         <div className={styles.root}>
             <div className={styles.logo}>
-                <img src={cartLogoIcon} alt="meesho logo" />
+                <CartLogo />
             </div>
             <ul className={styles.list}>
                 {

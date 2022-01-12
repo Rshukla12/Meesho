@@ -4,10 +4,10 @@
 }
 
 .root {
-    padding: 10px 5px;
+    padding: 10px 14px;
     position: relative;
     border-radius: 4px;
-    width: 32rem;
+    width: 31rem;
     display: flex;
     justify-content: space-between;
     text-align: left;
@@ -22,7 +22,7 @@
 
 .details {
     display: flex;
-    width: 22rem;
+    width: 21rem;
     flex-direction: column;
     padding: 0.1rem 0rem;
     gap: 0.5rem;
@@ -31,7 +31,7 @@
 
 .meta {
     display: flex;
-    width: 12rem;
+    width: 11rem;
     font-size: 1.05rem;
     justify-content: space-between;
 }
@@ -43,7 +43,7 @@
     border-radius: 50%;
     position: absolute;
     background-color: #DFDFDF;
-    top: calc(50% - 2.5px);
+    top: calc(50% - 1.5px);
     left: 44%;
 }
 

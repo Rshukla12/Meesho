@@ -1,0 +1,56 @@
+.rootModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(15, 15, 15, 0.8);
+  display: none;
+  z-index: 2;
+}
+
+.rootMain {
+  position: fixed;
+  background: white;
+  width: 100%;
+  max-width: 33rem;
+  height: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+}
+
+.displayBlock {
+  display: block;
+}
+
+.displayBlock > .rootMain {
+  animation: slideIn ease 0.3s;
+}
+
+.head {
+  padding: 1.4rem 1.5rem 0.8rem;
+  display: flex;
+  letter-spacing: 0.05rem;
+  justify-content: space-between;
+}
+
+.head > h2 {
+  margin: 5px;
+  padding: 0;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.head:nth-child(1) {
+  cursor: pointer;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}

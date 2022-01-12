@@ -1,0 +1,72 @@
+.root {
+    height: 100%;
+}
+
+.meta:nth-child(2)::before {
+    display: none;
+}
+
+.saveChanges {
+    width: 100%;
+}
+
+.bottomBtn {
+    width: 94%;
+    padding: 3% 3% 5%;
+    right: 0%;
+    height: 1rem;
+    position: absolute;
+    bottom: 2%;
+    border-top: 2px solid #DFDFDF;
+}
+
+.totalPrice {
+    width: 92%;
+    padding: 2% 4%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #DFDFDF;
+    border-left: none;
+    border-right: none;    
+}
+
+.totalPrice > * {
+    margin: 0;
+    padding: 0;
+}
+
+.totalPrice > h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.bgPad {
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    padding: 0px 5px;
+    background-color: #dfdfdf6b;
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.bgPad > span {
+    padding: 3px 5px;
+}
+
+.bgPad > span:nth-child(2) {
+    background-color: #fff;
+    padding: 3px 15px;
+    cursor:default;
+}
+
+.meta {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.meta > p {
+    display: flex;
+    gap: 10px;
+}

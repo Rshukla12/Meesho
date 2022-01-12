@@ -1,11 +1,8 @@
 import styles from "./CartItemCard.module.css";
 
 const CartItemCard = ({ item, handleEdit }) => {
-    const handleClick = () => {
-        handleEdit();
-    };
 
-    const name = item.title.length > 41 ? item.title.slice( 0, 38 ) + " ..." : item.title;
+    const name = item.title.length > 38 ? item.title.slice( 0, 36 ) + " ..." : item.title;
 
     return (
         <div className={styles.root}>
@@ -18,9 +15,9 @@ const CartItemCard = ({ item, handleEdit }) => {
                 </div>
                 <p className={styles.price}>&#8377;{item.discounted_price}</p>
             </div>
-            <div className={styles.btn} onClick={handleClick}>EDIT</div>
+            <div className={styles.btn} onClick={handleEdit}>EDIT</div>
         </div>
-    )
+    );
 };
 
 export default CartItemCard;
