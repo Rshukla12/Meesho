@@ -104,6 +104,9 @@
 .banner1 .img {
     margin-top: 70px;
 }
+.banner1 img {
+    cursor: pointer;
+}
 .banner2 {
     width: 80%;
     height: 500px;
@@ -228,4 +231,52 @@
     margin-top:50px;
     padding: 1rem;
     cursor: pointer;
+}
+.banner5 {
+    width: 95%;
+    margin-top:100px;
+    padding :1rem;
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+    background-color: #F9F9F9;
+    justify-content:space-around;
+    padding-left: 80px;
+}
+.banner5tbox img {
+    width: 185px;
+    height:50px;
+    border-radius: 4px;
+}
+.banner5 div {
+    width: 20%;
+    text-align: left;
+    padding: .5rem;
+}
+.banner5 h4 {
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Mier bold";
+}
+.banner5 p {
+    color: rgb(102, 102, 102);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Mier book";
+}
+.footer {
+    width:95%;
+    height:50px;
+    background-color: #FFFFFF;
+    font-size: 25px;
+    color: black;
+    text-align:left;
+    padding:1rem;
+    margin: auto;
+    padding-left: 100px;
 }
