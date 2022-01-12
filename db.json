@@ -97,7 +97,7 @@
             "seller_id": 4
         },
         {
-            "id": 1,
+            "id": 1000,
             "category": "Sarees",
             "title": "WETLESS RAINBOW ZARI WITH DIGITAL PRINT SATIN BLOUSE",
             "original_price" : 416,
@@ -124,7 +124,7 @@
             "seller_id": 1 
         },
         {
-            "id": 2,
+            "id": 2000,
             "category": "Sarees",
             "title": "SGI Fancy Heavy Daani Saree",
             "original_price" : 314,
@@ -148,7 +148,7 @@
             "seller_id": 2
         },
         {
-            "id": 3,
+            "id": 3000,
             "category": "Sarees",
             "title": "Kanchipuram Silk Orange Saree",
             "original_price" : 676,
@@ -173,7 +173,7 @@
             "seller_id": 3 
         },
         {
-            "id": 4,
+            "id": 400,
             "category": "Sarees",
             "title": "RIDDHI IKKAT SILK SAREE",
             "original_price" : 553,

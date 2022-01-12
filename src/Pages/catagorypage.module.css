@@ -6,6 +6,10 @@
     padding-top: 7px;
     padding-left: 12px;
     border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    margin-top: 15px;
 }
 .discountprice {
     color: rgb(153, 153, 153);
@@ -20,9 +24,12 @@
 }
 .free {
     width:100px;
-    height: 30px;
+    height: 20px;
+    padding: 2px;
     border-radius:10px;
     background-color: #F9F9F9;
+    color:#666666;
+    font-size: 14px;
 }
 .amount {
     display:flex;
@@ -31,12 +38,12 @@
 }
 .card {
     width: 320px;
-    height:520px;
+    height:540px;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(240, 240, 240);
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 .cardimg {
     width: 320px;
@@ -67,4 +74,35 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+}
+.header {
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+    font-family: "Mier bold";
+    font-style: normal;
+    text-align: left;
+    margin-left: 100px;
+}
+.pages {
+    width: 70%;
+    height: 150px;
+    padding:1rem;
+    margin: auto;
+    display:flex;
+    color:#5A5D5A;
+    gap: 60px;
+    margin-top: 100px;
+    justify-content:center;
+}
+.round {
+    width:28px;
+    height: 28px;
+    border-radius:50%;
+    background-color: rgb(244, 51, 151);
+    color:white;
+    font-weight: bold;
+    padding-top: 2px;
 }

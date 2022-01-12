@@ -1,5 +1,8 @@
 import { useSelector } from "react-redux";
 import styles from "./catagorypage.module.css";
+import React from "react";
+import { useDispatch } from "react-redux";
+import { getData } from "../Redux/action";
 const Card = ({title,price,orignalPrice,url,rating})=>{
     return (
         <div className={styles.card}>
@@ -16,13 +19,13 @@ const Card = ({title,price,orignalPrice,url,rating})=>{
                     <div className={styles.discount}>{Math.floor(((orignalPrice-price)/orignalPrice)*100)}%off</div>
                 </div>
                 <div>
-                    <i class='fas' style={{fontSize:'24px',color:'#5585F8',margin:'10px'}}>&#xf02c;</i>   &#x20b9;{orignalPrice-price} discount on 1st order
+                    <i className='fas' style={{fontSize:'24px',color:'#5585F8',margin:'10px'}}>&#xf02c;</i>   &#x20b9;{orignalPrice-price} discount on 1st order
                 </div>
                 <div className={styles.free}>
                     Free Delivery
                 </div>
                 <div className={styles.rating}>
-                    <span class="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
                     {rating}
                 </div>
             </div>
@@ -30,17 +33,37 @@ const Card = ({title,price,orignalPrice,url,rating})=>{
     )
 }
 const Category = ()=>{
+    const dispatch = useDispatch();
+    var arr = [1,2,3,4,5];
     const data = useSelector((state)=>state.data);
-    // console.log(data.map((item)=>(
-    //     console.log(item.images)
-    // )))
-    console.log(data)
+    const query = useSelector((state)=>state.qurey);
+    const [count,setCount] = React.useState(1);
+    const config = {
+        method: "GET",
+        url:`http://localhost:3001/products?category=${query}&_limit=12&_page=${count}`
+    }
+    React.useEffect(()=>{
+        dispatch(getData(config))
+    },[count])
     return (
-        <div  className={styles.container}>
+        <>
+        <div className={styles.header}>{data[0]?.category}</div>
+        <div style={{textAlign:'left',marginTop:'20px',marginLeft:'100px'}}>Showing 1-20 out of 168445 Products</div>
+        <div className={styles.container}>
             {data?.map((item)=>(
-                <Card title={item.title} price={item.discounted_price} orignalPrice={item.original_price} url={item.images[0]} rating={item.rating}/>
+                <Card key={item.id} title={item.title} price={item.discounted_price} orignalPrice={item.original_price} url={item.images[0]} rating={item.rating}/>
             ))}
         </div>
+        <div className={styles.pages}>
+            {count!=1?(<span onClick={()=>{setCount((prev)=>prev-1)}}  style={{color:'rgb(244, 51, 151)',cursor:'pointer'}}>PREV</span>):("")}
+            {arr.map((item)=>(
+                count==item?(<div className={styles.round}>{item}</div>):(
+                    <div>{item}</div>
+                )
+            ))}
+            <span onClick={()=>{setCount((prev)=>prev+1)}} style={{color:'rgb(244, 51, 151)',cursor:'pointer'}}>NEXT</span>
+        </div>
+        </>
     )
 };
 export default Category;

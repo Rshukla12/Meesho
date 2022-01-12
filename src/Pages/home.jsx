@@ -1,33 +1,25 @@
 import React from "react";
 import styles from "./home.module.css";
 import { useDispatch } from "react-redux";
-import { getData } from "../Redux/action";
+import {getQuery } from "../Redux/action";
 import {useHistory} from "react-router-dom";
 const Home = ()=>{
     const history = useHistory();
     const dispatch = useDispatch();
     const getSares = ()=>{
-        const config = {
-            method: "GET",
-            url:"http://localhost:3001/products?category=Sarees"
-        }
-        dispatch(getData(config))
+        dispatch(getQuery("Sarees"))
         history.push("/cat");
     }
     const getDreses = ()=>{
-        const config = {
-            method: "GET",
-            url:"http://localhost:3001/products?category=Dresses"
-        }
-        dispatch(getData(config))
+        dispatch(getQuery("Dresses"))
         history.push("/cat");
     }
     const getMenswares = ()=>{
-        const config = {
-            method: "GET",
-            url:"http://localhost:3001/products?category=Mens Top Were"
-        }
-        dispatch(getData(config))
+        dispatch(getQuery("Mens Top Were"))
+        history.push("/cat");
+    }
+    const homeCare = ()=>{
+        dispatch(getQuery("Home and Kitchen"))
         history.push("/cat");
     }
     return (
@@ -35,7 +27,8 @@ const Home = ()=>{
             <div className={styles.banner}>
                 <div className={styles.container}>
                     <div className={styles.title}>
-                        Lowest PricesBest Quality Shopping
+                        Lowest Prices
+                        <div>Best Quality Shopping</div>
                     </div>
                     <div className={styles.title1}>
                         50 lakh+ Styles | 650+ categories
@@ -64,7 +57,7 @@ const Home = ()=>{
                     <img onClick={getMenswares} src="https://images.meesho.com/images/marketing/1631611208025.png"/>
                 </div>
             </div>
-            <div className={styles.banner2}>
+            <div onClick={homeCare} className={styles.banner2}>
                 <div className={styles.tbox}>
                     <span>Homecare</span>
                     <button>VIEW ALL</button>
