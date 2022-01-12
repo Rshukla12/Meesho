@@ -39,8 +39,9 @@ const NavBar =()=>{
                     <input className={styles.search_input} type="text" placeholder="Try Saree, Kurti or Search by Product Code"/>
                 </div>
                 <div className={styles.cards_container}>
-                    <div className={styles.cards}>
-                        <PhoneAndroidIcon id="android"/>
+                    <div className={styles.downloadCard}>
+                    <div  className={styles.cards}>
+                        <PhoneAndroidIcon className={styles.android}/>
                         <p>Download App</p>
                         <div className={styles.dropdownContent}>
                             <h5>Downlaod From</h5>
@@ -48,9 +49,11 @@ const NavBar =()=>{
                             <h5>Downlaod From</h5>
                         </div>
                     </div>
+                    </div>
                     <div style={{width:"2px",height:"40px",backgroundColor:"lightgray"}}></div>
                     <div>Become A Supplier</div>
                     <div style={{width:"2px",height:"40px",backgroundColor:"lightgray"}}></div>
+                    <div className={styles.profileCard}>
                     <div className={styles.profile}>
                         <PermIdentityIcon/>
                         <p>Profile</p>
@@ -62,6 +65,7 @@ const NavBar =()=>{
                             <h4 style={{alignItems:"center"}}><ShoppingBagIcon fontSize="medium"/>My Orders</h4>
 
                         </div>
+                    </div>
                     </div>
 
                     <div>

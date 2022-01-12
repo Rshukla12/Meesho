@@ -93,10 +93,22 @@ p {
     /* align-self: center; */
 
 }
-#android{
-    fill:antiquewhite
+.profileCard{
+    display: inline;
+
 }
-.profile:hover .profileContent{display: block;} 
-.profile:hover #android{fill:"purple"}
- .cards:hover .dropdownContent{display:block;}
- .cards:hover .cards{font-size: 30px;}
+.profileCard:hover .profileContent{
+    color: gray;
+    display: block;
+}
+.profileCard:hover .profile{
+    color: #f43397;
+}
+.downloadCard{
+    display: inline;
+}
+.downloadCard:hover .cards{color: #f43397;}
+ .downloadCard:hover .dropdownContent{color:black;display:block;}
+ /* .cards:hover .cards{
+     color: #f43397;
+     font-size: 30px} */
