@@ -1,0 +1,35 @@
+.complete_page{
+ display: flex;
+ width: 100%;
+}
+
+.left_side{
+    width: 50%;
+    display: flex;
+}
+.left_small{
+ width: 10%;
+ margin-left: 15%;
+ margin-top: 10%;
+}
+
+.left_big{
+width: 70%;
+height:75% ;
+border: 1px solid rgb(211, 204, 204);
+margin-left: 5%;
+margin-top: 5%;
+box-shadow: 2px 2px 5px grey;
+}
+.Add_to_card{
+ width: 75%;
+ height: 10%;
+ margin-top: 3%;
+ background-color: rgb(228, 17, 87);
+ color: papayawhip;
+ border-radius: 5px;
+ font-size: larger;
+}
+.Right_side{
+width: 50%;
+}
