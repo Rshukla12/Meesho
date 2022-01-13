@@ -1,0 +1,68 @@
+.root {
+  margin: 0.7rem 0rem;
+  width: 30rem;
+  max-width: 100%;
+  padding: 0.15rem;
+  height: 2rem;
+}
+
+.label,
+.input {
+  transition: all 0.2s;
+  touch-action: manipulation;
+}
+
+.input {
+  font-size: 1.15rem;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  font-family: inherit;
+  -webkit-appearance: none;
+  border-radius: 0;
+  padding: 0;
+  cursor: text;
+  position: relative;
+  left: 0;
+}
+
+.label {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: text;
+  left: 0rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transform-origin: left bottom;
+  position: relative;
+  top: -1.5rem;
+}
+
+.input:focus {
+  outline: 0;
+  border-bottom: 1px solid #ff4397;
+}
+
+.input:focus + label,
+.input:valid + label,
+.input:not(:empty) + label {
+  cursor: pointer;
+  color: #ff4397;
+  font-size: 16px;
+  top: -3rem;
+}
+
+.error p {
+  position: relative;
+  margin-top: -1.3rem;
+  font-size: 0.9rem;
+  color: rgb(225, 25, 0);
+  border-color: rgb(225, 25, 0);
+  z-index: 100;
+}
+
+.input:focus ~ p,
+.input:valid ~ p {
+  display: none;
+}

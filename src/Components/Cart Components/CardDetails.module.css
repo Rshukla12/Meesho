@@ -1,0 +1,34 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.cartTotal {
+    display: flex;
+    gap: 1rem;
+    font-weight: 400;
+}
+
+.cartTotal h5 {
+    padding-top: 0rem;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    font-size: 1.2rem;
+}
+
+.cartTotal p {
+    border-left: 2px solid #DFDFDF;
+    padding: 0.1rem 0.8rem 0rem;
+    font-weight: 500;
+    color: #999999;
+    font-size: 1.2rem;
+}
+
+.cards {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border: 1px solid #DFDFDF;
+    border-radius: 10px;
+    padding: 5px 1px;
+}

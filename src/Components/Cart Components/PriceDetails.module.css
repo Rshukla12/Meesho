@@ -1,0 +1,67 @@
+.root * {
+    padding: 0%;
+    margin: 0%;
+}
+
+.root {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    width: 20rem;
+    margin-top: 2%;
+    padding: 0.5rem 1rem 0rem;
+    border-left: 2px solid #DFDFDF;
+}
+
+.priceItem {
+    display: flex;
+    justify-content: space-between;
+    color: #4F4F4F;
+}
+
+.total {
+    padding-top: 0.75rem;
+    border-top: 1.5px solid #DFDFDF;
+    color: black;
+}
+
+.total > h5 {
+    font-size: 1.2rem;
+}
+
+.continue {
+    border: none;
+    border-radius: 4px;
+    background-color: #F43397;
+    padding: 0.75rem 0rem;
+    color: white;
+    font-size: 1.25rem;
+    margin-top: -4px;
+    cursor: pointer;
+}
+
+.banner {
+    background-color: #F3F3F3;
+    font-size: 0.8rem;
+    padding: 6px 0px;
+    margin: 0px;
+    border-radius: 3px;
+    text-align: center;
+    color: #2F2F2F;
+}
+
+.root h3 {
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+.root h5 {
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: #4F4F4F;
+}
+
+.root p {
+    font-weight: 400;
+}

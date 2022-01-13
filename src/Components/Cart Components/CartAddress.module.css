@@ -1,0 +1,47 @@
+.root {
+  max-width: 100%;
+  width: 32rem;
+  text-align: left;
+}
+
+.root > div:nth-child(1) {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.main {
+  max-width: 100%;
+  width: 30rem;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  display: flex;
+  padding: 1rem 1rem;
+  flex-direction: column;
+}
+
+.heading {
+  width: 20rem;
+  margin: 0.5rem;
+  display: flex;
+  gap: 7px;
+}
+
+.heading > *:nth-child(1) {
+  width: 25px;
+  height: 25px;
+}
+
+.heading > *:nth-child(2) {
+  font-size: 1.25rem;
+  margin-top: -5px;
+}
+
+.city {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.city + div {
+  margin-bottom: 2rem;
+}
