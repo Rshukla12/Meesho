@@ -1,0 +1,108 @@
+.rating  {
+    width:60px;
+    height: 30px;
+    background-color: #038D63;
+    color:white;
+    padding-top: 7px;
+    padding-left: 12px;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.discountprice {
+    color: rgb(153, 153, 153);
+    text-decoration-line: line-through;
+    font-weight: 400;
+    font-size: 16px;
+}
+.discount {
+    color: #038D63;
+    font-size: 16px;
+    font-weight: 600;
+}
+.free {
+    width:100px;
+    height: 20px;
+    padding: 2px;
+    border-radius:10px;
+    background-color: #F9F9F9;
+    color:#666666;
+    font-size: 14px;
+}
+.amount {
+    display:flex;
+    padding: 1rem;
+    gap: 2rem;
+}
+.card {
+    width: 320px;
+    height:540px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.cardimg {
+    width: 320px;
+    height: 310px;
+    border-radius: 5px;
+}
+.tbox {
+    padding:1rem;
+    justify-content:center;
+    gap: 10px;
+    text-align:left;
+}
+.container {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 90%;
+    margin: auto;
+}
+.actualprice {
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+.title {
+    color: rgb(153, 153, 153);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.header {
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+    font-family: "Mier bold";
+    font-style: normal;
+    text-align: left;
+    margin-left: 100px;
+}
+.pages {
+    width: 70%;
+    height: 150px;
+    padding:1rem;
+    margin: auto;
+    display:flex;
+    color:#5A5D5A;
+    gap: 60px;
+    margin-top: 100px;
+    justify-content:center;
+}
+.round {
+    width:28px;
+    height: 28px;
+    border-radius:50%;
+    background-color: rgb(244, 51, 151);
+    color:white;
+    font-weight: bold;
+    padding-top: 2px;
+}
