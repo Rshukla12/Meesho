@@ -49,7 +49,7 @@
 .input:not(:empty) + label {
   cursor: pointer;
   color: #ff4397;
-  font-size: 16px;
+  font-size: 12px;
   top: -3rem;
 }
 

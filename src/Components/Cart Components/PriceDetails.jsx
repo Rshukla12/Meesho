@@ -6,10 +6,13 @@ const PriceDetails = ({
     delivery=0,
     first=true,
     isContinue=false,
-    onContinue
+    onContinue,
+    margin=0
 }) => {
+    const discount = totalPrice * 0.25 > 100 ? 100 : totalPrice * 0.25 ;
     let orderTotal = totalPrice + cod + delivery;
-    orderTotal -= first ? 100 : 0;
+    orderTotal -= first ? discount : 0;
+    orderTotal -= margin;
     return (
         <div className={styles.root}>
             <h3>Price Details</h3>
@@ -25,12 +28,18 @@ const PriceDetails = ({
                 <p>COD Charges</p>
                 <h5>+&#8377;{cod}</h5>
             </div>
-            {   first && (
+            { first && (
                 <div className={styles.priceItem}>
                     <p>1st Order Discount</p>
-                    <h5>-&#8377;100</h5>
+                    <h5>-&#8377;{discount}</h5>
                 </div>
             )}
+            { margin ? (
+                <div className={styles.priceItem}>
+                    <p>Margin</p>
+                    <h5>+&#8377;{margin}</h5>
+                </div>
+            ) : ( <></> )}
             <div className={`${styles.priceItem} ${styles.total}`}>
                 <h3>Order Total</h3>
                 <h5>&#8377;{orderTotal}</h5>

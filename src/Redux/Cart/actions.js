@@ -43,3 +43,10 @@ export const orderSuccessful = ( ) => ({
         success: true
     }
 });
+
+export const addMargin = ( margin ) => ({
+    type: cartConstants.ADD_MARGIN,
+    paylaod: {
+        margin: margin
+    }
+})

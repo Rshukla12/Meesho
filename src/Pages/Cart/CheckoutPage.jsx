@@ -16,6 +16,7 @@ const CheckoutPage = () => {
     const history = useHistory();
 
     const [total, setTotal] = useState(0);
+    
     const handleAddressSave = ( add ) => {
         dispatch( addAddress( add ) );
         dispatch( changeCheckoutStage( 3 ) );
@@ -26,6 +27,7 @@ const CheckoutPage = () => {
         let res = 0;
         cart?.forEach((curr) => res += ( curr.qty * curr.discounted_price ) );
         setTotal( res );
+        dispatch( changeCheckoutStage( 2 ) );
     }, [cart]);
 
     if ( stage !== 2 ) return <Redirect to="/cart" />;
@@ -42,7 +44,6 @@ const CheckoutPage = () => {
                         cod={0}
                         first={true}
                         isContinue={false}
-                        onContinue={()=>dispatch( changeCheckoutStage( 3 ) )}
                     />
                 </div>
             </div>

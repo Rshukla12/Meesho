@@ -27,6 +27,7 @@ const Cart = () => {
         let res = 0;
         cart?.forEach((curr) => res += ( curr.qty * curr.discounted_price ) );
         setTotal( res );
+        dispatch( changeCheckoutStage( 1 ) );
     }, [cart]);
 
     return (
