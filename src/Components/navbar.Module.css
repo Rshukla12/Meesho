@@ -109,6 +109,11 @@ p {
 }
 .downloadCard:hover .cards{color: #f43397;}
  .downloadCard:hover .dropdownContent{color:black;display:block;}
- /* .cards:hover .cards{
-     color: #f43397;
-     font-size: 30px} */
+
+.links{
+    display: flex;
+    /* flex-direction: row; */
+    gap: 1.5rem;
+    
+    justify-content: center;
+}

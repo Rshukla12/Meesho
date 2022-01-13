@@ -80,7 +80,16 @@ const NavBar =()=>{
         </div>
         </div>
         <div className={styles.dividerLines}></div>
-        <div className="links">
+        <div className={styles.links}>
+            <div><a href="">Mens Wear</a></div>
+            <div><a href="">Mens Wear</a></div>
+            <div><a href="">Mens Wear</a></div>
+            <div><a href="">Mens Wear</a></div>
+            <div><a href="">Mens Wear</a></div>
+            <div><a href="">Mens Wear</a></div>
+            <div><a href="">Mens Wear</a></div>
+            <div><a href="">Mens Wear</a></div>
+            <div><a href="">Mens Wear</a></div>
         </div>
     </div>
     )
