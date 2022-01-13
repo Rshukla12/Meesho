@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../Components/Navbar"
 import styles from "./home.module.css";
 import { useDispatch } from "react-redux";
 import {getQuery } from "../Redux/action";
@@ -24,6 +25,7 @@ const Home = ()=>{
     }
     return (
         <div>
+            <Navbar />
             <div className={styles.banner}>
                 <div className={styles.container}>
                     <div className={styles.title}>

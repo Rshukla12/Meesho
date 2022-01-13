@@ -1,12 +1,27 @@
 import styles from "./navbar.module.css";
+import React from "react";
 import SearchIcon from '@mui/icons-material/Search';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
+import HistoryIcon from '@mui/icons-material/History';
 import { Button } from "@mui/material";
 import { styled } from '@mui/material/styles';
+import axios from "axios";
 const NavBar =()=>{
+    const [params,setParms] = React.useState(null);
+    const [results,setResults] = React.useState(null);
+    React.useEffect(()=>{
+        const config = {
+            method: 'get',
+            url : `http://localhost:3001/products?q=${params}&_limit=7&_page=1`
+        }
+        axios(config)
+        .then((res)=>{
+            setResults(res.data)
+        })
+    },[params])
     const SignUpButton = styled(Button)({
     boxShadow: 'none',
   textTransform: 'none',
@@ -25,6 +40,7 @@ const NavBar =()=>{
   },
 });
     return(
+    <>
     <div className={styles.Main_Header}>
         <div>
         <div className={styles.upper}>
@@ -36,7 +52,7 @@ const NavBar =()=>{
                     <div className={styles.icon}>
                     <SearchIcon/>
                     </div>
-                    <input className={styles.search_input} type="text" placeholder="Try Saree, Kurti or Search by Product Code"/>
+                    <input onChange={(e)=>{setParms(e.target.value)}} className={styles.search_input} type="text" placeholder="Try Saree, Kurti or Search by Product Code"/>
                 </div>
                 <div className={styles.cards_container}>
                     <div className={styles.downloadCard}>
@@ -93,6 +109,15 @@ const NavBar =()=>{
             <div><a href="">Mens Wear</a></div>
         </div>
     </div>
+    {params?(
+    <div className={styles.url}>
+        {results?.map((item)=>(
+            <div className={styles.res}><HistoryIcon/> 
+            <div className={styles.rest}>{item.title}</div>
+            </div>
+        ))}
+    </div>):(<div></div>)}
+    </>
     )
 }
 

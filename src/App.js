@@ -15,7 +15,6 @@ function App() {
        {/* <SignUp/> */}
       {/* <Otp/> */}
       {/* <Product_detail/> */}
-      <Product_add/>
       <BrowserRouter>
         <Provider store={store}>
           <AllRoutes/>
