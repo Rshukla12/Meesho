@@ -1,0 +1,26 @@
+import React, { useState } from 'react'
+import axios from 'axios'
+export const Product_detail = () => {
+    const[toshow,setToshow]=useState()
+
+    React.useEffect(()=>{
+         toset()
+
+    },[])
+     const toset=()=>{
+        axios.get("http://localhost:3001/products").then((x)=>{
+            setToshow(x.data)    
+        console.log(x)
+        })
+      }
+    
+
+    return (
+        <div>
+          {toshow?.map((item)=>(
+               
+                <p> title={item.title} price={item.discounted_price} orignalPrice={item.original_price}  rating={item.rating}</p>
+            ))}
+
+        </div>
+    )}

@@ -1,0 +1,75 @@
+*, ::before, ::after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.sign_up{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    background: linear-gradient(rgb(253, 233, 242) 0%, rgb(253, 240, 232) 100%, rgb(253, 240, 232) 100%);
+   
+}
+.signup_page{
+    background-color: white;
+    width: 27%;
+    height: 90%;
+    margin: -1% 0% 0% 30%;
+}
+.sign_up_img{
+    height: 200px;
+    width: 433px;
+    margin-top: 5%;
+    border-radius: 3%;
+}
+.sign_up_profile{
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Mier bold";
+    margin: 8% 4% 0% 1%;
+    padding: 0px;
+    
+
+}
+.country{
+    color: rgb(153, 153, 153);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Mier book";
+    margin:10% 70% 0% 0%;
+    padding: 2px 0px;
+
+}
+.Phone_number{
+    margin:3% 2% 0% 2%;
+    font-weight: 600;
+    width: 30%;
+}
+.otp{
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background: rgb(244, 51, 151);
+    border: none;
+    padding: 12px;
+    margin-top: 40px;
+    width: 400px;
+}
+.number{
+display: flex;
+width: 100%;
+}
+.standard-basic{
+ background-color: rgb(244, 51, 151);
+ 
+}
