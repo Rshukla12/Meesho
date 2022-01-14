@@ -1,0 +1,42 @@
+.root {
+    position: fixed;
+    left: 3%;
+    top: 19.446%;
+    width: 94%;
+    min-height: 1rem;
+    background-color: #fff;
+    display: flex;
+    text-align: left;
+    border: 1px solid #D3D3D3;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 0.6rem 1.3rem 1rem 0.6rem;
+    width: fit-content;
+    min-width: 3rem;
+    border-radius: 1px;
+}
+
+.column > div {
+    padding: 0.25rem;
+}
+
+.column:nth-child( even ) {
+    background-color: #F9F9F9;
+}
+
+.head {
+    color: #f43397;
+    margin-bottom: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.body {
+    cursor: pointer;
+}
