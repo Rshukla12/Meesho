@@ -1,8 +1,9 @@
 .Main_Header{
     position: fixed;
-    top:0px;
-    width:100%;
+    top: 0px;
+    width: 100%;
     color: grey;
+    background-color: white;
     overflow: hidden;
 }
 .header_conatainer{
@@ -12,9 +13,9 @@
     flex-direction: row;
 }
 
-.header_logo > img{
-    height: 90px;
-
+.header_logo > *{
+    height: 70px;
+    margin: 0.1rem 1.3rem 0rem 5.75rem;
 }
 .Search_Input{
     position: relative;
@@ -29,16 +30,16 @@
     font-size: 16px;
     width: 350px;
     border: 0px;
+    outline: 0;
 }
 .url {
-    width:350px;
-    height:450px;
+    width:390px;
     margin-Top:-180px;
-    margin-Left:180px;
-    position:absolute;
+    margin-Left:267px;
     background-color:#FFFFFF;
     border:0.2px solid #F9F9F9;
     position: fixed;
+    overflow: hidden;
 }
 .icon{
     left: 5px;
@@ -55,10 +56,10 @@
 .cards_container{
     position: relative;
     height: 100%;
-    margin-left: 250px;
-    gap: 1rem;
+    margin-left: 200px;
+    margin-top: 8px;
+    gap: 2rem;
     display: flex;
-    gap: 1rem;
     flex: 6 1 0%;
     align-items: center;
     font-size: 18px;
@@ -88,6 +89,7 @@ p {
 }
 .profile{
     display: inline-block;
+    margin-right: 1rem;
 }
 .profileContent{ 
     background-color: white;
@@ -97,9 +99,10 @@ p {
     width: 250px;
     padding-left:15px ;
     text-align: left;
-    position: absolute;
-    left: 50%;
-    top: 65px;
+    position: fixed;
+    left: 77.5%;
+    top: 70px;
+    min-height: fit-content;
     display: none;
     /* align-self: center; */
 
@@ -111,23 +114,48 @@ p {
 .profileCard:hover .profileContent{
     color: gray;
     display: block;
+    z-index: 1210;
 }
 .profileCard:hover .profile{
     color: #f43397;
 }
 .downloadCard{
     display: inline;
+    min-height: fit-content;
 }
 .downloadCard:hover .cards{color: #f43397;}
- .downloadCard:hover .dropdownContent{color:black;display:block;}
+ .downloadCard:hover .dropdownContent{
+     color:black;display:block;
+     min-height: fit-content;
+     position: fixed;
+     margin-top: 14rem;
+}
 
 .links{
     display: flex;
-    /* flex-direction: row; */
-    gap: 1.5rem;
-    
     justify-content: center;
+    border-bottom: 1px solid #DFDFDF;
 }
+.links > * {
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: #333333;
+    border-bottom: 3px solid #fff;
+}
+.links > *:hover{
+    border-bottom: 3px solid #f43397;
+}
+
+.dropDown {
+    display: none;
+}
+
+.links > *:hover + .dropDown > {
+    display: flex;
+    position: relative;
+    top: -2rem;
+}
+
 .res {
     display: flex;
     gap: 1.5rem;
@@ -138,4 +166,14 @@ p {
     font-size: 18px;
     text-align: left;
     color: rgb(102, 102, 102);
+}
+.cartTotal {
+    position: fixed;
+    background-color: #f43397;
+    right: 7.1rem;
+    top: 0.4rem;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    color: #fff;
+    border-radius: 50%;
 }
