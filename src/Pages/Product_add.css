@@ -6,6 +6,7 @@
 .left_side{
     width: 50%;
     display: flex;
+    margin-bottom: 15%;
 }
 .left_small{
  width: 10%;
@@ -15,21 +16,244 @@
 
 .left_big{
 width: 70%;
-height:75% ;
+height:73% ;
 border: 1px solid rgb(211, 204, 204);
 margin-left: 5%;
 margin-top: 5%;
 box-shadow: 2px 2px 5px grey;
 }
+.left_big p{
+    margin-right: 65%;
+    font-size: larger;
+    font-weight: 600;
+
+}
+
 .Add_to_card{
- width: 75%;
- height: 10%;
- margin-top: 3%;
- background-color: rgb(228, 17, 87);
+ width: 100%;
+ height: 6%;
+ margin-top: 6%;
+ margin-bottom: 3%;
+ background-color: rgb(244,51,151);
  color: papayawhip;
  border-radius: 5px;
  font-size: larger;
+ border: 1px solid rgb(211, 204, 204);
+}
+.small_image{
+    margin-right: 75%;
+    border: 1px solid rgb(244,51,151);
 }
 .Right_side{
 width: 50%;
+}
+
+.first_box{
+ 
+ font-size: large;
+ border: 1px solid rgb(230, 223, 223);
+ width: 60%;
+ height: 15%;
+ margin-left: 10%;
+ margin-top: 5%;
+ 
+}
+.first_box>p:nth-child(1){
+    color: grey;
+    margin-right: 55%;
+    font-weight: 500;
+}
+.first_box>p:nth-child(2){
+ font-size: 25px;
+ font-weight: 600;
+ letter-spacing: .5px;
+ width: 50%;
+ margin-top: -2%;
+ margin-left: -9px;
+}
+.first_box>p:nth-child(2)>strike{
+    font-size: 15px;
+    color: grey;
+}
+.first_box>p:nth-child(2)>a{
+    color: green;
+    font-size: 20px;
+}
+.first_box>p:nth-child(3){
+    font-size: 15px;
+  margin-left: -0%;
+    width: 50%;
+    margin-top: -2%;
+    letter-spacing: .5px;
+    color: grey;
+}
+.first_box>p:nth-child(4){
+    font-size: 10px;
+    margin-right: 79%;
+    color: grey;
+   
+}
+.second_box{
+    font-size: large;
+    border: 1px solid rgb(230, 223, 223);
+    width: 60%;
+    height: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+
+}
+.second_box>p{
+    margin-right: 79%; 
+    font-weight: 600;
+    font-size: 20px;
+}
+.second_box>button{
+    width: 20%;
+    height: 25%;
+    margin-right: 79%;
+    border-radius:20px;
+    font: size 15px;
+
+}
+.third_box{
+    font-size: large;
+    border: 1px solid rgb(230, 223, 223);
+    width: 60%;
+    height: 22%;
+    margin-left: 10%;
+    margin-top: 3%;
+
+}
+.third_box>p{
+    font-size: 15px;
+    word-spacing: 2px;
+    line-height: 9px;
+   
+}
+.third_box>p:nth-child(1){
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 280px;
+}
+.third_box>p:nth-child(2){
+color: grey;
+margin-right: 320px;
+margin-top: 7%;
+}
+.third_box>p:nth-child(3){
+    color: grey;
+    margin-right: 320px;
+}
+.third_box>p:nth-child(4){
+    color: grey;
+    margin-right: 320px;
+    width: 55%;
+}
+.third_box>p:nth-child(5){
+    color: grey;
+    margin-right: 350px;
+}
+.third_box>p:nth-child(6){
+    color: grey;
+    margin-right: 350px;
+}
+.third_box>p:nth-child(7){
+    color: grey;
+    margin-right: 350px;
+    width: 70%;
+}
+.third_box>p:nth-child(8){
+    color: grey;
+    margin-right: 410px;
+}
+.third_box>p:nth-child(9){
+    color: grey;
+    margin-left: -15px;
+    width: 100%;
+}
+.fourth_box{
+    font-size: large;
+    
+    border: 1px solid rgb(236, 225, 225);
+    margin-top:2% ;
+    width: 60%;
+    margin-left: 10%;
+}
+.fourth_box>p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 2px;
+    width: 20%;
+}
+.fourth_mid_box{
+    margin-left: 5px;
+    margin-top: 5%;
+    display: flex; 
+}
+
+.fourth_mid_box>img{
+   width: 15%;
+}
+.fourth_mid_box>p{
+    margin-left: 10px;
+    font-weight: 600;
+    width: 50%;
+}
+.fourth_mid_box>button{
+    margin-left: 80px;
+    width: 30%;
+    border-radius: 10px;
+    font-size: 15px;
+    color: rgb(236, 8, 122);
+    border: 1px solid rgb(233, 62, 91);
+    height: 50px;
+    background-color: white;
+    word-spacing: 4px;
+    font-weight: 600;
+}
+.rating{
+    display: flex; 
+    margin-top: 10px;
+}
+.rating >p{
+   margin: -5px 15px 13px 18px;
+   font-weight: 600;
+}
+.banner5 {
+    width: 95%;
+    margin-top: -15px;
+    padding :1rem;
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+    background-color: #f5ebeb;
+    justify-content:space-around;
+    padding-left: 80px;
+}
+.banner5tbox img {
+    width: 185px;
+    height:50px;
+    border-radius: 4px;
+}
+.banner5 div {
+    width: 20%;
+    text-align: left;
+    padding: .5rem;
+}
+.banner5 h4 {
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Mier bold";
+}
+.banner5 p {
+    color: rgb(102, 102, 102);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Mier book";
 }
