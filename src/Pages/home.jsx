@@ -3,29 +3,23 @@ import Navbar from "../Components/Navbar"
 import styles from "./home.module.css";
 import { useDispatch } from "react-redux";
 import {getQuery } from "../Redux/action";
-import {useHistory} from "react-router-dom";
+import {Link} from 'react-router-dom'
 const Home = ()=>{
-    const history = useHistory();
     const dispatch = useDispatch();
     const getSares = ()=>{
         dispatch(getQuery("Sarees"))
-        history.push("/cat");
     }
     const getDreses = ()=>{
         dispatch(getQuery("Dresses"))
-        history.push("/cat");
     }
     const getMenswares = ()=>{
         dispatch(getQuery("Mens Top Were"))
-        history.push("/cat");
     }
     const homeCare = ()=>{
         dispatch(getQuery("Home and Kitchen"))
-        history.push("/cat");
     }
     return (
         <div>
-            <Navbar />
             <div className={styles.banner}>
                 <div className={styles.container}>
                     <div className={styles.title}>
@@ -50,16 +44,16 @@ const Home = ()=>{
             </div>
             <div className={styles.banner1}>
                 <div className={styles.img}>
-                    <img onClick={getSares} src="https://images.meesho.com/images/marketing/1631611172021.png"/>
+                    <Link to='/cat'><img onClick={getSares} src="https://images.meesho.com/images/marketing/1631611172021.png"/></Link>
                 </div>
                 <div className={styles.temp}>
-                    <img onClick={getDreses} src="https://images.meesho.com/images/marketing/1631610854491.png"/>
+                    <Link to='/cat'><img onClick={getDreses} src="https://images.meesho.com/images/marketing/1631610854491.png"/></Link>
                 </div>
                 <div className={styles.temp}>
-                    <img onClick={getMenswares} src="https://images.meesho.com/images/marketing/1631611208025.png"/>
+                    <Link to='/cat'><img onClick={getMenswares} src="https://images.meesho.com/images/marketing/1631611208025.png"/></Link>
                 </div>
             </div>
-            <div onClick={homeCare} className={styles.banner2}>
+            <Link to="/cat"><div onClick={homeCare} className={styles.banner2}>
                 <div className={styles.tbox}>
                     <span>Homecare</span>
                     <button>VIEW ALL</button>
@@ -82,7 +76,7 @@ const Home = ()=>{
                     </div>
                     <button>Carpets</button>
                 </div>   
-            </div>
+            </div></Link>
             <div className={styles.banner3}>
                 <div className={styles.banner3container}>
                     <h4>Become a Reseller and</h4>

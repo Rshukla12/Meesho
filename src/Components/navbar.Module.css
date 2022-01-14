@@ -3,6 +3,7 @@
     top:0px;
     width:100%;
     color: grey;
+    overflow: hidden;
 }
 .header_conatainer{
     display: flex;
@@ -37,6 +38,7 @@
     position:absolute;
     background-color:#FFFFFF;
     border:0.2px solid #F9F9F9;
+    position: fixed;
 }
 .icon{
     left: 5px;
