@@ -6,14 +6,17 @@
 
 .root > div:nth-child(1) {
   font-size: 1.2rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0rem;
 }
 
 .payment {
   display: flex;
   height: 2.3rem;
   padding: 10px;
-  justify-content: space-between;
+  width: 32.7rem;
+  max-width: 96%;
+  justify-content: left;
+  gap: 5px;
   background-color: #e7eeff;
   border: 1px solid #dfdfdf;
   border-radius: 3px;
@@ -21,9 +24,9 @@
 }
 
 .payment > *:nth-child(2) {
-  width: 83%;
+  width: 87%;
   margin-top: 8px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .payment > *:nth-child(3) {

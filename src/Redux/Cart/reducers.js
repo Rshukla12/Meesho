@@ -2,7 +2,7 @@ import { loadData } from "../../utils/localStorage";
 import cartConstants from "./actionTypes";
 
 const cart =  loadData("Cart");
-const address =  loadData("Address") || [{}];
+const address =  loadData("Address") || [];
 
 const initCart = {
     stage: 1,
@@ -61,11 +61,11 @@ const initCart = {
         }
     ],
     orders: [],
-    currentOrder: {}
+    currentOrder: {},
+    margin: 0
 };
 
 const cartReducer = ( state=initCart, action ) => {
-    console.log( action?.payload?.address )
     switch ( action.type ){
         case cartConstants.ADD_ADDRESS: {
             return {
@@ -111,7 +111,7 @@ const cartReducer = ( state=initCart, action ) => {
             return {
                 ...state,
                 stage: 1,
-                orders: [...state.orders, {...action.payload.cart, date: Date.now(), resell: state.isResell, margin: state.margin } ]
+                orders: [...state.orders, {items: state.cart, date: Date.now(), resell: state.isResell, margin: state.margin } ]
             }
         }
         case cartConstants.ADD_MARGIN: {

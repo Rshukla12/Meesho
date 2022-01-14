@@ -30,7 +30,7 @@ const CheckoutPage = () => {
         dispatch( changeCheckoutStage( 2 ) );
     }, [cart]);
 
-    if ( stage !== 2 ) return <Redirect to="/cart" />;
+    if ( stage < 2 ) return <Redirect to="/cart" />;
 
     return (
         <div className={styles.root}>

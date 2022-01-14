@@ -1,12 +1,16 @@
 import { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
+
 import CartItemCard from "./CartItemCard";
-import styles from "./CardDetails.module.css";
+import styles from "./CartDetails.module.css";
 import CartModal from "./CartModal";
 import CartModalItem from "./CartModalItem";
-import { useDispatch } from "react-redux";
+
+import { ReactComponent as TruckIcon } from "../../SVG/CartTruckIcon.svg";
+
 import { changeQty, removeFromCart } from "../../Redux/Cart/actions";
 
-const CartDetails = ({cart}) => {
+const CartDetails = ({ cart, isSummary=false }) => {
     const [qty, setQty] = useState(0);
     const [active, setActive] = useState(0);
     const [open, setOpen] = useState(false);
@@ -38,9 +42,26 @@ const CartDetails = ({cart}) => {
         <>
             <div className={styles.root}>
                 <div className={styles.cartTotal}>
-                    <h5>Cart</h5>
-                    <p>{qty} Item</p>
+                    { 
+                        isSummary ? (
+                            <div>Product Details</div>
+                        ) : (
+                            <>
+                                <div>Cart</div>
+                                <p>{qty} Item</p>
+                            </>
+                        )
+                    }
                 </div>
+                { isSummary && (
+                        <div className={styles.priceHead}>
+                            <TruckIcon />
+                            <div>
+                                Estimated Delivery by Tuesday, 25th Jan
+                            </div>
+                        </div> 
+                    )
+                }
                 <div className={styles.cards}>
                     {
                         cart?.map( (item, ind )=> (
@@ -51,7 +72,6 @@ const CartDetails = ({cart}) => {
                                 />
                                 { (ind !== cart?.length - 1  )  && <hr />}
                             </div>
-
                         ))
                     }
                 </div>

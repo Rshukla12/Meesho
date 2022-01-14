@@ -20,9 +20,10 @@ const PaymentPage = () => {
     const [ margin, setMargin ] = useState("");
 
     const handleContinue = () => {
+        if ( isResell && margin - total + 100 <= 0 ) return;
         dispatch( changeCheckoutStage( 4 ) );
-        isResell && dispatch( addMargin( margin ) );
-        history.push("/cart/checkout");
+        isResell && dispatch( addMargin( margin - total + 100 ) );
+        history.push("/cart/summary");
     };
 
     useEffect(()=>{
@@ -32,14 +33,14 @@ const PaymentPage = () => {
         dispatch( changeCheckoutStage( 3 ) );
     }, [cart]);
 
-    if ( stage !== 3 ) return <Redirect to="/cart" />
+    if ( stage < 3 ) return <Redirect to="/cart" />
 
     return (
         <div className={styles.root}>
             <CartNavbar active={stage} />
             <div className={styles.main}>
                 <CartPayment 
-                    cartTotal={total} 
+                    cartTotal={total-100} 
                     isResell={isResell}
                     setIsResell={setIsResell}
                     margin={margin}

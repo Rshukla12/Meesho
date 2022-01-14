@@ -7,12 +7,12 @@ const PriceDetails = ({
     first=true,
     isContinue=false,
     onContinue,
-    margin=0
+    margin=0,
+    cash=false
 }) => {
     const discount = totalPrice * 0.25 > 100 ? 100 : totalPrice * 0.25 ;
     let orderTotal = totalPrice + cod + delivery;
     orderTotal -= first ? discount : 0;
-    orderTotal -= margin;
     return (
         <div className={styles.root}>
             <h3>Price Details</h3>
@@ -34,20 +34,26 @@ const PriceDetails = ({
                     <h5>-&#8377;{discount}</h5>
                 </div>
             )}
-            { margin ? (
-                <div className={styles.priceItem}>
-                    <p>Margin</p>
-                    <h5>+&#8377;{margin}</h5>
-                </div>
-            ) : ( <></> )}
             <div className={`${styles.priceItem} ${styles.total}`}>
                 <h3>Order Total</h3>
                 <h5>&#8377;{orderTotal}</h5>
             </div>
+            { margin ? (
+                <>
+                    <div className={styles.priceItem}>
+                        <h3>Margin Earned</h3>
+                        <h5>+&#8377;{margin}</h5>
+                    </div>
+                    <div className={`${styles.priceItem} ${styles.total}`}>
+                        <h3>Cash to be Collected</h3>
+                        <h5>&#8377;{orderTotal + margin }</h5>
+                    </div>
+                </>
+            ) : ( <></> )}
             { isContinue && (
                 <>
-                    <div className={styles.banner}>Clicking on ‘Continue’ will not deduct any money</div>
-                    <button className={styles.continue} onClick={onContinue}>Continue</button>
+                    { !cash && <div className={styles.banner}>Clicking on ‘Continue’ will not deduct any money</div> }
+                    <button className={styles.continue} onClick={onContinue}>{ cash ? "Place Order" : "Continue" }</button>
                 </>
             )}
         </div>
