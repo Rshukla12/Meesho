@@ -105,18 +105,20 @@ const cartReducer = ( state=initCart, action ) => {
         case cartConstants.CHANGE_CHECKOUT_STAGE: {
             saveData("Address", state.address);
             saveData("Cart", state.cart);
-            saveData("Orders", state.orders);
             return {
                 ...state,
                 stage: action.payload.stage
             }
         }
         case cartConstants.ORDER_SUCCESSFUL: {
+            saveData("Cart", []);
+            const orders = [...state.orders, {items: state.cart, date: Date.now(), resell: state.isResell, margin: state.margin } ];
+            saveData("Orders", orders);
             return {
                 ...state,
                 stage: 1,
                 cart: [],
-                orders: [...state.orders, {items: state.cart, date: Date.now(), resell: state.isResell, margin: state.margin } ]
+                orders: orders
             }
         }
         case cartConstants.ADD_MARGIN: {

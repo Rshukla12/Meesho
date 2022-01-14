@@ -3,15 +3,18 @@ import Category from "../Pages/catagorypage"
 import Home from "../Pages/home";
 import { createBrowserHistory } from 'history';
 import CartRoutes from "./CartRoutes";
+import NavBar from "../Components/Navbar";
 const newHistory = createBrowserHistory();
 const AllRoutes = ()=>{
     return (
         <>
                 <Switch>
                     <Route exact path="/">
+                        <NavBar />
                         <Home/>
                     </Route>
                     <Route exact={true} path="/cat">
+                        <NavBar/>
                         <Category/>
                     </Route>
                     <Route path="/cart">

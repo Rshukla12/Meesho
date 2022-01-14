@@ -11,7 +11,7 @@ import { useHistory } from "react-router-dom";
 import CartPayment from "../../Components/Cart Components/CartPayment";
 
 const PaymentPage = () => {
-    const { cart, stage } = useSelector(state => state, shallowEqual);
+    const { cart, stage } = useSelector(state => state.cart, shallowEqual);
     const dispatch = useDispatch();
     const history = useHistory();
     
