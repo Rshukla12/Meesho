@@ -1,0 +1,19 @@
+.root {
+    text-align: left;
+    border: 1px solid #DFDFDF;
+    margin: 1rem 0rem;
+    padding: 1rem;
+    width: 31rem;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.root > h3 {
+    margin: 0rem 0rem 1.2rem;
+}
+
+.add {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

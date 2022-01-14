@@ -43,3 +43,10 @@ export const orderSuccessful = ( ) => ({
         success: true
     }
 });
+
+export const addMargin = ( margin ) => ({
+    type: cartConstants.ADD_MARGIN,
+    payload: {
+        margin: Number.isNaN(Number(margin)) ? 0 : Number(margin)
+    }
+})

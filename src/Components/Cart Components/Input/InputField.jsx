@@ -1,5 +1,5 @@
 import styles from "./InputField.module.css";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const InputField = ({
     onChange,
@@ -10,7 +10,8 @@ const InputField = ({
     isError=false,
     required=false,
     maxLen,
-    name
+    name,
+    initiallyFocused=false
 }) => {
     const [isNotNumber, setIsNotNumber] = useState(false);
     const inputRef = useRef(null);
@@ -23,6 +24,10 @@ const InputField = ({
         onChange(e);
         setIsNotNumber(false);
     };
+
+    useEffect(()=> {
+        initiallyFocused && inputRef.current.focus();
+    }, []);
 
     return (
         <div 

@@ -108,7 +108,7 @@ const CartAddress = ({handelSave}) => {
                     val={state.address.house} 
                     isError={error[2]}
                     onChange={handleAddChange} 
-                    label="House no./ Building Name" 
+                    label="House no. / Building Name" 
                 />
                 <InputField 
                     type="text"
@@ -117,7 +117,7 @@ const CartAddress = ({handelSave}) => {
                     val={state.address.area} 
                     isError={error[3]}
                     onChange={handleAddChange} 
-                    label="Road Name/ Area/ Colony" 
+                    label="Road Name / Area / Colony" 
                 />
                 <InputField 
                     type="number"
@@ -155,7 +155,7 @@ const CartAddress = ({handelSave}) => {
                     val={state.address.landmark} 
                     isError={error[7]}
                     onChange={handleAddChange} 
-                    label="Nearby Location(optional)" 
+                    label="Nearby Location (optional) " 
                 />
                 <button 
                     className={`${priceStyles.continue} ${modalStyles.saveChanges}`} 

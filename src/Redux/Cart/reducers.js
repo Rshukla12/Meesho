@@ -1,8 +1,9 @@
-import { loadData } from "../../utils/localStorage";
+import { loadData, saveData } from "../../utils/localStorage";
 import cartConstants from "./actionTypes";
 
 const cart =  loadData("Cart");
-const address =  loadData("Address");
+const address =  loadData("Address") || [];
+const orders = loadData("Orders") || [];
 
 const initCart = {
     stage: 1,
@@ -60,7 +61,9 @@ const initCart = {
             "qty": 2
         }
     ],
-    orders: []
+    orders: orders,
+    currentOrder: {},
+    margin: 0
 };
 
 const cartReducer = ( state=initCart, action ) => {
@@ -68,13 +71,13 @@ const cartReducer = ( state=initCart, action ) => {
         case cartConstants.ADD_ADDRESS: {
             return {
                 ...state,
-                address: action.payload.address
+                address: [...state.address, action.payload.address ]
             }
         }
         case cartConstants.ADD_TO_CART: {
             return {
                 ...state,
-                cart: state.cart.push( { ...action.payload.product, qty: 1 } )
+                cart: [...state.cart , { ...action.payload.product, qty: 1 } ]
             }
         }
         case cartConstants.CHANGE_QTY: {
@@ -100,6 +103,9 @@ const cartReducer = ( state=initCart, action ) => {
             }
         }
         case cartConstants.CHANGE_CHECKOUT_STAGE: {
+            saveData("Address", state.address);
+            saveData("Cart", state.cart);
+            saveData("Orders", state.orders);
             return {
                 ...state,
                 stage: action.payload.stage
@@ -109,7 +115,14 @@ const cartReducer = ( state=initCart, action ) => {
             return {
                 ...state,
                 stage: 1,
-                orders: state.orders.push( action.payload.cart )
+                cart: [],
+                orders: [...state.orders, {items: state.cart, date: Date.now(), resell: state.isResell, margin: state.margin } ]
+            }
+        }
+        case cartConstants.ADD_MARGIN: {
+            return {
+                ...state,
+                margin: action.payload.margin,
             }
         }
         default: {

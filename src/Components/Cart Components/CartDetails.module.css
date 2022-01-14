@@ -9,11 +9,12 @@
     font-weight: 400;
 }
 
-.cartTotal h5 {
+.cartTotal > div:nth-child(1) {
     padding-top: 0rem;
     margin-top: 1.3rem;
-    margin-bottom: 1.3rem;
-    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
 
 .cartTotal p {
@@ -29,6 +30,16 @@
     position: relative;
     flex-direction: column;
     border: 1px solid #DFDFDF;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px 1px;
+}
+
+.priceHead {
+    display: flex;
+    background-color: #F9F9F9;
+    color: #333333;
+    gap: 10px;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    padding: 1rem;
 }

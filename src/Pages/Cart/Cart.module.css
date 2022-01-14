@@ -10,8 +10,21 @@
     display: flex;
     gap: 1.5rem;
     width: 60%;
-    margin: 1rem auto;
+    margin: auto;
+    padding: 1rem 0rem;
     justify-content: center;
+}
+
+.summary {
+    max-height: 90vh;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+.summary > *:last-child {
+    margin-bottom: 5rem;;
 }
 
 .priceBar {
