@@ -1,12 +1,9 @@
 import { Route, Router, Switch } from "react-router-dom"
 import Category from "../Pages/catagorypage"
 import Home from "../Pages/home";
-import { createBrowserHistory } from 'history';
-const newHistory = createBrowserHistory();
 const AllRoutes = ()=>{
     return (
         <>
-            <Router history={newHistory}>
                 <Switch>
                     <Route exact path="/">
                         <Home/>
@@ -15,7 +12,6 @@ const AllRoutes = ()=>{
                         <Category/>
                     </Route>
                 </Switch>
-            </Router>
         </>
     )
 }

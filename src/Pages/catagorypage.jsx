@@ -44,9 +44,9 @@ const Category = ()=>{
     }
     React.useEffect(()=>{
         dispatch(getData(config))
-    },[count])
+    },[count,query])
     return (
-        <>
+        <div style={{marginTop:'200px'}}>
         <div className={styles.header}>{data[0]?.category}</div>
         <div style={{textAlign:'left',marginTop:'20px',marginLeft:'100px'}}>Showing 1-20 out of 168445 Products</div>
         <div className={styles.container}>
@@ -63,7 +63,7 @@ const Category = ()=>{
             ))}
             <span onClick={()=>{setCount((prev)=>prev+1)}} style={{color:'rgb(244, 51, 151)',cursor:'pointer'}}>NEXT</span>
         </div>
-        </>
+        </div>
     )
 };
 export default Category;

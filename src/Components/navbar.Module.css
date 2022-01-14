@@ -3,6 +3,7 @@
     top:0px;
     width:100%;
     color: grey;
+    overflow: hidden;
 }
 .header_conatainer{
     display: flex;
@@ -28,6 +29,16 @@
     font-size: 16px;
     width: 350px;
     border: 0px;
+}
+.url {
+    width:350px;
+    height:450px;
+    margin-Top:-180px;
+    margin-Left:180px;
+    position:absolute;
+    background-color:#FFFFFF;
+    border:0.2px solid #F9F9F9;
+    position: fixed;
 }
 .icon{
     left: 5px;
@@ -116,4 +127,15 @@ p {
     gap: 1.5rem;
     
     justify-content: center;
+}
+.res {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+.rest {
+    width:250px;
+    font-size: 18px;
+    text-align: left;
+    color: rgb(102, 102, 102);
 }

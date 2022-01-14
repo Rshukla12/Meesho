@@ -8,6 +8,7 @@ import { Product_detail } from './Pages/Product_detail';
 import Home from './Pages/home';
 import store from './Redux/store';
 import AllRoutes from './Routes/AllRoutes';
+import NavBar from './Components/Navbar';
 
 function App() {
   return (
@@ -15,9 +16,9 @@ function App() {
        {/* <SignUp/> */}
       {/* <Otp/> */}
       {/* <Product_detail/> */}
-      <Product_add/>
       <BrowserRouter>
         <Provider store={store}>
+          <NavBar/>
           <AllRoutes/>
         </Provider>
       </BrowserRouter>
