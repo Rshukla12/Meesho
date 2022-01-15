@@ -22,7 +22,9 @@ const Productcard = ({ url, title, discountAmt, Amt, rate, d1, d2, d3, d4, handl
                         <img src={url} />
                     </div>
                     <div className='left_big'>
-                        <img src={url} />
+                        <div className='left_big_img'>
+                            <img src={url} />
+                        </div>
                         <div className='left_big_p'>
                             <button onClick={handleClick} className='Add_to_card'><ShoppingCartIcon style={{marginTop: '5px',marginRight:'10px'}}/>Add To Cart</button>
                             <hr />
