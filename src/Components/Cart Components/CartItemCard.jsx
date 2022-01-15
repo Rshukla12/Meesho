@@ -3,10 +3,10 @@ import styles from "./CartItemCard.module.css";
 const CartItemCard = ({ item, handleEdit }) => {
 
     const name = item.title.length > 38 ? item.title.slice( 0, 36 ) + " ..." : item.title;
-
+    console.log(item)
     return (
         <div className={styles.root}>
-            <img className={styles.img} src={item.imgs[0]} alt={item.title} />
+            <img className={styles.img} src={item.images[0]} alt={item.title} />
             <div className={styles.details}>
                 <h2 className={styles.title}>{name}</h2>
                 <div className={styles.meta}>
