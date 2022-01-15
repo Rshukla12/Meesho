@@ -85,8 +85,7 @@ p {
     background-color: white;
     border-radius: 5px;
     border: 1px solid lightgray;
-    margin-top: 200px;
-    padding: 0px 20px;
+    padding: 10px 20px 20px;
     position: absolute;
     display: none;
 }
@@ -128,10 +127,13 @@ p {
 }
 .downloadCard:hover .cards{color: #f43397;}
  .downloadCard:hover .dropdownContent{
-     color:black;display:block;
+     color:black;
+     display:flex;
+     flex-direction: column;
+     gap: 0.4rem;
      min-height: fit-content;
      position: fixed;
-     margin-top: 8%;
+     margin-top: 15%;
 }
 
 .links{
@@ -179,4 +181,19 @@ p {
     padding: 0.2rem 0.5rem;
     color: #fff;
     border-radius: 50%;
+}
+
+.appBtn {
+    height: 50px;
+    margin: auto;    
+}
+
+.android + p {
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+.dividerLines + h4 {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 1rem 1rem 0rem;
 }
