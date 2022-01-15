@@ -34,7 +34,7 @@
 }
 .url {
     width:390px;
-    margin-Top:-180px;
+    margin-Top:-160px;
     margin-Left:267px;
     background-color:#FFFFFF;
     border:0.2px solid #F9F9F9;
@@ -175,7 +175,7 @@ p {
 .cartTotal {
     position: fixed;
     background-color: #f43397;
-    right: 7.1rem;
+    right: 11.1rem;
     top: 0.4rem;
     font-size: 0.75rem;
     padding: 0.2rem 0.5rem;

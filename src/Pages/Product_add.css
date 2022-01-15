@@ -14,32 +14,42 @@
  margin-left: 15%;
  margin-top: 10%;
 }
+.left_small img {
+    width:80px;
+    height:80px;
+}
 .left_small img:hover{
     border: 1px solid rgb(244,51,151);
 }
 
 .left_big{
 width: 70%;
-height:73% ;
+height:780px ;
 border: 1px solid rgb(211, 204, 204);
 margin-left: 5%;
 margin-top: 5%;
 box-shadow: 4px 4px 9px grey;
+padding: 1rem;
 }
 .left_big img:nth-child(1) {
+    width: 90%;
+    height:70%;
+    border:1px solid  white;
+}
+.left_big_p{
     width: 100%;
-    height:100%;
+    height : 30%;
 }
 .left_big p{
-    margin-right: 65%;
+    text-align: left;
     font-size: larger;
     font-weight: 600;
 
 }
 
 .Add_to_card{
- width: 100%;
- height: 6%;
+ width: 90%;
+ height: 20%;
  margin-top: 6%;
  margin-bottom: 3%;
  background-color: rgb(244,51,151);
@@ -51,10 +61,12 @@ box-shadow: 4px 4px 9px grey;
 .small_image{
     margin-right: 75%;
     border: 1px solid rgb(244,51,151);
+    width: 80px;height: 80px;
 }
 .Right_side{
 width: 50%;
 padding:1rem;
+
 }
 
 .first_box{
@@ -66,14 +78,14 @@ padding:1rem;
  margin-left: 10%;
  margin-top: 5%;
  padding:1rem;
+ text-align: left;
 }
 .first_box>p:nth-child(1){
     color: grey;
-    margin-right: 55%;
     font-weight: 500;
 }
 .first_box>p:nth-child(2){
- font-size: 25px;
+ font-size: 30px;
  font-weight: 600;
  letter-spacing: .5px;
  width: 50%;
@@ -135,10 +147,11 @@ padding:1rem;
     height: 22%;
     margin-left: 10%;
     margin-top: 3%;
-    line-height:25px;
+    line-height:29px;
+    text-align: left;
 }
 .third_box>p{
-    font-size: 15px;
+    font-size: 20px;
     word-spacing: 2px;
    text-align: left;
 }
@@ -150,20 +163,25 @@ padding:1rem;
 .third_box>p:nth-child(2){
     color: grey;
     margin-top: 7%;
+    font-size: 20px;
 }
 .third_box>p:nth-child(3){
     color: grey;
+    font-size: 20px;
 }
 .third_box>p:nth-child(4){
     color: grey;
     width: 55%;
+    font-size: 20px;
 }
 .third_box>p:nth-child(5){
     color: grey;
+    font-size: 20px;
 }
 .third_box>p:nth-child(6){
     color: grey;
-    margin-right: 350px;
+    font-weight: bold;
+    font-size: 20px;
 }
 .third_box>p:nth-child(7){
     color: grey;
