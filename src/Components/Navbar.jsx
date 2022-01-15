@@ -58,7 +58,6 @@ const NavBar = () => {
         
         let res = cartTotal;
         cart.forEach((curr) => res += curr.qty );
-        console.log( cart )
         setCartTotal( res );
     }, [params]);
     const getQ = (name) => {
@@ -144,7 +143,7 @@ const NavBar = () => {
                     <Link onClick={()=>getQ("Mens Top Were")} to="/cat">Mens Wear</Link>
                     <NavbarFloat key="Mens Top " onClick={()=>{getQ("Mens Top Were"); history.push("/cat")} } textArr={[["All Men", "View All"], ["Top Wear", "All Top Wear", "Tshirts", "Shirts"], ["Bottom Wear","Track Pants", "Jeans","Trousers"],["Men Accessories","All Men Accessories", "Watches","Belts","Wallets","Jewellery", "Sunglasses", "Bags"],["Men Footwear","Sports Shoes","Casual Shoes","Formal Shoes","Sandals"],["Ethnic Wear","Men Kurtas","Ethnic Jackets", "Inner & Sleep Wear","All Inner & Sleep Wear"]]} />
                     <Link onClick={()=>getQ("Dresses")} to="/cat">Womens Wear</Link>
-                    <NavbarFloat key="Dresses" onClick={()=>{getQ("Dresses"); history.push("/cat")} } textArr={[["All Women", "View All"], ["All Suits & Dress Material", "Cotton Suits", "Embroidered Suits", "Chanderi Suits"], ["Other Ethnic", "Blouses","Dupattas","Lehanga","Gown","Ethnic Bottomwear"]]} />
+                    <NavbarFloat key="women" onClick={()=>{getQ("Dresses"); history.push("/cat")} } textArr={[["All Women", "View All"], ["All Suits & Dress Material", "Cotton Suits", "Embroidered Suits", "Chanderi Suits"], ["Other Ethnic", "Blouses","Dupattas","Lehanga","Gown","Ethnic Bottomwear"]]} />
                     <Link onClick={()=>getQ("Sarees")} to="/cat">Sarees</Link>
                     <NavbarFloat key="Sarees" onClick={()=>{getQ("Sarees"); history.push("/cat")} } textArr={[["All Sarees", "View All"], ["Silk Sarees", "Cotton Silk Sarees","Cotton Sarees","Georgette Sarees","Chiffon Sarees","Satin Sarees","Embroidered Sarees"]]} />
                     <Link onClick={()=>getQ("Jewellery")} to="/cat">Jewellery</Link>
