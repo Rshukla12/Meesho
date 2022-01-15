@@ -1,4 +1,4 @@
-import { Route, Switch } from "react-router-dom"
+import { Route, Switch } from "react-router-dom";
 import { createBrowserHistory } from 'history';
 import CartRoutes from "./CartRoutes";
 import NavBar from "../Components/Navbar";
