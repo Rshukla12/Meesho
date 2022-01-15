@@ -7,19 +7,20 @@
     display: flex;
     gap: 1rem;
     font-weight: 400;
+    padding-bottom: 1rem;
 }
 
 .cartTotal > div:nth-child(1) {
     padding-top: 0rem;
-    margin-top: 1.3rem;
-    margin-bottom: 1.5rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.7rem;
     font-size: 1.3rem;
     font-weight: 400;
 }
 
 .cartTotal p {
     border-left: 2px solid #DFDFDF;
-    padding: 0.1rem 0.8rem 0rem;
+    padding: 0.3rem 0.8rem 0rem;
     font-weight: 500;
     color: #999999;
     font-size: 1.2rem;

@@ -8,10 +8,10 @@ const NavbarFloat = ({
         <div onClick={onClick} className={styles.root}>
             {
                 textArr.map( (text, ind) => (
-                    <div className={styles.column} >
+                    <div key={text + "," + ind} className={styles.column} >
                         {
                             text.map( ( el, ind ) => (
-                                <div className={ ind === 0 ? styles.head : styles.body }>
+                                <div key={text + "," + el + "," + ind } className={ ind === 0 ? styles.head : styles.body }>
                                     {el}
                                 </div>
                             ))
