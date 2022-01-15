@@ -11,14 +11,14 @@ import AllRoutes from './Routes/AllRoutes';
 function App() {
   return (
     <div className="App">
-       <SignUp/>
-      <Otp/>
+       {/* <SignUp/>
+      <Otp/> */}
       {/* <Product_detail/> */}
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Provider store={store}>
           <AllRoutes/>
         </Provider>
-      </BrowserRouter> */}
+      </BrowserRouter>
     </div>
   );
 }

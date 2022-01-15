@@ -5,7 +5,7 @@ import NavBar from "../Components/Navbar";
 import Home from "../Pages/home";
 import Category from "../Pages/catagorypage"
 import { SignUp } from "../Pages/SignUp";
-import { Product_add } from "../Pages/Product_add";
+import { Productadd } from "../Pages/Productadd";
 import { Otp } from "../Pages/Otp";
 
 const newHistory = createBrowserHistory();
@@ -29,7 +29,7 @@ const AllRoutes = ()=>{
                     </Route>
                     <Route exact={true} path="/product/:id">
                         <NavBar/>
-                        <Product_add />
+                        <Productadd />
                     </Route>
                     <Route path="/cart">
                         <CartRoutes />
