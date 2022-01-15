@@ -1,7 +1,7 @@
 import styles from "./CartItemCard.module.css";
 
 const CartItemCard = ({ item, handleEdit }) => {
-
+    if ( !item.title ) return <></>
     const name = item.title.length > 38 ? item.title.slice( 0, 36 ) + " ..." : item.title;
     return (
         <div className={styles.root}>

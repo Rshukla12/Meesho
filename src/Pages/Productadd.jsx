@@ -2,6 +2,7 @@ import React from 'react'
 import "./Product_add.css"
 import Rating from '@mui/material/Rating';
 import Stack from '@mui/material/Stack';
+import LocalOfferIcon from '@mui/icons-material/LocalOffer';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 const Productcard = ({url,title,discountAmt,Amt,rate,d1,d2,d3,d4}) => {
@@ -17,18 +18,19 @@ const Productcard = ({url,title,discountAmt,Amt,rate,d1,d2,d3,d4}) => {
                </div>
                <div className='left_big'>
                    <img src={url}/>
+                   <div className='left_big_p'>
                    <button className='Add_to_card'>Add To Cart</button>
                    <hr/>
                    <p>1 Similar Products</p>
-                   
-                   <img className='small_image' src='https://images.meesho.com/images/products/71525367/0aqnh_64.jpg'/>
+                   <img className='small_image' src={url}/>
+                   </div>
                </div>
               </div>
               <div className='Right_side'>
                 <div className='first_box'>
                     <p>{title}</p>
                     <p><span>&#8377;</span>{discountAmt}<strike>{Amt}</strike>  <a>{Math.floor(((Amt-discountAmt)/Amt)*100)}%off</a></p>
-                    <p><span>&#8377;</span>40 OFF | Special Offer Applied</p>
+                    <p><LocalOfferIcon style={{color: 'green',marginRight:'20px',marginTop:'5px'}}/><span>&#8377;</span> 40 OFF | Special Offer Applied</p>
                     <p>Free Delivery</p>
                 </div>
                 <div className='second_box'>

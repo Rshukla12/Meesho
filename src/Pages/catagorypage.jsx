@@ -6,7 +6,7 @@ import { getData } from "../Redux/action";
 import {Link} from 'react-router-dom';
 const Card = ({id,title,price,orignalPrice,url,rating})=>{
     return (
-        <Link style={{textDecoration: 'none'}} to={`cart/${id}`}>
+        <Link style={{textDecoration: 'none'}} to={`product/${id}`}>
         <div className={styles.card}>
             <div>
                 <img className={styles.cardimg} src={url}/>
@@ -38,8 +38,8 @@ const Card = ({id,title,price,orignalPrice,url,rating})=>{
 const Category = ()=>{
     const dispatch = useDispatch();
     var arr = [1,2,3,4,5];
-    const data = useSelector((state)=>state.data);
-    const query = useSelector((state)=>state.qurey);
+    const data = useSelector((state)=>state.content.data);
+    const query = useSelector((state)=>state.content.qurey);
     const [count,setCount] = React.useState(1);
     const config = {
         method: "GET",

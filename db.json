@@ -1681,7 +1681,8 @@
             "details": {
                 "Fabric" : "Cotton",
                 "Sleeve Length" : "Long Sleeves",
-                "Multipack" : 1
+                "Multipack" : 1,
+                "description":"Best quality Cotton from assam"
             },
             "rating": 5,
             "seller_id": 12
@@ -1697,7 +1698,8 @@
             "details": {
                 "Fabric" : "Cotton",
                 "Sleeve Length" : "Long Sleeves",
-                "Multipack" : 1
+                "Multipack" : 1,
+                "description":"Best quality Cotton from assam"
             },
             "rating": 3,
             "seller_id": 12
@@ -1713,7 +1715,8 @@
             "details": {
                 "Fabric" : "Cotton",
                 "Sleeve Length" : "Long Sleeves",
-                "Multipack" : 1
+                "Multipack" : 1,
+                "description":"Best quality Cotton from assam"
             },
             "rating": 3,
             "seller_id": 12
@@ -1729,7 +1732,8 @@
             "details": {
                 "Fabric" : "Cotton",
                 "Sleeve Length" : "Long Sleeves",
-                "Multipack" : 1
+                "Multipack" : 1,
+                "description":"Best quality Cotton from assam"
             },
             "rating": 3,
             "seller_id": 12
@@ -1745,7 +1749,8 @@
             "details": {
                 "Fabric" : "Cotton",
                 "Sleeve Length" : "Long Sleeves",
-                "Multipack" : 1
+                "Multipack" : 1,
+                "description":"Best quality Cotton from assam"
             },
             "rating": 4,
             "seller_id": 12
@@ -1761,7 +1766,8 @@
             "details": {
                 "Fabric" : "Cotton",
                 "Sleeve Length" : "Long Sleeves",
-                "Multipack" : 1
+                "Multipack" : 1,
+                "description":"Best quality Cotton from assam"
             },
             "rating": 4,
             "seller_id": 12
@@ -1777,7 +1783,8 @@
             "details": {
                 "Fabric" : "Cotton",
                 "Sleeve Length" : "Long Sleeves",
-                "Multipack" : 1
+                "Multipack" : 1,
+                "description":"Best quality Cotton from assam"
             },
             "rating": 5,
             "seller_id": 12
@@ -1793,7 +1800,8 @@
             "details": {
                 "Fabric" : "Cotton",
                 "Sleeve Length" : "Long Sleeves",
-                "Multipack" : 1
+                "Multipack" : 1,
+                "description":"Best quality Cotton from assam"
             },
             "rating": 2,
             "seller_id": 12
@@ -1809,7 +1817,8 @@
             "details": {
                 "Fabric" : "Cotton",
                 "Sleeve Length" : "Long Sleeves",
-                "Multipack" : 1
+                "Multipack" : 1,
+                "description":"Best quality Cotton from assam"
             },
             "rating": 5,
             "seller_id": 12
