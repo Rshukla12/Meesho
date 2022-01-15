@@ -3,8 +3,10 @@ import styles from "./catagorypage.module.css";
 import React from "react";
 import { useDispatch } from "react-redux";
 import { getData } from "../Redux/action";
-const Card = ({title,price,orignalPrice,url,rating})=>{
+import {Link} from 'react-router-dom';
+const Card = ({id,title,price,orignalPrice,url,rating})=>{
     return (
+        <Link to={`cart/${id}`}>
         <div className={styles.card}>
             <div>
                 <img className={styles.cardimg} src={url}/>
@@ -30,6 +32,7 @@ const Card = ({title,price,orignalPrice,url,rating})=>{
                 </div>
             </div>
         </div>
+        </Link>
     )
 }
 const Category = ()=>{
@@ -51,11 +54,11 @@ const Category = ()=>{
         <div style={{textAlign:'left',marginTop:'20px',marginLeft:'100px'}}>Showing 1-20 out of 168445 Products</div>
         <div className={styles.container}>
             {data?.map((item)=>(
-                <Card key={item.id} title={item.title} price={item.discounted_price} orignalPrice={item.original_price} url={item.images[0]} rating={item.rating}/>
+                <Card key={item.id} id={item.id} title={item.title} price={item.discounted_price} orignalPrice={item.original_price} url={item.images[0]} rating={item.rating}/>
             ))}
         </div>
         <div className={styles.pages}>
-            {count!=1?(<span onClick={()=>{setCount((prev)=>prev-1)}}  style={{color:'rgb(244, 51, 151)',cursor:'pointer'}}>PREV</span>):("")}
+            {count!==1?(<span onClick={()=>{setCount((prev)=>prev-1)}}  style={{color:'rgb(244, 51, 151)',cursor:'pointer'}}>PREV</span>):("")}
             {arr.map((item)=>(
                 count==item?(<div className={styles.round}>{item}</div>):(
                     <div>{item}</div>

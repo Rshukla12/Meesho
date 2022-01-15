@@ -2,7 +2,9 @@ import React from 'react'
 import "./Product_add.css"
 import Rating from '@mui/material/Rating';
 import Stack from '@mui/material/Stack';
-export const Product_add = () => {
+import { useParams } from 'react-router-dom';
+import axios from 'axios';
+const Productcard = ({url,title,discountAmt,Amt,off,size,rate}) => {
     return (
         <>
           <div className='complete_page'>
@@ -14,7 +16,7 @@ export const Product_add = () => {
                 <img src='https://images.meesho.com/images/products/71525367/f5fbt_64.jpg'/>
                </div>
                <div className='left_big'>
-                   <img src='https://images.meesho.com/images/products/71525367/0aqnh_512.jpg'/>
+                   <img src={url}/>
                    <button className='Add_to_card'>Add To Cart</button>
                    <hr/>
                    <p>1 Similar Products</p>
@@ -24,14 +26,14 @@ export const Product_add = () => {
               </div>
               <div className='Right_side'>
                 <div className='first_box'>
-                    <p>Campus Sports Shoes</p>
-                    <p><span>&#8377;</span>1429 <strike>1469</strike>  <a>3% off </a></p>
+                    <p>{title}</p>
+                    <p><span>&#8377;</span>{discountAmt}<strike>{Amt}</strike>  <a>{off}</a></p>
                     <p><span>&#8377;</span>40 OFF | Special Offer Applied</p>
                     <p>Free Delivery</p>
                 </div>
                 <div className='second_box'>
                     <p>Select Size</p>
-                    <button>IND-6</button>
+                    <button>{size}</button>
                 </div>
                 <div className='third_box'>
                     <p>Product Details</p>
@@ -54,7 +56,7 @@ export const Product_add = () => {
                   <div className='rating'>
                       <p>Ratings</p>
                       <Stack spacing={1}>
-      <Rating className="size-small" defaultValue={3} size="small" />
+      <Rating className="size-small" defaultValue={rate} size="small" />
                       </Stack>
                   </div>
 
@@ -89,4 +91,23 @@ export const Product_add = () => {
             </div>
         </>
     )
+}
+export const Productadd = () => {
+    const {id} = useParams();
+    const [data,setData] = React.useState(null);
+    React.useEffect(()=>{
+        const config = {
+            method: 'get',
+            url: `http://localhost:3001/products?id=${id}`
+        }
+        axios(config)
+        .then((res)=>{
+            setData(res.data);
+        })
+    },[id])
+    return (
+        data?(
+        <Productcard key={data[0]?.id}  title={data[0]?.title} discountAmt={data[0]?.discounted_price} Amt={data[0]?.original_price} url={data[0]?.images[0]} rating={data[0]?.rating}/>
+        ):(<div>not found</div>)
+    )   
 }
