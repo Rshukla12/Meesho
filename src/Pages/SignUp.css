@@ -84,12 +84,11 @@
 .otp_input{
     border-color: "blue";
     /* margin-top: 50px; */
-    margin:40px 15px;
+    margin:40px 5px;
     height: 40px;
     width: 30px;
     font-size: 18px;
-    align-items: center;
-    justify-items: center;
+    text-align: center;
 }
 .number{
 display: flex;

@@ -2,25 +2,25 @@ import React, { useState } from 'react'
 import "./SignUp.css"
 import TextField from '@mui/material/TextField'
 import styled from '@emotion/styled';
-import { Button } from '@mui/material';
-
+import { Link } from 'react-router-dom';
+import InputField from "../Components/Cart Components/Input/InputField"
 export const SignUp = () => {
-    const NumberInput = styled(TextField)({
-        boxShadow: 'none',
-      textTransform: 'none',
-      fontSize: 16,
-      width:"80%",
-      padding: '12px',
-      margin:"auto",
-    //   border: '1px solid',
-      lineHeight: 1.5,
-      '&:hover': {
-          color: '#f43397',
-        borderBottomColor: '1px solid pink',
-        boxShadow: 'none',
-      },
-    });
     const [number,setNumber] = useState(""); 
+    const setMobileNumber = (e) => {
+      setNumber(
+          e.target.value);
+  };
+  function handleSubmit(e){
+      e.preventDefault()
+    if(number.length == 10){
+      localStorage.setItem("phone",number)
+          console.log(number)
+          window.location.replace("/otp")
+    }
+    else{
+        window.alert("Enter Valid Number")
+    }
+  }
     return (
         <>
         <div className='sign_up'>
@@ -36,12 +36,20 @@ export const SignUp = () => {
         <p className='country_code'>Country</p>
         <div className='number'>
         <p className='Phone_number'>IN +91</p>
-        {/* <NumberInput style={{width:"50px",marginLeft:"50px"}} className="country_code" id="standard-basic" value={"IN +91"} disabled label="Country"  variant="standard" /> */}
         <div className="inputField">
-            <input placeholder='PhoneNumber' onChange={(e)=>setNumber(e.target.value)} className='number_input' value={number}/>
+        <InputField 
+                    type="number"
+                    name="phone" 
+                    required={true} 
+                    val={number} 
+                    isError={false}
+                    maxLen={10}
+                    onChange={setMobileNumber} 
+                    label="Phone Number" 
+                />
+          </div>
         </div>
-        </div>
-        <button onClick={(e)=>(e.preventDefault,console.log(number))} className='otp'>Send OTP</button>
+        <button onClick={handleSubmit} className='otp'>Send OTP</button>
 
         </div>
         </div>

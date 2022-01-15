@@ -23,7 +23,7 @@ const CartModalItem = ({ item, handleDelete, handleSave  }) => {
     return (
         <div className={styles.root}>
             <div className={itemStyles.root}>
-                <img className={itemStyles.img} src={item.imgs[0]} alt={item.title} />
+                <img className={itemStyles.img} src={item.images[0]} alt={item.title} />
                 <div className={itemStyles.details}>
                     <h2 className={itemStyles.title}>{name}</h2>
                     <div className={`${itemStyles.meta} ${styles.meta}`} >

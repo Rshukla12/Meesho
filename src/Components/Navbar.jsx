@@ -21,11 +21,9 @@ const NavBar = () => {
     const [params, setParms] = React.useState(null);
     const [results, setResults] = React.useState(null);
     const [view, setView] = React.useState(false);
+    const [cartTotal, setCartTotal] = React.useState(0);
     const { cart } = useSelector(state=>state.cart, shallowEqual);
     const history = useHistory();
-
-    let cartTotal = 0;
-    cart.map( ( curr ) => cartTotal + curr.qty);
 
     const GetItem = () => {
         const data = [];
@@ -57,6 +55,10 @@ const NavBar = () => {
                     localStorage.setItem(index, JSON.stringify(el.title))
                 })
             });
+        
+        let res = cartTotal;
+        cart.forEach((curr) => res += curr.qty );
+        setCartTotal( res );
     }, [params]);
     const getQ = (name) => {
         dispatch(getQuery(name));
@@ -119,7 +121,9 @@ const NavBar = () => {
                                         <div className={styles.profileContent}>
                                             <p style={{ fontSize: "18px", marginBlockStart: "0.5em", marginBlockEnd: "0.2em", fontWeight: "bold" }}>Hello User</p>
                                             <p style={{ fontSize: "12px", marginBlockEnd: "0.5em" }}>To access your Meesho account</p>
+                                            <Link to="/signup">
                                             <SignUpButton variant="contained">SIGN UP</SignUpButton>
+                                            </Link>
                                             <div className={styles.dividerLines}></div>
                                             <h4 style={{ alignItems: "center" }}><ShoppingBagIcon fontSize="medium" />My Orders</h4>
 
@@ -139,25 +143,25 @@ const NavBar = () => {
                 <div className={styles.dividerLines}></div>
                 <div className={styles.links}>
                     <Link onClick={()=>getQ("Mens Top Were")} to="/cat">Mens Wear</Link>
-                    <NavbarFloat onClick={()=>{getQ("Mens Top Were"); history.push("/cat")} } textArr={[["All Men", "View All"], ["Top Wear", "All Top Wear", "Tshirts", "Shirts"], ["Bottom Wear","Track Pants", "Jeans","Trousers"],["Men Accessories","All Men Accessories", "Watches","Belts","Wallets","Jewellery", "Sunglasses", "Bags"],["Men Footwear","Sports Shoes","Casual Shoes","Formal Shoes","Sandals"],["Ethnic Wear","Men Kurtas","Ethnic Jackets", "Inner & Sleep Wear","All Inner & Sleep Wear"]]} />
+                    <NavbarFloat key="Mens Top " onClick={()=>{getQ("Mens Top Were"); history.push("/cat")} } textArr={[["All Men", "View All"], ["Top Wear", "All Top Wear", "Tshirts", "Shirts"], ["Bottom Wear","Track Pants", "Jeans","Trousers"],["Men Accessories","All Men Accessories", "Watches","Belts","Wallets","Jewellery", "Sunglasses", "Bags"],["Men Footwear","Sports Shoes","Casual Shoes","Formal Shoes","Sandals"],["Ethnic Wear","Men Kurtas","Ethnic Jackets", "Inner & Sleep Wear","All Inner & Sleep Wear"]]} />
                     <Link onClick={()=>getQ("Dresses")} to="/cat">Womens Wear</Link>
-                    <NavbarFloat onClick={()=>{getQ("Dresses"); history.push("/cat")} } textArr={[["All Women", "View All"], ["All Suits & Dress Material", "Cotton Suits", "Embroidered Suits", "Chanderi Suits"], ["Other Ethnic", "Blouses","Dupattas","Lehanga","Gown","Ethnic Bottomwear"]]} />
+                    <NavbarFloat key="women" onClick={()=>{getQ("Dresses"); history.push("/cat")} } textArr={[["All Women", "View All"], ["All Suits & Dress Material", "Cotton Suits", "Embroidered Suits", "Chanderi Suits"], ["Other Ethnic", "Blouses","Dupattas","Lehanga","Gown","Ethnic Bottomwear"]]} />
                     <Link onClick={()=>getQ("Sarees")} to="/cat">Sarees</Link>
-                    <NavbarFloat onClick={()=>{getQ("Sarees"); history.push("/cat")} } textArr={[["All Sarees", "View All"], ["Silk Sarees", "Cotton Silk Sarees","Cotton Sarees","Georgette Sarees","Chiffon Sarees","Satin Sarees","Embroidered Sarees"]]} />
+                    <NavbarFloat key="Sarees" onClick={()=>{getQ("Sarees"); history.push("/cat")} } textArr={[["All Sarees", "View All"], ["Silk Sarees", "Cotton Silk Sarees","Cotton Sarees","Georgette Sarees","Chiffon Sarees","Satin Sarees","Embroidered Sarees"]]} />
                     <Link onClick={()=>getQ("Jewellery")} to="/cat">Jewellery</Link>
-                    <NavbarFloat onClick={()=>{getQ("Jewellery"); history.push("/cat")} } textArr={[["All Jewellery", "View All"], ["Jewellery", "Jewellery Set","Mangalsutras","Earrings","Studs","Bangles","Necklaces","Rings","Anklets"],["Women Accessory","Bags","Watches","Hair Accessories","Sunglasses","Socks"]]} />
+                    <NavbarFloat key="Jewellery" onClick={()=>{getQ("Jewellery"); history.push("/cat")} } textArr={[["All Jewellery", "View All"], ["Jewellery", "Jewellery Set","Mangalsutras","Earrings","Studs","Bangles","Necklaces","Rings","Anklets"],["Women Accessory","Bags","Watches","Hair Accessories","Sunglasses","Socks"]]} />
                     <Link onClick={()=>getQ("Dresses")} to="/cat">Dresses</Link>
-                    <NavbarFloat onClick={()=>{getQ("Dresses"); history.push("/cat")} } textArr={[["All Dresses", "View All"], ["Suits & Dress Material", "All Suits & Dress Material", "Cotton Suits", "Embroidered Suits","Chanderi Suits"],["Other Ethnic", "Blouses","Dupattas","Lehanga","Gown","Ethnic Bottomwear"]]} />
+                    <NavbarFloat key="Dresses" onClick={()=>{getQ("Dresses"); history.push("/cat")} } textArr={[["All Dresses", "View All"], ["Suits & Dress Material", "All Suits & Dress Material", "Cotton Suits", "Embroidered Suits","Chanderi Suits"],["Other Ethnic", "Blouses","Dupattas","Lehanga","Gown","Ethnic Bottomwear"]]} />
                     <Link onClick={()=>getQ("Beauty and health")} to="/cat">Beauty Products</Link>
-                    <NavbarFloat onClick={()=>{getQ("Beauty and health"); history.push("/cat")} } textArr={[["All Beauty Products", "View All"],["Make up", "Face","Eyes","Lips","Nails"],["Wellness","Sanitizers","Oral Care","Feminine Hygiene","Skincare","Deodorants"] ]} />
+                    <NavbarFloat key="Beauty n" onClick={()=>{getQ("Beauty and health"); history.push("/cat")} } textArr={[["All Beauty Products", "View All"],["Make up", "Face","Eyes","Lips","Nails"],["Wellness","Sanitizers","Oral Care","Feminine Hygiene","Skincare","Deodorants"] ]} />
                     <Link onClick={()=>getQ("Beauty and health")} to="/cat">Health Products</Link>
-                    <NavbarFloat onClick={()=>{getQ("Beauty and health"); history.push("/cat")} } textArr={[["All Beauty Products", "View All"],["Make up", "Face","Eyes","Lips","Nails"],["Wellness","Sanitizers","Oral Care","Feminine Hygiene","Skincare","Deodorants"] ]} />
+                    <NavbarFloat key="Beauty an" onClick={()=>{getQ("Beauty and health"); history.push("/cat")} } textArr={[["All Beauty Products", "View All"],["Make up", "Face","Eyes","Lips","Nails"],["Wellness","Sanitizers","Oral Care","Feminine Hygiene","Skincare","Deodorants"] ]} />
                     <Link onClick={()=>getQ("Bags and Footwear")} to="/cat">Baga and Footwear</Link>
-                    <NavbarFloat onClick={()=>{getQ("Bags and Footwear"); history.push("/cat")} } textArr={[["Women Bags", "All Women Bags", "Handbags", "Clutches", "Slingbags"],["Men Bags", "All Men Bags","Men Wallets"]]} />
+                    <NavbarFloat key="Bags and" onClick={()=>{getQ("Bags and Footwear"); history.push("/cat")} } textArr={[["Women Bags", "All Women Bags", "Handbags", "Clutches", "Slingbags"],["Men Bags", "All Men Bags","Men Wallets"]]} />
                     <Link onClick={()=>getQ("Home and Kitchen")} to="/cat">Home</Link>
-                    <NavbarFloat onClick={()=>{getQ("Home and Kitchen"); history.push("/cat")} } textArr={[["Home Furnishing", "Bedsheets", "Doormats", "Curtains & Sheers", "Cushions & Cushion Covers","Mattress Protectors"], ["Home Decor","All Home Decor", "Stickers","Clocks","Showpieces","Kitchen & Dining", "Kitchen Storage", "Cookware & Bakeware"]]} />
+                    <NavbarFloat key="Home and" onClick={()=>{getQ("Home and Kitchen"); history.push("/cat")} } textArr={[["Home Furnishing", "Bedsheets", "Doormats", "Curtains & Sheers", "Cushions & Cushion Covers","Mattress Protectors"], ["Home Decor","All Home Decor", "Stickers","Clocks","Showpieces","Kitchen & Dining", "Kitchen Storage", "Cookware & Bakeware"]]} />
                     <Link onClick={()=>getQ("Home and Kitchen")} to="/cat">Kitchen</Link>
-                    <NavbarFloat onClick={()=>{getQ("Home and Kitchen"); history.push("/cat")} } textArr={[["Home Furnishing", "Bedsheets", "Doormats", "Curtains & Sheers", "Cushions & Cushion Covers","Mattress Protectors"], ["Home Decor","All Home Decor", "Stickers","Clocks","Showpieces","Kitchen & Dining", "Kitchen Storage", "Cookware & Bakeware"]]} />
+                    <NavbarFloat key="Home" onClick={()=>{getQ("Home and Kitchen"); history.push("/cat")} } textArr={[["Home Furnishing", "Bedsheets", "Doormats", "Curtains & Sheers", "Cushions & Cushion Covers","Mattress Protectors"], ["Home Decor","All Home Decor", "Stickers","Clocks","Showpieces","Kitchen & Dining", "Kitchen Storage", "Cookware & Bakeware"]]} />
                 </div>
             </div>
             {view ? (
