@@ -37,12 +37,8 @@ useEffect(()=>{
         <a href ="#" style={{color:"#f43397", textDecoration:"none",}} onClick={()=>window.location.replace("signup")} >Change Number</a>
         </p>
         {otpIs.map((e)=>{
-            return <input type="text" className='otp_input' value={e}/> 
+            return <input key={Math.random()} type="text" onChange={console.log()} className='otp_input' value={e}/> 
         })}
-        {/* <input type="text" className='otp_input' />
-        <input type="text" className='otp_input' />
-        <input type="text" className='otp_input' />
-        <input type="text" className='otp_input' /> */}
 
         <button onClick={()=>window.location.replace("/")} className='otp'>Verify</button>
         <button onClick={sendOtp} className='otp'>Resend</button>

@@ -38,6 +38,7 @@ export const SignUp = () => {
         <p className='Phone_number'>IN +91</p>
         <div className="inputField">
         <InputField 
+                    className="number_input"
                     type="number"
                     name="phone" 
                     required={true} 
