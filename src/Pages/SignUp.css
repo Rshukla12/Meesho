@@ -1,54 +1,70 @@
-*, ::before, ::after {
+/* *, ::before, ::after {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-}
+} */
 .sign_up{
     height: 100vh;
-    width: 100vw;
+    min-width: fit-content;
+    margin: auto;
     justify-content: center;
+    padding-top: 100px;
     background: linear-gradient(rgb(253, 233, 242) 0%, rgb(253, 240, 232) 100%, rgb(253, 240, 232) 100%);
    
 }
 .signup_page{
     background-color: white;
-    width: 27%;
+    width: fit-content;
     height: 90%;
-    margin: -1% 0% 0% 30%;
+    min-width: none;
+    margin:auto;
 }
 .sign_up_img{
     height: 200px;
     width: 433px;
-    margin-top: 5%;
+    border-style: none;
+    min-width: 433px;
+    /* margin-top: 5%; */
     border-radius: 3%;
 }
 .sign_up_profile{
     color: rgb(51, 51, 51);
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 28px;
     font-family: "Mier bold";
-    margin: 8% 4% 0% 1%;
+    margin: 8% 0% 4% 0%;
+    width: 100%;
     padding: 0px;
     
 
 }
-.country{
+.country_code{
     color: rgb(153, 153, 153);
     font-style: normal;
+    float: left;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
     font-family: "Mier book";
-    margin:10% 70% 0% 0%;
-    padding: 2px 0px;
+    /* margin:10% 70% 0% 0%; */
+    /* margin-right:70%;*/
+    margin-top:10px; 
+    margin-left:50px; 
+    /* padding: 2px 0px; */
 
 }
 .Phone_number{
-    margin:3% 2% 0% 2%;
+    margin-left:50px;
+    margin-right:30px;
     font-weight: 600;
-    width: 30%;
+    width: fit-content;
+}
+.number_input{
+    font-size: 16px;
+    /* line-height: 15px; */
+    border: none;
 }
 .otp{
     cursor: pointer;
@@ -63,11 +79,22 @@
     border: none;
     padding: 12px;
     margin-top: 40px;
-    width: 400px;
+    width: 80%;
+}
+.otp_input{
+    border-color: "blue";
+    /* margin-top: 50px; */
+    margin:40px 15px;
+    height: 40px;
+    width: 30px;
+    font-size: 18px;
+    align-items: center;
+    justify-items: center;
 }
 .number{
 display: flex;
 width: 100%;
+align-items: center;
 }
 .standard-basic{
  background-color: rgb(244, 51, 151);

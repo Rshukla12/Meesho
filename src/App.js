@@ -3,8 +3,8 @@ import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import { Product_add } from './Pages/Product_add';
 import { Product_detail } from './Pages/Product_detail';
-//import { Otp } from './Pages/Otp';
-//import {SignUp } from './Pages/SignUp';
+import { Otp } from './Pages/Otp';
+import {SignUp } from './Pages/SignUp';
 import Home from './Pages/home';
 import store from './Redux/store';
 import AllRoutes from './Routes/AllRoutes';
@@ -13,15 +13,15 @@ import NavBar from './Components/Navbar';
 function App() {
   return (
     <div className="App">
-       {/* <SignUp/> */}
-      {/* <Otp/> */}
+       <SignUp/>
+      <Otp/>
       {/* <Product_detail/> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Provider store={store}>
           <NavBar/>
           <AllRoutes/>
         </Provider>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   );
 }
