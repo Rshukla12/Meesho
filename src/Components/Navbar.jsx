@@ -56,10 +56,10 @@ const NavBar = () => {
                 })
             });
         
-        let res = cartTotal;
+        let res = 0;
         cart.forEach((curr) => res += curr.qty );
         setCartTotal( res );
-    }, [params]);
+    }, [params,cart]);
     const getQ = (name) => {
         dispatch(getQuery(name));
         setView(false);
