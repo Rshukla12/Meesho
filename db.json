@@ -11,13 +11,10 @@
             ],
             "images": ["https://images.meesho.com/images/products/71034092/roaia_64.jpg"],
             "details": {
-                "Saree Fabric" : "Georgette",
-                "Blouse" : "Separate Blouse Piece",
-                "Blouse Fabric" : "Satin",
-                "Pattern" : "Woven Design",
-                "Blouse Pattern" : "Foil Printed",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 3.9,
             "seller_id": 1 
@@ -35,13 +32,10 @@
                 "https://images.meesho.com/images/products/71042884/uuctu_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Chiffon",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Satin",
+                "Fabric" : "Chiffon",
                 "Pattern" : "Self Design",
-                "Blouse Pattern" : "Solid",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating":2.4, 
             "seller_id": 2
@@ -60,13 +54,10 @@
                 "https://images.meesho.com/images/products/71051237/bzflu_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Kota Doria Silk",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Jacquard",
-                "Pattern" : "Zari Woven Design",
-                "Blouse Pattern" : "Jacquard",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 2.9,
             "seller_id": 3 
@@ -85,13 +76,10 @@
                 "https://images.meesho.com/images/products/71044944/tvwam_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Cotton",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Cotton",
-                "Pattern" : "Woven Design",
-                "Blouse Pattern" : "Solid",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 3.6,
             "seller_id": 4
@@ -112,13 +100,10 @@
                 "https://images.meesho.com/images/products/71034092/aghvl_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Georgette",
-                "Blouse" : "Separate Blouse Piece",
-                "Blouse Fabric" : "Satin",
-                "Pattern" : "Woven Design",
-                "Blouse Pattern" : "Foil Printed",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 3.9,
             "seller_id": 1 
@@ -136,13 +121,10 @@
                 "https://images.meesho.com/images/products/71042884/uuctu_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Chiffon",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Satin",
+                "Fabric" : "Chiffon",
                 "Pattern" : "Self Design",
-                "Blouse Pattern" : "Solid",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating":2.4, 
             "seller_id": 2
@@ -161,13 +143,10 @@
                 "https://images.meesho.com/images/products/71051237/bzflu_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Kota Doria Silk",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Jacquard",
-                "Pattern" : "Zari Woven Design",
-                "Blouse Pattern" : "Jacquard",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 2.9,
             "seller_id": 3 
@@ -186,13 +165,10 @@
                 "https://images.meesho.com/images/products/71044944/tvwam_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Cotton",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Cotton",
-                "Pattern" : "Woven Design",
-                "Blouse Pattern" : "Solid",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 3.6,
             "seller_id": 4
@@ -210,13 +186,10 @@
                 "https://images.meesho.com/images/products/71042843/qws3q_512.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Cotton Slub",
-                "Blouse" : "Saree with Multiple Blouse",
-                "Blouse Fabric" : "Acrylic",
-                "Pattern" : "Woven Design"  ,
-                "Blouse Pattern" : "Foil Printed",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 3.3,
             "seller_id": 3 
@@ -235,13 +208,10 @@
                 "https://images.meesho.com/images/products/71055066/uokx8_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Silk",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Satin",
+                "Fabric" : "Chiffon",
                 "Pattern" : "Self Design",
-                "Blouse Pattern" : "Solid",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating":2.7, 
             "seller_id": 2
@@ -260,13 +230,10 @@
                 "https://images.meesho.com/images/products/71032690/vvdhy_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Linen",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Jacquard",
-                "Pattern" : "Zari Woven Design",
-                "Blouse Pattern" : "Jacquard",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 4.2,
             "seller_id": 4 
@@ -284,13 +251,10 @@
                 "https://images.meesho.com/images/products/71055896/stej3_512.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Cotton",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Cotton",
-                "Pattern" : "Woven Design",
-                "Blouse Pattern" : "Solid",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 1.6,
             "seller_id": 1
@@ -308,13 +272,10 @@
                 "https://images.meesho.com/images/products/71025367/nbc88_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Cotton",
-                "Blouse" : "Separate Blouse Piece",
-                "Blouse Fabric" : "Satin",
-                "Pattern" : "Woven Design",
-                "Blouse Pattern" : "Foil Printed",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 2.4,
             "seller_id": 2 
@@ -332,13 +293,10 @@
                 "https://images.meesho.com/images/products/71035280/jjqta_512.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Aura Silk",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Satin",
+                "Fabric" : "Chiffon",
                 "Pattern" : "Self Design",
-                "Blouse Pattern" : "Solid",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating":3.6, 
             "seller_id": 4
@@ -356,13 +314,10 @@
                 "https://images.meesho.com/images/products/70941048/30slv_512.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Georgette",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Jacquard",
-                "Pattern" : "Zari Woven Design",
-                "Blouse Pattern" : "Jacquard",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 2.5,
             "seller_id": 4
@@ -380,13 +335,10 @@
                 "https://images.meesho.com/images/products/71044421/bkcqz_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Cotton",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Cotton",
-                "Pattern" : "Woven Design",
-                "Blouse Pattern" : "Solid",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 4.6,
             "seller_id": 3
@@ -404,13 +356,10 @@
                 "https://images.meesho.com/images/products/71033841/po0bp_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Chanderi Cotton",
-                "Blouse" : "Separate Blouse Piece",
-                "Blouse Fabric" : "Satin",
-                "Pattern" : "Woven Design",
-                "Blouse Pattern" : "Foil Printed",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 3.5,
             "seller_id": 1 
@@ -428,13 +377,10 @@
                 "https://images.meesho.com/images/products/71024211/wvwhc_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Chiffon",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Satin",
+                "Fabric" : "Chiffon",
                 "Pattern" : "Self Design",
-                "Blouse Pattern" : "Solid",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating":2.8, 
             "seller_id": 2
@@ -452,13 +398,10 @@
                 "https://images.meesho.com/images/products/71056297/hqbfu_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Jacquard",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Jacquard",
-                "Pattern" : "Zari Woven Design",
-                "Blouse Pattern" : "Jacquard",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 2.9,
             "seller_id": 3 
@@ -477,13 +420,10 @@
                 "https://images.meesho.com/images/products/71044944/tvwam_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Cotton",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Cotton",
-                "Pattern" : "Woven Design",
-                "Blouse Pattern" : "Solid",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 2.6,
             "seller_id": 4
@@ -504,13 +444,10 @@
                 "https://images.meesho.com/images/products/71034092/aghvl_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Georgette",
-                "Blouse" : "Separate Blouse Piece",
-                "Blouse Fabric" : "Satin",
-                "Pattern" : "Woven Design",
-                "Blouse Pattern" : "Foil Printed",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 1.9,
             "seller_id": 1 
@@ -528,13 +465,10 @@
                 "https://images.meesho.com/images/products/71056821/lzxnc_512.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Chiffon",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Satin",
+                "Fabric" : "Chiffon",
                 "Pattern" : "Self Design",
-                "Blouse Pattern" : "Solid",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating":4.4, 
             "seller_id": 2
@@ -553,13 +487,10 @@
                 "https://images.meesho.com/images/products/71051237/bzflu_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Kota Doria Silk",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Jacquard",
-                "Pattern" : "Zari Woven Design",
-                "Blouse Pattern" : "Jacquard",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 4.3,
             "seller_id": 3 
@@ -578,13 +509,10 @@
                 "https://images.meesho.com/images/products/71044944/tvwam_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Cotton",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Cotton",
-                "Pattern" : "Woven Design",
-                "Blouse Pattern" : "Solid",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 3.6,
             "seller_id": 4
@@ -603,13 +531,10 @@
                 "https://images.meesho.com/images/products/71055066/uokx8_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Silk",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Satin",
+                "Fabric" : "Chiffon",
                 "Pattern" : "Self Design",
-                "Blouse Pattern" : "Solid",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating":2.7, 
             "seller_id": 2
@@ -628,13 +553,10 @@
                 "https://images.meesho.com/images/products/71032690/vvdhy_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Linen",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Jacquard",
-                "Pattern" : "Zari Woven Design",
-                "Blouse Pattern" : "Jacquard",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 4.2,
             "seller_id": 4 
@@ -652,13 +574,10 @@
                 "https://images.meesho.com/images/products/71055896/stej3_512.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Cotton",
-                "Blouse" : "Running Blouse",
-                "Blouse Fabric" : "Cotton",
-                "Pattern" : "Woven Design",
-                "Blouse Pattern" : "Solid",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.3 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 1.6,
             "seller_id": 1
@@ -676,13 +595,10 @@
                 "https://images.meesho.com/images/products/71025367/nbc88_64.jpg"
             ],
             "details": {
-                "Saree Fabric" : "Cotton",
-                "Blouse" : "Separate Blouse Piece",
-                "Blouse Fabric" : "Satin",
-                "Pattern" : "Woven Design",
-                "Blouse Pattern" : "Foil Printed",
+                "Fabric" : "Chiffon",
+                "Pattern" : "Self Design",
                 "Multipack" : "Single",
-                "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
+                "Description": "Best qaualtiy "
             },
             "rating": 2.4,
             "seller_id": 2 
@@ -700,11 +616,10 @@
                 "https://images.meesho.com/images/products/71025367/nbc88_64.jpg"
             ],
             "details": {
-                "Base Metal" : "Brass",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 4.4,
             "seller_id": 5 
@@ -723,11 +638,10 @@
                 "https://images.meesho.com/images/products/71023711/rasws_64.jpg"
             ],
             "details": {
-                "Base Metal" : "Alloy",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 3.4,
             "seller_id": 6 
@@ -745,11 +659,10 @@
                 "https://images.meesho.com/images/products/71018901/t1fbp_512.jpg"
             ],
             "details": {
-                "Base Metal" : "Brass",
-                "Plating" : "Gold Plating",
-                "Stone Type" : "American Bead",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 4.2,
             "seller_id": 7 
@@ -767,11 +680,10 @@
                 "https://images.meesho.com/images/products/71023768/djf56_512.jpg"
             ],
             "details": {
-                "Base Metal" : "Alloy",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 3.7,
             "seller_id": 8
@@ -789,11 +701,10 @@
                 "https://images.meesho.com/images/products/71054834/xqybx_512.jpg"
             ],
             "details": {
-                "Base Metal" : "Brass",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 4.4,
             "seller_id": 5 
@@ -811,11 +722,10 @@
                 "https://images.meesho.com/images/products/69270612/7uwky_512.jpg"
             ],
             "details": {
-                "Base Metal" : "Copper",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 2.1,
             "seller_id": 6 
@@ -833,11 +743,10 @@
                 "https://images.meesho.com/images/products/71057079/afppr_512.jpg"
             ],
             "details": {
-                "Base Metal" : "Brass and Copper",
-                "Plating" : "Gold Plating",
-                "Stone Type" : "American Bead",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 3.2,
             "seller_id": 7 
@@ -855,11 +764,10 @@
                 "https://images.meesho.com/images/products/71046199/wg7r2_512.jpg"
             ],
             "details": {
-                "Base Metal" : "German Silver",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 3.6,
             "seller_id": 8
@@ -877,11 +785,10 @@
                 "https://images.meesho.com/images/products/71019152/9hk0d_512.jpg"
             ],
             "details": {
-                "Base Metal" : "Brass",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 4.1,
             "seller_id": 6 
@@ -901,11 +808,10 @@
                 "https://images.meesho.com/images/products/71040507/lg02p_64.jpg"
             ],
             "details": {
-                "Base Metal" : "Brass and Copper",
-                "Plating" : "Gold Plating",
-                "Stone Type" : "American Bead",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 4.6,
             "seller_id": 8 
@@ -923,11 +829,10 @@
                 "https://images.meesho.com/images/products/71050553/bmtd3_512.jpg"
             ],
             "details": {
-                "Base Metal" : "German Silver",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 3.3,
             "seller_id": 8
@@ -945,11 +850,10 @@
                 "https://images.meesho.com/images/products/71025393/eqkjy_512.jpg"
             ],
             "details": {
-                "Base Metal" : "Copper",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 1.6,
             "seller_id": 6 
@@ -967,11 +871,10 @@
                 "https://images.meesho.com/images/products/71025367/nbc88_64.jpg"
             ],
             "details": {
-                "Base Metal" : "Brass",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 4.4,
             "seller_id": 5 
@@ -990,11 +893,10 @@
                 "https://images.meesho.com/images/products/71023711/rasws_64.jpg"
             ],
             "details": {
-                "Base Metal" : "Alloy",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 3.4,
             "seller_id": 6 
@@ -1012,11 +914,10 @@
                 "https://images.meesho.com/images/products/71018901/t1fbp_512.jpg"
             ],
             "details": {
-                "Base Metal" : "Brass",
-                "Plating" : "Gold Plating",
-                "Stone Type" : "American Bead",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 4.2,
             "seller_id": 7 
@@ -1034,11 +935,10 @@
                 "https://images.meesho.com/images/products/71023768/djf56_512.jpg"
             ],
             "details": {
-                "Base Metal" : "Alloy",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 3.7,
             "seller_id": 8
@@ -1056,11 +956,10 @@
                 "https://images.meesho.com/images/products/71054834/xqybx_512.jpg"
             ],
             "details": {
-                "Base Metal" : "Brass",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 4.4,
             "seller_id": 5 
@@ -1078,11 +977,10 @@
                 "https://images.meesho.com/images/products/69270612/7uwky_512.jpg"
             ],
             "details": {
-                "Base Metal" : "Copper",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 2.1,
             "seller_id": 6 
@@ -1100,11 +998,10 @@
                 "https://images.meesho.com/images/products/71057079/afppr_512.jpg"
             ],
             "details": {
-                "Base Metal" : "Brass and Copper",
-                "Plating" : "Gold Plating",
-                "Stone Type" : "American Bead",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 3.2,
             "seller_id": 7 
@@ -1122,11 +1019,10 @@
                 "https://images.meesho.com/images/products/71046199/wg7r2_512.jpg"
             ],
             "details": {
-                "Base Metal" : "German Silver",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 3.6,
             "seller_id": 8
@@ -1144,11 +1040,10 @@
                 "https://images.meesho.com/images/products/71019152/9hk0d_512.jpg"
             ],
             "details": {
-                "Base Metal" : "Brass",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 4.1,
             "seller_id": 6 
@@ -1168,11 +1063,10 @@
                 "https://images.meesho.com/images/products/71040507/lg02p_64.jpg"
             ],
             "details": {
-                "Base Metal" : "Brass and Copper",
-                "Plating" : "Gold Plating",
-                "Stone Type" : "American Bead",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 4.6,
             "seller_id": 8 
@@ -1190,11 +1084,10 @@
                 "https://images.meesho.com/images/products/71050553/bmtd3_512.jpg"
             ],
             "details": {
-                "Base Metal" : "German Silver",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 3.3,
             "seller_id": 8
@@ -1212,11 +1105,10 @@
                 "https://images.meesho.com/images/products/71025393/eqkjy_512.jpg"
             ],
             "details": {
-                "Base Metal" : "Copper",
-                "Plating" : "Micro Plating",
-                "Stone Type" : "Artificial Stones & Beads",
-                "Sizing" : "Adjustable",
-                "Multipack" : 1
+                "Fabric" : "Brass",
+                "Pattern" : "Micro Plating",
+                "Multipack" : "Artificial Stones & Beads",
+                "Description" : "Adjustable"
             },
             "rating": 1.6,
             "seller_id": 6 
@@ -1236,8 +1128,9 @@
             ],
             "details": {
                 "Fabric" : "Cotton",
-                "Combo of" : "Single",
-                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 1.6,
             "seller_id": 9
@@ -1260,9 +1153,10 @@
                 "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
             ],
             "details": {
-                "Fabric" : "Crepe",
-                "Sleeve Length" : "Sleeveless",
-                "Multipack" : 2
+                "Fabric" : "Cotton",
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 4.8,
             "seller_id": 10
@@ -1281,8 +1175,9 @@
             ],
             "details": {
                 "Fabric" : "Cotton",
-                "Combo of" : "Single",
-                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 3.6,
             "seller_id": 11
@@ -1300,9 +1195,10 @@
                 "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
             ],
             "details": {
-                "Fabric" : "Crepe",
-                "Sleeve Length" : "Sleeveless",
-                "Multipack" : 2
+                "Fabric" : "Cotton",
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 4.8,
             "seller_id": 12
@@ -1322,8 +1218,9 @@
             ],
             "details": {
                 "Fabric" : "Cotton",
-                "Combo of" : "Single",
-                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 1.6,
             "seller_id": 9
@@ -1346,9 +1243,10 @@
                 "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
             ],
             "details": {
-                "Fabric" : "Crepe",
-                "Sleeve Length" : "Sleeveless",
-                "Multipack" : 2
+                "Fabric" : "Cotton",
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 4.8,
             "seller_id": 10
@@ -1367,8 +1265,9 @@
             ],
             "details": {
                 "Fabric" : "Cotton",
-                "Combo of" : "Single",
-                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 3.6,
             "seller_id": 11
@@ -1386,9 +1285,10 @@
                 "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
             ],
             "details": {
-                "Fabric" : "Crepe",
-                "Sleeve Length" : "Sleeveless",
-                "Multipack" : 2
+                "Fabric" : "Cotton",
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 4.8,
             "seller_id": 12
@@ -1408,8 +1308,9 @@
             ],
             "details": {
                 "Fabric" : "Cotton",
-                "Combo of" : "Single",
-                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 1.6,
             "seller_id": 9
@@ -1432,9 +1333,10 @@
                 "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
             ],
             "details": {
-                "Fabric" : "Crepe",
-                "Sleeve Length" : "Sleeveless",
-                "Multipack" : 2
+                "Fabric" : "Cotton",
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 4.8,
             "seller_id": 10
@@ -1453,8 +1355,9 @@
             ],
             "details": {
                 "Fabric" : "Cotton",
-                "Combo of" : "Single",
-                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 3.6,
             "seller_id": 11
@@ -1472,9 +1375,10 @@
                 "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
             ],
             "details": {
-                "Fabric" : "Crepe",
-                "Sleeve Length" : "Sleeveless",
-                "Multipack" : 2
+                "Fabric" : "Cotton",
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 4.8,
             "seller_id": 12
@@ -1494,8 +1398,9 @@
             ],
             "details": {
                 "Fabric" : "Cotton",
-                "Combo of" : "Single",
-                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 1.6,
             "seller_id": 9
@@ -1518,9 +1423,10 @@
                 "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
             ],
             "details": {
-                "Fabric" : "Crepe",
-                "Sleeve Length" : "Sleeveless",
-                "Multipack" : 2
+                "Fabric" : "Cotton",
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 4.8,
             "seller_id": 10
@@ -1539,8 +1445,9 @@
             ],
             "details": {
                 "Fabric" : "Cotton",
-                "Combo of" : "Single",
-                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 3.6,
             "seller_id": 11
@@ -1558,9 +1465,10 @@
                 "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
             ],
             "details": {
-                "Fabric" : "Crepe",
-                "Sleeve Length" : "Sleeveless",
-                "Multipack" : 2
+                "Fabric" : "Cotton",
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 4.8,
             "seller_id": 12
@@ -1580,8 +1488,9 @@
             ],
             "details": {
                 "Fabric" : "Cotton",
-                "Combo of" : "Single",
-                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 1.6,
             "seller_id": 9
@@ -1604,9 +1513,10 @@
                 "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
             ],
             "details": {
-                "Fabric" : "Crepe",
-                "Sleeve Length" : "Sleeveless",
-                "Multipack" : 2
+                "Fabric" : "Cotton",
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 4.8,
             "seller_id": 10
@@ -1625,8 +1535,9 @@
             ],
             "details": {
                 "Fabric" : "Cotton",
-                "Combo of" : "Single",
-                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 3.6,
             "seller_id": 11
@@ -1644,9 +1555,10 @@
                 "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
             ],
             "details": {
-                "Fabric" : "Crepe",
-                "Sleeve Length" : "Sleeveless",
-                "Multipack" : 2
+                "Fabric" : "Cotton",
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 4.8,
             "seller_id": 12
@@ -1666,8 +1578,9 @@
             ],
             "details": {
                 "Fabric" : "Cotton",
-                "Combo of" : "Single",
-                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 1.6,
             "seller_id": 9
@@ -1690,9 +1603,10 @@
                 "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
             ],
             "details": {
-                "Fabric" : "Crepe",
-                "Sleeve Length" : "Sleeveless",
-                "Multipack" : 2
+                "Fabric" : "Cotton",
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 4.8,
             "seller_id": 10
@@ -1711,8 +1625,9 @@
             ],
             "details": {
                 "Fabric" : "Cotton",
-                "Combo of" : "Single",
-                "Sizes" : "XL (Bust Size : 38 in, Size Length: 38 in)"
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 3.6,
             "seller_id": 11
@@ -1730,9 +1645,10 @@
                 "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
             ],
             "details": {
-                "Fabric" : "Crepe",
-                "Sleeve Length" : "Sleeveless",
-                "Multipack" : 2
+                "Fabric" : "Cotton",
+                "Pattern" : "Single",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 4.8,
             "seller_id": 12
@@ -1747,8 +1663,9 @@
             "images": ["https://images.meesho.com/images/products/63508767/wukoz_512.jpg"],
             "details": {
                 "Fabric" : "Cotton",
-                "Sleeve Length" : "Long Sleeves",
-                "Multipack" : 1
+                "Pattern" : "Solid",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 4,
             "seller_id": 12
@@ -1907,8 +1824,9 @@
             "images": ["https://images.meesho.com/images/products/71379785/ctv0g_512.jpg"],
             "details": {
                 "Fabric" : "Cotton",
-                "Sleeve Length" : "Long Sleeves",
-                "Multipack" : 1
+                "Pattern" : "Solid",
+                "Multipack" : "XL (Bust Size : 38 in, Size Length: 38 in)",
+                "description":"Best quality Cotton from assam"
             },
             "rating": 3,
             "seller_id": 12
@@ -1922,11 +1840,10 @@
             "sizes": "Free Size",
             "images": ["https://images.meesho.com/images/products/70234561/cw8vv_512.jpg"],
             "details": {
-                "Type" : "Deodorant",
-                "Brand" : "19V69",
-                "Flavour" : "Apple Cider Vinegar",
-                "Add on" : "Perfume",
-                "Multipack" : 4
+                "Fabric" : "Deodrent",
+                "Pattern" : "Liquid Spray",
+                "Multipack" : "200ml",
+                "description":"Park Avenue Pvt Ltd"
             },
             "rating": 4.1,
             "seller_id": 12
@@ -1940,11 +1857,10 @@
             "sizes": "Free Size",
             "images": ["https://images.meesho.com/images/products/70702124/nwgmd_512.jpg"],
             "details": {
-                "Type" : "Deodorant",
-                "Brand" : "19V69",
-                "Flavour" : "Apple Cider Vinegar",
-                "Add on" : "Perfume",
-                "Multipack" : 4
+                "Fabric" : "Deodrent",
+                "Pattern" : "Liquid Spray",
+                "Multipack" : "200ml",
+                "description":"Park Avenue Pvt Ltd"
             },
             "rating": 5,
             "seller_id": 12
@@ -1958,11 +1874,10 @@
             "sizes": "Free Size",
             "images": ["https://images.meesho.com/images/products/70640576/4dwes_512.jpg"],
             "details": {
-                "Type" : "Deodorant",
-                "Brand" : "19V69",
-                "Flavour" : "Apple Cider Vinegar",
-                "Add on" : "Perfume",
-                "Multipack" : 4
+                "Fabric" : "Deodrent",
+                "Pattern" : "Liquid Spray",
+                "Multipack" : "200ml",
+                "description":"Park Avenue Pvt Ltd"
             },
             "rating": 3.6,
             "seller_id": 12
@@ -1976,11 +1891,10 @@
             "sizes": "Free Size",
             "images": ["https://images.meesho.com/images/products/61990959/gi0zg_512.jpg"],
             "details": {
-                "Type" : "Deodorant",
-                "Brand" : "19V69",
-                "Flavour" : "Apple Cider Vinegar",
-                "Add on" : "Perfume",
-                "Multipack" : 4
+                "Fabric" : "Deodrent",
+                "Pattern" : "Liquid Spray",
+                "Multipack" : "200ml",
+                "description":"Park Avenue Pvt Ltd"
             },
             "rating": 3.3,
             "seller_id": 12
@@ -1994,11 +1908,10 @@
             "sizes": "Free Size",
             "images": ["https://images.meesho.com/images/products/66514307/gr5gv_512.jpg"],
             "details": {
-                "Type" : "Deodorant",
-                "Brand" : "19V69",
-                "Flavour" : "Apple Cider Vinegar",
-                "Add on" : "Perfume",
-                "Multipack" : 4
+                "Fabric" : "Deodrent",
+                "Pattern" : "Liquid Spray",
+                "Multipack" : "200ml",
+                "description":"Park Avenue Pvt Ltd"
             },
             "rating": 4,
             "seller_id": 12
@@ -2012,11 +1925,10 @@
             "sizes": "Free Size",
             "images": ["https://images.meesho.com/images/products/71051073/c8nwu_512.jpg"],
             "details": {
-                "Type" : "Deodorant",
-                "Brand" : "19V69",
-                "Flavour" : "Apple Cider Vinegar",
-                "Add on" : "Perfume",
-                "Multipack" : 4
+                "Fabric" : "Deodrent",
+                "Pattern" : "Liquid Spray",
+                "Multipack" : "200ml",
+                "description":"Park Avenue Pvt Ltd"
             },
             "rating": 4.0,
             "seller_id": 12
@@ -2030,11 +1942,10 @@
             "sizes": "Free Size",
             "images": ["https://images.meesho.com/images/products/71030282/vbba3_512.jpg"],
             "details": {
-                "Type" : "Deodorant",
-                "Brand" : "19V69",
-                "Flavour" : "Apple Cider Vinegar",
-                "Add on" : "Perfume",
-                "Multipack" : 4
+                "Fabric" : "Deodrent",
+                "Pattern" : "Liquid Spray",
+                "Multipack" : "200ml",
+                "description":"Park Avenue Pvt Ltd"
             },
             "rating": 3.3,
             "seller_id": 12
@@ -2048,11 +1959,10 @@
             "sizes": "Free Size",
             "images": ["https://images.meesho.com/images/products/2668142/1_512.jpg"],
             "details": {
-                "Type" : "Deodorant",
-                "Brand" : "19V69",
-                "Flavour" : "Apple Cider Vinegar",
-                "Add on" : "Perfume",
-                "Multipack" : 4
+                "Fabric" : "Deodrent",
+                "Pattern" : "Liquid Spray",
+                "Multipack" : "200ml",
+                "description":"Park Avenue Pvt Ltd"
             },
             "rating": 3.5,
             "seller_id": 12
@@ -2066,11 +1976,10 @@
             "sizes": "Free Size",
             "images": ["https://images.meesho.com/images/products/61022657/ewsm4_512.jpg"],
             "details": {
-                "Type" : "Deodorant",
-                "Brand" : "19V69",
-                "Flavour" : "Apple Cider Vinegar",
-                "Add on" : "Perfume",
-                "Multipack" : 4
+                "Fabric" : "Deodrent",
+                "Pattern" : "Liquid Spray",
+                "Multipack" : "200ml",
+                "description":"Park Avenue Pvt Ltd"
             },
             "rating": 5,
             "seller_id": 12
@@ -2084,11 +1993,10 @@
             "sizes": "Free Size",
             "images": ["https://images.meesho.com/images/products/70867248/kuynn_512.jpg"],
             "details": {
-                "Type" : "Deodorant",
-                "Brand" : "19V69",
-                "Flavour" : "Apple Cider Vinegar",
-                "Add on" : "Perfume",
-                "Multipack" : 4
+                "Fabric" : "Deodrent",
+                "Pattern" : "Liquid Spray",
+                "Multipack" : "200ml",
+                "description":"Park Avenue Pvt Ltd"
             },
             "rating": 2.5,
             "seller_id": 12
@@ -2102,11 +2010,10 @@
             "sizes": "Free Size",
             "images": ["https://images.meesho.com/images/products/70586121/mxn5l_512.jpg"],
             "details": {
-                "Type" : "Deodorant",
-                "Brand" : "19V69",
-                "Flavour" : "Apple Cider Vinegar",
-                "Add on" : "Perfume",
-                "Multipack" : 4
+                "Fabric" : "Deodrent",
+                "Pattern" : "Liquid Spray",
+                "Multipack" : "200ml",
+                "description":"Park Avenue Pvt Ltd"
             },
             "rating": 4.0,
             "seller_id": 12
@@ -2120,11 +2027,10 @@
             "sizes": "Free Size",
             "images": ["https://images.meesho.com/images/products/59419044/fnkqp_512.jpg"],
             "details": {
-                "Type" : "Deodorant",
-                "Brand" : "19V69",
-                "Flavour" : "Apple Cider Vinegar",
-                "Add on" : "Perfume",
-                "Multipack" : 4
+                "Fabric" : "Deodrent",
+                "Pattern" : "Liquid Spray",
+                "Multipack" : "200ml",
+                "description":"Park Avenue Pvt Ltd"
             },
             "rating": 3.5,
             "seller_id": 12
@@ -2138,9 +2044,10 @@
             "sizes": ["IND-8","IND-9","IND-10","IND-12"],
             "images": ["https://images.meesho.com/images/products/71026958/6ajve_512.jpg"],
             "details": {
-                "Type" : "juti",
-                "Brand" : "Lether",
-                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+                "Fabric" : "Sweat Leather",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice",
+                "description":"ZARA pure Leather"
             },
             "rating": 2.5,
             "seller_id": 12
@@ -2154,9 +2061,10 @@
             "sizes": ["IND-8","IND-9","IND-10","IND-12"],
             "images": ["https://images.meesho.com/images/products/71006705/2ic9e_512.jpg"],
             "details": {
-                "Type" : "juti",
-                "Brand" : "Lether",
-                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+                "Fabric" : "Sweat Leather",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice",
+                "description":"ZARA pure Leather"
             },
             "rating": 4,
             "seller_id": 12
@@ -2170,9 +2078,10 @@
             "sizes": ["IND-8","IND-9","IND-10","IND-12"],
             "images": ["https://images.meesho.com/images/products/71046310/kycun_512.jpg","https://images.meesho.com/images/products/71046310/hl2cy_512.jpg","https://images.meesho.com/images/products/71046310/vg8x1_512.jpg"],
             "details": {
-                "Type" : "juti",
-                "Brand" : "Lether",
-                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+                "Fabric" : "Sweat Leather",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice",
+                "description":"ZARA pure Leather"
             },
             "rating": 99,
             "seller_id": 12
@@ -2186,9 +2095,10 @@
             "sizes": ["IND-8","IND-9","IND-10","IND-12"],
             "images": ["https://images.meesho.com/images/products/71022212/t0pnm_512.jpg","https://images.meesho.com/images/products/71022212/uyysv_512.jpg"],
             "details": {
-                "Type" : "juti",
-                "Brand" : "Lether",
-                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+                "Fabric" : "Sweat Leather",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice",
+                "description":"ZARA pure Leather"
             },
             "rating": 4.5,
             "seller_id": 12
@@ -2202,9 +2112,10 @@
             "sizes": ["IND-8","IND-9","IND-10","IND-12"],
             "images": ["https://images.meesho.com/images/products/71020315/funov_512.jpg","https://images.meesho.com/images/products/71020315/7rj1z_512.jpg","https://images.meesho.com/images/products/71020315/a96e7_512.jpg"],
             "details": {
-                "Type" : "juti",
-                "Brand" : "Lether",
-                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+                "Fabric" : "Sweat Leather",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice",
+                "description":"ZARA pure Leather"
             },
             "rating": 3.7,
             "seller_id": 12
@@ -2218,9 +2129,10 @@
             "sizes": ["IND-8","IND-9","IND-10","IND-12"],
             "images": ["https://images.meesho.com/images/products/71053557/7tu5k_512.jpg","https://images.meesho.com/images/products/71053557/xh80a_512.jpg","https://images.meesho.com/images/products/71053557/d7y7y_512.jpg"],
             "details": {
-                "Type" : "juti",
-                "Brand" : "Lether",
-                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+                "Fabric" : "Sweat Leather",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice",
+                "description":"ZARA pure Leather"
             },
             "rating": 4.2,
             "seller_id": 12
@@ -2234,9 +2146,10 @@
             "sizes": ["IND-8","IND-9","IND-10","IND-12"],
             "images": ["https://images.meesho.com/images/products/71029571/ulrdl_512.jpg"],
             "details": {
-                "Type" : "juti",
-                "Brand" : "Lether",
-                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+                "Fabric" : "Sweat Leather",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice",
+                "description":"ZARA pure Leather"
             },
             "rating": 3.5,
             "seller_id": 12
@@ -2250,9 +2163,10 @@
             "sizes": ["IND-8","IND-9","IND-10","IND-12"],
             "images": ["https://images.meesho.com/images/products/71053229/5fk3t_512.jpg"],
             "details": {
-                "Type" : "juti",
-                "Brand" : "Lether",
-                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+                "Fabric" : "Sweat Leather",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice",
+                "description":"ZARA pure Leather"
             },
             "rating": 3.6,
             "seller_id": 12
@@ -2266,9 +2180,10 @@
             "sizes": ["IND-8","IND-9","IND-10","IND-12"],
             "images": ["https://images.meesho.com/images/products/71051194/1fclf_512.jpg"],
             "details": {
-                "Type" : "juti",
-                "Brand" : "Lether",
-                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+                "Fabric" : "Sweat Leather",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice",
+                "description":"ZARA pure Leather"
             },
             "rating": 5,
             "seller_id": 12
@@ -2282,9 +2197,10 @@
             "sizes": ["IND-8","IND-9","IND-10","IND-12"],
             "images": ["https://images.meesho.com/images/products/70975736/rdjil_512.jpg"],
             "details": {
-                "Type" : "juti",
-                "Brand" : "Lether",
-                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+                "Fabric" : "Sweat Leather",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice",
+                "description":"ZARA pure Leather"
             },
             "rating": 3.5,
             "seller_id": 12
@@ -2298,9 +2214,10 @@
             "sizes": ["IND-8","IND-9","IND-10","IND-12"],
             "images": ["https://images.meesho.com/images/products/70992655/00aan_512.jpg"],
             "details": {
-                "Type" : "juti",
-                "Brand" : "Lether",
-                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+                "Fabric" : "Sweat Leather",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice",
+                "description":"ZARA pure Leather"
             },
             "rating": 4.2,
             "seller_id": 12
@@ -2314,9 +2231,10 @@
             "sizes": ["IND-8","IND-9","IND-10","IND-12"],
             "images": ["https://images.meesho.com/images/products/71008719/fbhox_512.jpg","https://images.meesho.com/images/products/71008719/vbuqu_512.jpg","https://images.meesho.com/images/products/71008719/hnr4t_512.jpg"],
             "details": {
-                "Type" : "juti",
-                "Brand" : "Lether",
-                "Pattern" : "Embellished Skin Friendly Bite Free And Pinch Free Premium Soft Leather And Best Quality Of Genuine Leather Lining Used In Crafting This Pure Leather Daily wear Casual Soft Jutis. Give your feet a new look and comfortable feel by wearing this Juttis. It is extremely good for any occasion like wedding, Engagement, traditional wear, Casual Wear, Office Wear etc. Use A Clean Shoe Polish Brush For Removing Any Dust And Dirt From The Surface. Avoid To Wearing In Rainy Days"
+                "Fabric" : "Sweat Leather",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice",
+                "description":"ZARA pure Leather"
             },
             "rating": 5.0,
             "seller_id": 12
@@ -2330,9 +2248,10 @@
             "sizes": ["Quen","Single bed","Dobble bed"],
             "images": ["https://images.meesho.com/images/products/23863364/2aaa1_512.jpg"],
             "details": {
-                "Type" : "Micro Fibel",
-                "Brand" : "Bomaby Dining",
-                "Pattern" : "sky line with dark shading"
+                "Fabric" : "Silk",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice with two pillow covers",
+                "description":"Bombay Dine"
             },
             "rating": 4.0,
             "seller_id": 12
@@ -2346,9 +2265,10 @@
             "sizes": ["Quen","Single bed","Dobble bed"],
             "images": ["https://images.meesho.com/images/products/16361047/2b30c_512.jpg"],
             "details": {
-                "Type" : "Micro Fibel",
-                "Brand" : "Bomaby Dining",
-                "Pattern" : "sky line with dark shading"
+                "Fabric" : "Silk",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice with two pillow covers",
+                "description":"Bombay Dine"
             },
             "rating": 4.5,
             "seller_id": 12
@@ -2362,9 +2282,10 @@
             "sizes": ["Quen","Single bed","Dobble bed"],
             "images": ["https://images.meesho.com/images/products/61232836/9gfeg_512.jpg"],
             "details": {
-                "Type" : "Micro Fibel",
-                "Brand" : "Bomaby Dining",
-                "Pattern" : "sky line with dark shading"
+                "Fabric" : "Silk",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice with two pillow covers",
+                "description":"Bombay Dine"
             },
             "rating": 3.0,
             "seller_id": 12
@@ -2378,9 +2299,10 @@
             "sizes": ["Quen","Single bed","Dobble bed"],
             "images": ["https://images.meesho.com/images/products/71036999/1cj49_512.jpg"],
             "details": {
-                "Type" : "Micro Fibel",
-                "Brand" : "Bomaby Dining",
-                "Pattern" : "sky line with dark shading"
+                "Fabric" : "Silk",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice with two pillow covers",
+                "description":"Bombay Dine"
             },
             "rating": 4.0,
             "seller_id": 12
@@ -2394,9 +2316,10 @@
             "sizes": ["Quen","Single bed","Dobble bed"],
             "images": ["https://images.meesho.com/images/products/71054096/skou8_512.jpg"],
             "details": {
-                "Type" : "Micro Fibel",
-                "Brand" : "Bomaby Dining",
-                "Pattern" : "sky line with dark shading"
+                "Fabric" : "Silk",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice with two pillow covers",
+                "description":"Bombay Dine"
             },
             "rating": 3.0,
             "seller_id": 12
@@ -2410,9 +2333,10 @@
             "sizes": ["Quen","Single bed","Dobble bed"],
             "images": ["https://images.meesho.com/images/products/71053569/vyjdf_512.jpg"],
             "details": {
-                "Type" : "Micro Fibel",
-                "Brand" : "Bomaby Dining",
-                "Pattern" : "sky line with dark shading"
+                "Fabric" : "Silk",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice with two pillow covers",
+                "description":"Bombay Dine"
             },
             "rating": 5.0,
             "seller_id": 12
@@ -2426,9 +2350,10 @@
             "sizes": ["Free Size"],
             "images": ["https://images.meesho.com/images/products/25323660/6ebe2_512.jpg"],
             "details": {
-                "Type" : "Micro Fibel",
-                "Brand" : "Bomaby Dining",
-                "Pattern" : "sky line with dark shading"
+                "Fabric" : "Silk",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice with two pillow covers",
+                "description":"Bombay Dine"
             },
             "rating": 3.0,
             "seller_id": 12
@@ -2442,9 +2367,10 @@
             "sizes": ["Free size"],
             "images": ["https://images.meesho.com/images/products/35623500/cuems_512.jpg"],
             "details": {
-                "Type" : "Micro Fibel",
-                "Brand" : "Bomaby Dining",
-                "Pattern" : "sky line with dark shading"
+                "Fabric" : "Silk",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice with two pillow covers",
+                "description":"Bombay Dine"
             },
             "rating": 4.5,
             "seller_id": 12
@@ -2458,9 +2384,10 @@
             "sizes": ["Free Size"],
             "images": ["https://images.meesho.com/images/products/3976995/1_512.jpg"],
             "details": {
-                "Type" : "Micro Fibel",
-                "Brand" : "Bomaby Dining",
-                "Pattern" : "sky line with dark shading"
+                "Fabric" : "Silk",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice with two pillow covers",
+                "description":"Bombay Dine"
             },
             "rating": 3.0,
             "seller_id": 12
@@ -2474,9 +2401,10 @@
             "sizes": ["Free Size"],
             "images": ["https://images.meesho.com/images/products/43456458/4l28f_512.jpg"],
             "details": {
-                "Type" : "Micro Fibel",
-                "Brand" : "Bomaby Dining",
-                "Pattern" : "sky line with dark shading"
+                "Fabric" : "Silk",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice with two pillow covers",
+                "description":"Bombay Dine"
             },
             "rating": 3.5,
             "seller_id": 12
@@ -2490,9 +2418,10 @@
             "sizes": ["Free Size"],
             "images": ["https://images.meesho.com/images/products/71022084/iesy9_512.jpg"],
             "details": {
-                "Type" : "Micro Fibel",
-                "Brand" : "Bomaby Dining",
-                "Pattern" : "sky line with dark shading"
+                "Fabric" : "Silk",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice with two pillow covers",
+                "description":"Bombay Dine"
             },
             "rating": 5.0,
             "seller_id": 12
@@ -2506,9 +2435,10 @@
             "sizes": ["Free Size"],
             "images": ["https://images.meesho.com/images/products/71043971/js0s9_512.jpg"],
             "details": {
-                "Type" : "Micro Fibel",
-                "Brand" : "Bomaby Dining",
-                "Pattern" : "sky line with dark shading"
+                "Fabric" : "Silk",
+                "Pattern" : "Star With Strips",
+                "Multipack" : "Single Pice with two pillow covers",
+                "description":"Bombay Dine"
             },
             "rating": 3.0,
             "seller_id": 12

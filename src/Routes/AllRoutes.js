@@ -7,18 +7,18 @@ const AllRoutes = ()=>{
     return (
         <>
                 
-                    <Route exact path="/">
-                        <Home/>
-                    </Route>
-                    <Route exact path="/cat">
-                        <Category/>
-                    </Route>
-                    <Route path="/cart">
-                        <CartRoutes />
-                    </Route>
-                    <Route exact path="/cart/:id">
-                        <Productadd/>
-                    </Route>
+            <Route exact path="/">
+                <Home/>
+            </Route>
+            <Route exact path="/cat">
+                <Category/>
+            </Route>
+            <Route exact path="/cart">
+                <CartRoutes />
+            </Route>
+            <Route exact path="/cart/:id">
+                <Productadd/>
+            </Route>
                 
         </>
     )

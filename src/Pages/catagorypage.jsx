@@ -6,7 +6,7 @@ import { getData } from "../Redux/action";
 import {Link} from 'react-router-dom';
 const Card = ({id,title,price,orignalPrice,url,rating})=>{
     return (
-        <Link to={`cart/${id}`}>
+        <Link style={{textDecoration: 'none'}} to={`cart/${id}`}>
         <div className={styles.card}>
             <div>
                 <img className={styles.cardimg} src={url}/>
