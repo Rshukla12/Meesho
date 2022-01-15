@@ -7,6 +7,9 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import { addToCart } from '../Redux/Cart/actions';
 import { useDispatch } from 'react-redux';
+import AddReactionIcon from '@mui/icons-material/AddReaction';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 const Productcard = ({ url, title, discountAmt, Amt, rate, d1, d2, d3, d4, handleClick }) => {
     return (
         <>
@@ -21,7 +24,7 @@ const Productcard = ({ url, title, discountAmt, Amt, rate, d1, d2, d3, d4, handl
                     <div className='left_big'>
                         <img src={url} />
                         <div className='left_big_p'>
-                            <button onClick={handleClick} className='Add_to_card'>Add To Cart</button>
+                            <button onClick={handleClick} className='Add_to_card'><ShoppingCartIcon style={{marginTop: '5px',marginRight:'10px'}}/>Add To Cart</button>
                             <hr />
                             <p>1 Similar Products</p>
                             <img className='small_image' src={url} />
@@ -31,8 +34,8 @@ const Productcard = ({ url, title, discountAmt, Amt, rate, d1, d2, d3, d4, handl
                 <div className='Right_side'>
                     <div className='first_box'>
                         <p>{title}</p>
-                        <p><span>&#8377;</span>{discountAmt}<strike>{Amt}</strike>  <a>{Math.floor(((Amt - discountAmt) / Amt) * 100)}%off</a></p>
-                        <p><LocalOfferIcon style={{ color: 'green', marginRight: '20px', marginTop: '5px' }} /><span>&#8377;</span> 40 OFF | Special Offer Applied</p>
+                        <p><span>&#8377;</span>{discountAmt}<strike>{Amt}</strike>  <a>{Math.floor(((Amt - discountAmt) / Amt) * 100)}%off</a><CheckCircleIcon style={{marginLeft:'10px',color:'teal'}}/></p>
+                        <p><LocalOfferIcon style={{ color: 'green', marginRight: '20px', marginTop: '5px' }} /><span>&#8377;</span> 40 OFF | Special Offer Applied <AddReactionIcon style={{color:'#F7C64B'}}/></p>
                         <p>Free Delivery</p>
                     </div>
                     <div className='second_box'>

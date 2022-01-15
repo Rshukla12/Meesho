@@ -1,7 +1,9 @@
 .complete_page{
  display: flex;
- width: 100%;
+ width: 95%;
+ margin: auto;
  margin-top: 10%;
+ gap:1rem;
 }
 
 .left_side{
@@ -25,16 +27,15 @@
 .left_big{
 width: 70%;
 height:780px ;
-border: 1px solid rgb(211, 204, 204);
 margin-left: 5%;
 margin-top: 5%;
-box-shadow: 4px 4px 9px grey;
 padding: 1rem;
 }
 .left_big img:nth-child(1) {
-    width: 90%;
+    width: 95%;
     height:70%;
-    border:1px solid  white;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 4px;
 }
 .left_big_p{
     width: 100%;
@@ -53,10 +54,11 @@ padding: 1rem;
  margin-top: 6%;
  margin-bottom: 3%;
  background-color: rgb(244,51,151);
- color: papayawhip;
+ color: white;
  border-radius: 5px;
  font-size: larger;
  border: 1px solid rgb(211, 204, 204);
+ padding-top: 0rem;
 }
 .small_image{
     margin-right: 75%;
@@ -73,12 +75,13 @@ padding:1rem;
  
  font-size: large;
  border: 1px solid rgb(230, 223, 223);
- width: 56%;
+ width: 60%;
  height: 15%;
  margin-left: 10%;
  margin-top: 5%;
  padding:1rem;
  text-align: left;
+ border-radius: 4px;
 }
 .first_box>p:nth-child(1){
     color: grey;
@@ -88,38 +91,44 @@ padding:1rem;
  font-size: 30px;
  font-weight: 600;
  letter-spacing: .5px;
- width: 50%;
+ width: 80%;
  margin-top: 2%;
  margin-left: -9px;
 }
 .first_box>p:nth-child(2)>strike{
     font-size: 20px;
     color: grey;
-    margin-left: 1rem;
+    margin-left: 1.1rem;
 }
 .first_box>p:nth-child(2)>a{
     color: green;
     font-size: 20px;
+    margin-left: 1.1rem;
 }
 .first_box>p:nth-child(3){
     font-size: 15px;
   margin-left: 0%;
-    width: 50%;
+    width: 80%;
     margin-top: 2%;
     letter-spacing: .5px;
     color: grey;
 }
 .first_box>p:nth-child(4){
+    height: 25px;
+    padding-top: 2px;
+    padding-left: 10px;
+    border-radius:10px;
+    background-color: #F9F9F9;
+    color:#666666;
     font-size: 14px;
-    text-align: left;
-    color: grey;
-    margin-top: 10px;
-   
+    width: 25%;
+    margin-top: 20px;
 }
 .second_box{
     font-size: large;
     border: 1px solid rgb(230, 223, 223);
-    width: 56%;
+    border-radius: 4px;
+    width: 60%;
     height: 10%;
     margin-left: 10%;
     margin-top: 2%;
@@ -131,29 +140,28 @@ padding:1rem;
     font-size: 20px;
 }
 .second_box>button{
-    width: 20%;
-    height: 25%;
+    width: 25%;
+    height: 35%;
     margin-top:20px;
     margin-right: 79%;
     border-radius:20px;
     font-size: 15px;
-
+    background-color:#FDE9F2;
+    border: 1px solid #F433A3;
+    color: #F433A3;
+    font-weight: bold;
 }
 .third_box{
     padding: 1rem;
     font-size: large;
     border: 1px solid rgb(230, 223, 223);
-    width: 56%;
-    height: 22%;
+    width: 60%;
+    height: 20%;
     margin-left: 10%;
     margin-top: 3%;
     line-height:29px;
     text-align: left;
-}
-.third_box>p{
-    font-size: 20px;
-    word-spacing: 2px;
-   text-align: left;
+    border-radius: 4px;
 }
 .third_box>p:nth-child(1){
     font-size: 20px;
@@ -161,47 +169,44 @@ padding:1rem;
     text-align: left;
 }
 .third_box>p:nth-child(2){
-    color: grey;
+    color : rgb(102, 102, 102);
     margin-top: 7%;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .third_box>p:nth-child(3){
-    color: grey;
-    font-size: 20px;
+    color : rgb(102, 102, 102);
+    font-size: 16px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .third_box>p:nth-child(4){
-    color: grey;
-    width: 55%;
-    font-size: 20px;
+    color : rgb(102, 102, 102);
+    font-size: 16px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .third_box>p:nth-child(5){
-    color: grey;
-    font-size: 20px;
+    color : rgb(102, 102, 102);
+    font-size: 16px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .third_box>p:nth-child(6){
-    color: grey;
-    font-weight: bold;
-    font-size: 20px;
-}
-.third_box>p:nth-child(7){
-    color: grey;
-    width: 70%;
-}
-.third_box>p:nth-child(8){
-    color: grey;
-}
-.third_box>p:nth-child(9){
-    color: grey;
-    margin-left: -15px;
-    width: 100%;
+    color : rgb(102, 102, 102);
+    font-size: 16px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .fourth_box{
     font-size: large;
     padding: 1rem;
     border: 1px solid rgb(236, 225, 225);
     margin-top:2% ;
-    width: 56%;
+    width: 60%;
     margin-left: 10%;
+    border-radius: 4px;
 }
 .fourth_box>p{
     margin-bottom: 10px;
@@ -239,6 +244,7 @@ padding:1rem;
 .rating{
     display: flex; 
     margin-top: 10px;
+    border-radius: 4px;
 }
 .rating >p{
    margin: -5px 15px 13px 18px;

@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import styles from "./catagorypage.module.css";
 import React from "react";
 import { useDispatch } from "react-redux";
@@ -20,15 +21,18 @@ const Card = ({id,title,price,orignalPrice,url,rating})=>{
                     <div className={styles.discountprice}>&#x20b9;{orignalPrice}</div>
                     <div className={styles.discount}>{Math.floor(((orignalPrice-price)/orignalPrice)*100)}%off</div>
                 </div>
-                <div>
+                <div style={{color:'#999999'}}>
                     <i className='fas' style={{fontSize:'24px',color:'#5585F8',margin:'10px'}}>&#xf02c;</i>   &#x20b9;{orignalPrice-price} discount on 1st order
                 </div>
                 <div className={styles.free}>
                     Free Delivery
                 </div>
-                <div className={styles.rating}>
+                <div style={{display:"flex",justifyContent:'space-between'}}>
+                    <div className={styles.rating}>
                     <span className="fa fa-star checked"></span>
                     {rating}
+                    </div>
+                    <AddShoppingCartIcon style={{marginTop:'8px',color:'#5585F8'}}/>
                 </div>
             </div>
         </div>
