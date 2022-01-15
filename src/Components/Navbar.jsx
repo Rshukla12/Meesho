@@ -106,8 +106,12 @@ const NavBar = () => {
                                         <p>Download App</p>
                                         <div className={styles.dropdownContent}>
                                             <h5>Downlaod From</h5>
-                                            <img className={styles.appBtn} src="https://images.meesho.com/images/pow/homepage/google-play-button.jpg" alt="google play btn" />
-                                            <img className={styles.appBtn} src="https://images.meesho.com/images/pow/homepage/appstore-button.jpg" alt="app store btn" />
+                                            <a href="https://play.google.com/store/apps/details?id=com.meesho.supply&pid=pow_website&c=pow" target="_blank">
+                                                <img className={styles.appBtn} src="https://images.meesho.com/images/pow/homepage/google-play-button.jpg" alt="google play btn" />
+                                            </a>
+                                            <a href="https://apps.apple.com/us/app/meesho/id1457958492" target="_blank">
+                                                <img className={styles.appBtn} src="https://images.meesho.com/images/pow/homepage/appstore-button.jpg" alt="app store btn" />
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
