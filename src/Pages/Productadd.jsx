@@ -20,9 +20,8 @@ const Productcard = ({ url, title, discountAmt, Amt, rate, d1, d2, d3, d4, handl
                     </div>
                     <div className='left_big'>
                         <img src={url} />
-                        <button onClick={handleClick} className='Add_to_card'>Add To Cart</button>
                         <div className='left_big_p'>
-                            <button className='Add_to_card'>Add To Cart</button>
+                            <button onClick={handleClick} className='Add_to_card'>Add To Cart</button>
                             <hr />
                             <p>1 Similar Products</p>
                             <img className='small_image' src={url} />
