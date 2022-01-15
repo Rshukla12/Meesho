@@ -1,6 +1,7 @@
 .complete_page{
  display: flex;
  width: 100%;
+ margin-top: 10%;
 }
 
 .left_side{
@@ -13,6 +14,9 @@
  margin-left: 15%;
  margin-top: 10%;
 }
+.left_small img:hover{
+    border: 1px solid rgb(244,51,151);
+}
 
 .left_big{
 width: 70%;
@@ -20,7 +24,11 @@ height:73% ;
 border: 1px solid rgb(211, 204, 204);
 margin-left: 5%;
 margin-top: 5%;
-box-shadow: 2px 2px 5px grey;
+box-shadow: 4px 4px 9px grey;
+}
+.left_big img:nth-child(1) {
+    width: 100%;
+    height:100%;
 }
 .left_big p{
     margin-right: 65%;
@@ -46,17 +54,18 @@ box-shadow: 2px 2px 5px grey;
 }
 .Right_side{
 width: 50%;
+padding:1rem;
 }
 
 .first_box{
  
  font-size: large;
  border: 1px solid rgb(230, 223, 223);
- width: 60%;
+ width: 56%;
  height: 15%;
  margin-left: 10%;
  margin-top: 5%;
- 
+ padding:1rem;
 }
 .first_box>p:nth-child(1){
     color: grey;
@@ -68,12 +77,13 @@ width: 50%;
  font-weight: 600;
  letter-spacing: .5px;
  width: 50%;
- margin-top: -2%;
+ margin-top: 2%;
  margin-left: -9px;
 }
 .first_box>p:nth-child(2)>strike{
-    font-size: 15px;
+    font-size: 20px;
     color: grey;
+    margin-left: 1rem;
 }
 .first_box>p:nth-child(2)>a{
     color: green;
@@ -81,77 +91,75 @@ width: 50%;
 }
 .first_box>p:nth-child(3){
     font-size: 15px;
-  margin-left: -0%;
+  margin-left: 0%;
     width: 50%;
-    margin-top: -2%;
+    margin-top: 2%;
     letter-spacing: .5px;
     color: grey;
 }
 .first_box>p:nth-child(4){
-    font-size: 10px;
-    margin-right: 79%;
+    font-size: 14px;
+    text-align: left;
     color: grey;
+    margin-top: 10px;
    
 }
 .second_box{
     font-size: large;
     border: 1px solid rgb(230, 223, 223);
-    width: 60%;
+    width: 56%;
     height: 10%;
     margin-left: 10%;
     margin-top: 2%;
-
+    padding:1rem;
 }
 .second_box>p{
-    margin-right: 79%; 
+    text-align: left;
     font-weight: 600;
     font-size: 20px;
 }
 .second_box>button{
     width: 20%;
     height: 25%;
+    margin-top:20px;
     margin-right: 79%;
     border-radius:20px;
-    font: size 15px;
+    font-size: 15px;
 
 }
 .third_box{
+    padding: 1rem;
     font-size: large;
     border: 1px solid rgb(230, 223, 223);
-    width: 60%;
+    width: 56%;
     height: 22%;
     margin-left: 10%;
     margin-top: 3%;
-
+    line-height:25px;
 }
 .third_box>p{
     font-size: 15px;
     word-spacing: 2px;
-    line-height: 9px;
-   
+   text-align: left;
 }
 .third_box>p:nth-child(1){
     font-size: 20px;
     font-weight: 600;
-    margin-right: 280px;
+    text-align: left;
 }
 .third_box>p:nth-child(2){
-color: grey;
-margin-right: 320px;
-margin-top: 7%;
+    color: grey;
+    margin-top: 7%;
 }
 .third_box>p:nth-child(3){
     color: grey;
-    margin-right: 320px;
 }
 .third_box>p:nth-child(4){
     color: grey;
-    margin-right: 320px;
     width: 55%;
 }
 .third_box>p:nth-child(5){
     color: grey;
-    margin-right: 350px;
 }
 .third_box>p:nth-child(6){
     color: grey;
@@ -159,12 +167,10 @@ margin-top: 7%;
 }
 .third_box>p:nth-child(7){
     color: grey;
-    margin-right: 350px;
     width: 70%;
 }
 .third_box>p:nth-child(8){
     color: grey;
-    margin-right: 410px;
 }
 .third_box>p:nth-child(9){
     color: grey;
@@ -173,10 +179,10 @@ margin-top: 7%;
 }
 .fourth_box{
     font-size: large;
-    
+    padding: 1rem;
     border: 1px solid rgb(236, 225, 225);
     margin-top:2% ;
-    width: 60%;
+    width: 56%;
     margin-left: 10%;
 }
 .fourth_box>p{

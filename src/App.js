@@ -1,7 +1,6 @@
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import { Product_add } from './Pages/Product_add';
 import { Product_detail } from './Pages/Product_detail';
 import { Otp } from './Pages/Otp';
 import {SignUp } from './Pages/SignUp';
