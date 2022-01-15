@@ -13,7 +13,7 @@ import CartPayment from "../../Components/Cart Components/CartPayment";
 import AddressCard from "../../Components/Cart Components/AddressCard";
 
 const SummaryPage = () => {
-    const { cart, margin, address, stage } = useSelector(state => state, shallowEqual);
+    const { cart, margin, address, stage } = useSelector(state => state.cart, shallowEqual);
     const dispatch = useDispatch();
     const history = useHistory();
     

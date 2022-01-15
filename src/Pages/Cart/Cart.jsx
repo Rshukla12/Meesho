@@ -11,7 +11,7 @@ import priceDetailsStyles from "../../Components/Cart Components/PriceDetails.mo
 import { useHistory } from "react-router-dom";
 
 const Cart = () => {
-    const { cart, stage } = useSelector(state => state, shallowEqual);
+    const { cart, stage } = useSelector(state => state.cart, shallowEqual);
     const dispatch = useDispatch();
     
     const history = useHistory();
@@ -36,9 +36,9 @@ const Cart = () => {
             {
                 cart.length === 0 ? (
                     <div className={styles.empty}>
-                        <img src="https://meesho.com/assets/Checkout/empty-cart.png" alt="empty-cart" />
-                        <p>Your cart is empty</p>
-                        <button style={{ padding: "1rem 2rem" }} className={priceDetailsStyles.continue}> View Products </button>
+                        <img style={{ marginTop: "2rem"}} src="https://meesho.com/assets/Checkout/empty-cart.png" alt="empty-cart" />
+                        <p style={{ marginTop: "3rem"}}>Your cart is empty</p>
+                        <button style={{ padding: "1rem 2rem", marginTop: "2rem" }} className={priceDetailsStyles.continue}> View Products </button>
                     </div>
                 ) : (
                     <div className={styles.main}>

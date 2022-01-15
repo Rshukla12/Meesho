@@ -1,18 +1,35 @@
 import { Route, Switch } from "react-router-dom"
-import Category from "../Pages/catagorypage"
-import Home from "../Pages/home";
 import { createBrowserHistory } from 'history';
 import CartRoutes from "./CartRoutes";
+import NavBar from "../Components/Navbar";
+import Home from "../Pages/home";
+import Category from "../Pages/catagorypage"
+import { SignUp } from "../Pages/SignUp";
+import { Product_add } from "../Pages/Product_add";
+import { Otp } from "../Pages/Otp";
+
 const newHistory = createBrowserHistory();
 const AllRoutes = ()=>{
     return (
         <>
                 <Switch>
                     <Route exact path="/">
+                        <NavBar />
                         <Home/>
                     </Route>
                     <Route exact={true} path="/cat">
+                        <NavBar/>
                         <Category/>
+                    </Route>
+                    <Route exact={true} path="/signup">
+                        <SignUp />
+                    </Route>
+                    <Route exact={true} path="/otp">
+                        <Otp />
+                    </Route>
+                    <Route exact={true} path="/product/:id">
+                        <NavBar/>
+                        <Product_add />
                     </Route>
                     <Route path="/cart">
                         <CartRoutes />

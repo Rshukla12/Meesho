@@ -11,7 +11,7 @@ import { Redirect } from "react-router-dom";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 const CheckoutPage = () => {
-    const { cart, stage } = useSelector(state => state, shallowEqual);
+    const { cart, stage } = useSelector(state => state.cart, shallowEqual);
     const dispatch = useDispatch();
     const history = useHistory();
 
