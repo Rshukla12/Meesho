@@ -4,7 +4,9 @@ import Rating from '@mui/material/Rating';
 import Stack from '@mui/material/Stack';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-const Productcard = ({url,title,discountAmt,Amt,rate,d1,d2,d3,d4}) => {
+import { addToCart } from '../Redux/Cart/actions';
+import { useDispatch } from 'react-redux';
+const Productcard = ({url,title,discountAmt,Amt,rate,d1,d2,d3,d4, handleClick}) => {
     return (
         <>
           <div className='complete_page'>
@@ -17,7 +19,7 @@ const Productcard = ({url,title,discountAmt,Amt,rate,d1,d2,d3,d4}) => {
                </div>
                <div className='left_big'>
                    <img src={url}/>
-                   <button className='Add_to_card'>Add To Cart</button>
+                   <button onClick={handleClick} className='Add_to_card'>Add To Cart</button>
                    <hr/>
                    <p>1 Similar Products</p>
                    
@@ -90,6 +92,7 @@ const Productcard = ({url,title,discountAmt,Amt,rate,d1,d2,d3,d4}) => {
     )
 }
 export const Productadd = () => {
+    const dispatch = useDispatch();
     const {id} = useParams();
     const [data,setData] = React.useState(null);
     React.useEffect(()=>{
@@ -104,7 +107,7 @@ export const Productadd = () => {
     },[id])
     return (
         data?(
-        <Productcard key={data[0]?.id}  title={data[0]?.title} discountAmt={data[0]?.discounted_price} Amt={data[0]?.original_price} url={data[0]?.images[0]} rating={data[0]?.rating} d1={data[0]?.details.Fabric} d2={data[0]?.details.Pattern} d3={data[0]?.details.Multipack} d4={data[0]?.details.description}/>
+        <Productcard handleClick={()=>dispatch(addToCart(data[0]))} key={data[0]?.id}  title={data[0]?.title} discountAmt={data[0]?.discounted_price} Amt={data[0]?.original_price} url={data[0]?.images[0]} rating={data[0]?.rating} d1={data[0]?.details.Fabric} d2={data[0]?.details.Pattern} d3={data[0]?.details.Multipack} d4={data[0]?.details.description}/>
         ):(<div></div>)
     )   
 }

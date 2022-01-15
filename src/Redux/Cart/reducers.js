@@ -28,7 +28,31 @@ const initCart = {
             "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
         },
         "rating": 3.9,
-        "seller_id": 1 
+        "seller_id": 1,
+        "qty": 2
+    },
+    {
+        "id": 3,
+        "category": "Sarees",
+        "title": "Kanchipuram Silk Orange Saree",
+        "original_price" : 676,
+        "discounted_price": 576,
+        "sizes": [
+            "Free Size"
+        ],
+        "images": [
+            "https://images.meesho.com/images/products/71051237/kugr5_64.jpg",
+            "https://images.meesho.com/images/products/71051237/bzflu_64.jpg"
+        ],
+        "details": {
+            "Fabric" : "Chiffon",
+            "Pattern" : "Self Design",
+            "Multipack" : "Single",
+            "Description": "Best qaualtiy "
+        },
+        "rating": 2.9,
+        "seller_id": 3,
+        "qty": 1 
     }],
     orders: orders,
     currentOrder: {},

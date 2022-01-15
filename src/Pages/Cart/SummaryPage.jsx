@@ -11,6 +11,11 @@ import { useHistory } from "react-router-dom";
 import CartDetails from "../../Components/Cart Components/CartDetails";
 import CartPayment from "../../Components/Cart Components/CartPayment";
 import AddressCard from "../../Components/Cart Components/AddressCard";
+import { Alert, Slide, Snackbar } from "@mui/material";
+
+function TransitionDown(props) {
+    return <Slide {...props} direction="down" />;
+}
 
 const SummaryPage = () => {
     const { cart, margin, address, stage } = useSelector(state => state.cart, shallowEqual);
@@ -18,7 +23,8 @@ const SummaryPage = () => {
     const history = useHistory();
     
     const [ total, setTotal ] = useState( 0 );
-    
+    const [open, setOpen] = useState(false);
+
     const handleContinue = () => {
         dispatch( changeCheckoutStage( 1 ) );
         dispatch( orderSuccessful() );
@@ -37,33 +43,38 @@ const SummaryPage = () => {
     return (
         <div className={styles.root}>
             <CartNavbar active={stage} />
-                <div className={styles.main}>
-                    <div className={styles.summary}>
-                        <CartDetails isSummary={true} cart={cart} />
-                        { address[0] && (
-                            <>
-                                <div style={{textAlign:"left", fontSize: "1.2rem", margin: "1rem 0rem"}}>
-                                    Address Details
-                                </div>
-                                <AddressCard add={address[0]} /> 
-                            </>
-                        )}
-                        <CartPayment isSummary={true} />
-                    </div>
-                    
-                    <div className={styles.priceBar}>
-                        <PriceDetails
-                            totalPrice={total}
-                            delivery={0}
-                            cod={0}
-                            first={true}
-                            isContinue={true}
-                            onContinue={handleContinue}
-                            margin={margin}
-                            cash={true}
-                        />
-                    </div>
+            <div className={styles.main}>
+                <div className={styles.summary}>
+                    <CartDetails isSummary={true} cart={cart} />
+                    { address[0] && (
+                        <>
+                            <div style={{textAlign:"left", fontSize: "1.2rem", margin: "1rem 0rem"}}>
+                                Address Details
+                            </div>
+                            <AddressCard add={address[0]} /> 
+                        </>
+                    )}
+                    <CartPayment isSummary={true} />
                 </div>
+                
+                <div className={styles.priceBar}>
+                    <PriceDetails
+                        totalPrice={total}
+                        delivery={0}
+                        cod={0}
+                        first={true}
+                        isContinue={true}
+                        onContinue={()=>setOpen(true)}
+                        margin={margin}
+                        cash={true}
+                    />
+                </div>
+            </div>
+            <Snackbar open={open}  TransitionComponent={TransitionDown} anchorOrigin={{ vertical: 'top', horizontal: 'center'} } autoHideDuration={2000} onClose={handleContinue}>
+                <Alert onClose={handleContinue} severity="success" sx={{ width: '100%', minWidth: "30rem" }}>
+                    Order Placed Successfully!
+                </Alert>
+            </Snackbar>
         </div>
     )
 };
