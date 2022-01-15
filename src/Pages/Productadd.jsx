@@ -2,74 +2,77 @@ import React from 'react'
 import "./Product_add.css"
 import Rating from '@mui/material/Rating';
 import Stack from '@mui/material/Stack';
+import LocalOfferIcon from '@mui/icons-material/LocalOffer';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import { addToCart } from '../Redux/Cart/actions';
 import { useDispatch } from 'react-redux';
-const Productcard = ({url,title,discountAmt,Amt,rate,d1,d2,d3,d4, handleClick}) => {
+const Productcard = ({ url, title, discountAmt, Amt, rate, d1, d2, d3, d4, handleClick }) => {
     return (
         <>
-          <div className='complete_page'>
-              <div className='left_side'>
-               <div className='left_small'>
-                <img src={url}/>
-                <img src={url}/>
-                <img src={url}/>
-                <img src={url}/>
-               </div>
-               <div className='left_big'>
-                   <img src={url}/>
-                   <button onClick={handleClick} className='Add_to_card'>Add To Cart</button>
-                   <hr/>
-                   <p>1 Similar Products</p>
-                   
-                   <img className='small_image' src='https://images.meesho.com/images/products/71525367/0aqnh_64.jpg'/>
-               </div>
-              </div>
-              <div className='Right_side'>
-                <div className='first_box'>
-                    <p>{title}</p>
-                    <p><span>&#8377;</span>{discountAmt}<strike>{Amt}</strike>  <a>{Math.floor(((Amt-discountAmt)/Amt)*100)}%off</a></p>
-                    <p><span>&#8377;</span>40 OFF | Special Offer Applied</p>
-                    <p>Free Delivery</p>
+            <div className='complete_page'>
+                <div className='left_side'>
+                    <div className='left_small'>
+                        <img src={url} />
+                        <img src={url} />
+                        <img src={url} />
+                        <img src={url} />
+                    </div>
+                    <div className='left_big'>
+                        <img src={url} />
+                        <button onClick={handleClick} className='Add_to_card'>Add To Cart</button>
+                        <div className='left_big_p'>
+                            <button className='Add_to_card'>Add To Cart</button>
+                            <hr />
+                            <p>1 Similar Products</p>
+                            <img className='small_image' src={url} />
+                        </div>
+                    </div>
                 </div>
-                <div className='second_box'>
-                    <p>Select Size</p>
-                    <button>Free Size</button>
-                </div>
-                <div className='third_box'>
-                    <p>Product Details</p>
-                    <p>Material : {d1}</p>
-                    <p>Sole : {d2} PVC</p>
-                    <p>Best Before 2023</p>
-                    <p>Multipack : {d3}</p>
-                    <p>Dscription :{d4}</p>
-              </div>
-              <div className='fourth_box'>
-                  <p>Sold By</p>
-                  <div className='fourth_mid_box'>
-                      <img src='data:image/png;base64,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' alt='logo'/>
-                      <p>NIBBLE SHOES</p>
-                      <button>View Shop</button>
-                  </div>
-                  <div className='rating'>
-                      <p>Ratings</p>
-                      <Stack spacing={1}>
-      <Rating className="size-small" defaultValue={rate} size="small" />
-                      </Stack>
-                  </div>
+                <div className='Right_side'>
+                    <div className='first_box'>
+                        <p>{title}</p>
+                        <p><span>&#8377;</span>{discountAmt}<strike>{Amt}</strike>  <a>{Math.floor(((Amt - discountAmt) / Amt) * 100)}%off</a></p>
+                        <p><LocalOfferIcon style={{ color: 'green', marginRight: '20px', marginTop: '5px' }} /><span>&#8377;</span> 40 OFF | Special Offer Applied</p>
+                        <p>Free Delivery</p>
+                    </div>
+                    <div className='second_box'>
+                        <p>Select Size</p>
+                        <button>Free Size</button>
+                    </div>
+                    <div className='third_box'>
+                        <p>Product Details</p>
+                        <p>Material : {d1}</p>
+                        <p>Sole : {d2} PVC</p>
+                        <p>Best Before 2023</p>
+                        <p>Multipack : {d3}</p>
+                        <p>Dscription :{d4}</p>
+                    </div>
+                    <div className='fourth_box'>
+                        <p>Sold By</p>
+                        <div className='fourth_mid_box'>
+                            <img src='data:image/png;base64,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' alt='logo' />
+                            <p>NIBBLE SHOES</p>
+                            <button>View Shop</button>
+                        </div>
+                        <div className='rating'>
+                            <p>Ratings</p>
+                            <Stack spacing={1}>
+                                <Rating className="size-small" defaultValue={rate} size="small" />
+                            </Stack>
+                        </div>
 
-              </div>
-              </div>
-              </div>  
-              {/* Footer */}
-              <div className="banner5">
+                    </div>
+                </div>
+            </div>
+            {/* Footer */}
+            <div className="banner5">
                 <div className="banner5tbox">
                     <h4>Shop Non-Stop on Meesho</h4>
                     <p>Trusted by more than 1 Crore Indians
                         Cash on Delivery | Free Delivery
                     </p>
-                    <img src="https://meesho.com/_next/static/images/appstore-button-4b171cf04fe0557718dfd2cbf309c61d.png"/>
+                    <img src="https://meesho.com/_next/static/images/appstore-button-4b171cf04fe0557718dfd2cbf309c61d.png" />
                 </div>
                 <div>
                     <h4>Careers</h4>
@@ -85,7 +88,7 @@ const Productcard = ({url,title,discountAmt,Amt,rate,d1,d2,d3,d4, handleClick}) 
                 </div>
                 <div>
                     <h4>Reach out to us</h4>
-                    <img src="https://meesho.com/assets/instagram.png"/>
+                    <img src="https://meesho.com/assets/instagram.png" />
                 </div>
             </div>
         </>
@@ -93,21 +96,21 @@ const Productcard = ({url,title,discountAmt,Amt,rate,d1,d2,d3,d4, handleClick}) 
 }
 export const Productadd = () => {
     const dispatch = useDispatch();
-    const {id} = useParams();
-    const [data,setData] = React.useState(null);
-    React.useEffect(()=>{
+    const { id } = useParams();
+    const [data, setData] = React.useState(null);
+    React.useEffect(() => {
         const config = {
             method: 'get',
             url: `http://localhost:3001/products?id=${id}`
         }
         axios(config)
-        .then((res)=>{
-            setData(res.data);
-        })
-    },[id])
+            .then((res) => {
+                setData(res.data);
+            })
+    }, [id])
     return (
-        data?(
-        <Productcard handleClick={()=>dispatch(addToCart(data[0]))} key={data[0]?.id}  title={data[0]?.title} discountAmt={data[0]?.discounted_price} Amt={data[0]?.original_price} url={data[0]?.images[0]} rating={data[0]?.rating} d1={data[0]?.details.Fabric} d2={data[0]?.details.Pattern} d3={data[0]?.details.Multipack} d4={data[0]?.details.description}/>
-        ):(<div></div>)
-    )   
+        data ? (
+            <Productcard handleClick={() => dispatch(addToCart(data[0]))} key={data[0]?.id} title={data[0]?.title} discountAmt={data[0]?.discounted_price} Amt={data[0]?.original_price} url={data[0]?.images[0]} rating={data[0]?.rating} d1={data[0]?.details.Fabric} d2={data[0]?.details.Pattern} d3={data[0]?.details.Multipack} d4={data[0]?.details.description} />
+        ) : (<div></div>)
+    )
 }

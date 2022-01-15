@@ -121,7 +121,9 @@ const NavBar = () => {
                                         <div className={styles.profileContent}>
                                             <p style={{ fontSize: "18px", marginBlockStart: "0.5em", marginBlockEnd: "0.2em", fontWeight: "bold" }}>Hello User</p>
                                             <p style={{ fontSize: "12px", marginBlockEnd: "0.5em" }}>To access your Meesho account</p>
+                                            <Link to="/signup">
                                             <SignUpButton variant="contained">SIGN UP</SignUpButton>
+                                            </Link>
                                             <div className={styles.dividerLines}></div>
                                             <h4 style={{ alignItems: "center" }}><ShoppingBagIcon fontSize="medium" />My Orders</h4>
 
