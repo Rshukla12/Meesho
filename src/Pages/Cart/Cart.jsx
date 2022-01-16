@@ -38,7 +38,7 @@ const Cart = () => {
                     <div className={styles.empty}>
                         <img style={{ marginTop: "2rem"}} src="https://meesho.com/assets/Checkout/empty-cart.png" alt="empty-cart" />
                         <p style={{ marginTop: "3rem"}}>Your cart is empty</p>
-                        <button style={{ padding: "1rem 2rem", marginTop: "2rem" }} className={priceDetailsStyles.continue}> View Products </button>
+                        <button onClick={()=>{window.location.replace("/")}} style={{ padding: "1rem 2rem", marginTop: "2rem" }} className={priceDetailsStyles.continue}> View Products </button>
                     </div>
                 ) : (
                     <div className={styles.main}>
