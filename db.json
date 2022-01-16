@@ -1839,13 +1839,13 @@
             "seller_id": 12
         },
         {
-            "id": 83,
+            "id": 84,
             "category": "Mens Top Were",
             "title": "Trendy Moderice",
             "original_price" : 500,
             "discounted_price": 300,
             "sizes": ["M","L","XL"],
-            "images": ["https://images.meesho.com/images/products/72030057/xaors_512.jpg"],
+            "images": ["https://images.meesho.com/images/products/72154709/zmdzd_512.jpg"],
             "details": {
                 "Fabric" : "Cotton",
                 "Pattern" : "Solid",
@@ -2012,6 +2012,7 @@
             "id": 93,
             "category": "Beauty and health",
             "title": "nail paint",
+            "original_price":"120",
             "discounted_price": 60,
             "sizes": "Free Size",
             "images": ["https://images.meesho.com/images/products/70867248/kuynn_512.jpg"],
