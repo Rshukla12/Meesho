@@ -1,5 +1,5 @@
 import styles from "./navbar.module.css";
-import React from "react";
+import LogoutRoundedIcon from '@mui/icons-material/LogoutRounded';import React from "react";
 import SearchIcon from '@mui/icons-material/Search';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
@@ -16,6 +16,7 @@ import { getQuery } from "../Redux/action";
 import { useSelector } from "react-redux";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import NavbarFloat from "./NavbarFloat";
+import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
 const NavBar = () => {
     const dispatch = useDispatch();
     const [params, setParms] = React.useState(null);
@@ -24,7 +25,7 @@ const NavBar = () => {
     const [cartTotal, setCartTotal] = React.useState(0);
     const { cart } = useSelector(state=>state.cart, shallowEqual);
     const history = useHistory();
-
+    const getNumber = localStorage.getItem("phone")
     const GetItem = () => {
         const data = [];
         for (var i = localStorage.length - 2; i >= 2; i--) {
@@ -82,6 +83,10 @@ const NavBar = () => {
             boxShadow: 'none',
         },
     });
+    const logout = ()=>{
+        localStorage.clear();
+        window.location.replace("/")
+    }
     return (
         <>
             <div className={styles.Main_Header}>
@@ -123,6 +128,25 @@ const NavBar = () => {
                                         <PermIdentityIcon />
                                         <p>Profile</p>
                                         <div className={styles.profileContent}>
+                                            {getNumber?(
+                                            <div style={{ cursor:"default",}}>
+                                                <div style={{cursor:"text",gap:"0.5rem" ,display:"flex",justifyContent:"centrer", alignItems:"center"}}>
+                                                <AccountCircleRoundedIcon style={{ cursor:"default",}} fontSize="large"/>
+                                                <div>
+                                                    <p style={{ fontSize: "18px", marginBlockStart: "0.5em", marginBlockEnd: "0.2em", fontWeight: "bold" }}>Hello User</p>
+                                                    <p style={{fontSize: "16px", marginBlockEnd: "0.5em" }}>+91{getNumber}</p>
+                                                </div>
+                                                </div>
+                                                <div className={styles.dividerLines}></div>
+                                            <h3 style={{cursor:"pointer",margin:0,justifyContent:"left", alignItems: "center" }}><ShoppingBagIcon fontSize="medium" />My Orders</h3>
+                                                <div style={{cursor:"pointer",margin:"auto",width:"100%"}}>
+                                                <div className={styles.dividerLines}></div>
+                                                <h3 onClick={logout} style={{cursor:"pointer",margin:0,paddingBottom:15,justifyContent:"left", alignItems: "center" }}><LogoutRoundedIcon/>Logout</h3>
+                                                </div>
+                                            </div>
+                                            ):
+                                            (
+                                                <>
                                             <p style={{ fontSize: "18px", marginBlockStart: "0.5em", marginBlockEnd: "0.2em", fontWeight: "bold" }}>Hello User</p>
                                             <p style={{ fontSize: "12px", marginBlockEnd: "0.5em" }}>To access your Meesho account</p>
                                             <Link to="/signup">
@@ -130,6 +154,10 @@ const NavBar = () => {
                                             </Link>
                                             <div className={styles.dividerLines}></div>
                                             <h4 style={{ alignItems: "center" }}><ShoppingBagIcon fontSize="medium" />My Orders</h4>
+
+                                                </>
+                                            )
+                                            }
 
                                         </div>
                                     </div>
