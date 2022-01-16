@@ -1,9 +1,46 @@
 import { useSelector } from "react-redux";
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import styles from "./catagorypage.module.css";
 import React from "react";
 import { useDispatch } from "react-redux";
 import { getData } from "../Redux/action";
 import {Link} from 'react-router-dom';
+import Box from '@mui/material/Box';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
+import {getQuery } from "../Redux/action";
+import FilterAltIcon from '@mui/icons-material/FilterAlt';
+function BasicSelect({params}) {
+  const [filter, setFilter] = React.useState("");
+  const dispatch = useDispatch();  
+  const handleChange = (event) => {
+    setFilter(event.target.value);
+    console.log(filter);
+    var qurey = `${params}&_sort=${event.target.value}`
+    dispatch(getQuery(qurey));
+  };
+
+  return (
+    <Box sx={{ minWidth: 250 }}>
+      <FormControl fullWidth>
+        <InputLabel id="demo-simple-select-label">Filter</InputLabel>
+        <Select
+          labelId="demo-simple-select-label"
+          id="demo-simple-select"
+          value={filter}
+          label="Filter"
+          onChange={handleChange}
+        >
+          <MenuItem value={"discounted_price&_order=asc"}>Price Low-high</MenuItem>
+          <MenuItem value={"discounted_price&_order=desc"}>Price High-low</MenuItem>
+          <MenuItem value={"rating&_order=desc"}>Rating high-low</MenuItem>
+        </Select>
+      </FormControl>
+    </Box>
+  );
+}
 const Card = ({id,title,price,orignalPrice,url,rating})=>{
     return (
         <Link style={{textDecoration: 'none'}} to={`product/${id}`}>
@@ -20,15 +57,18 @@ const Card = ({id,title,price,orignalPrice,url,rating})=>{
                     <div className={styles.discountprice}>&#x20b9;{orignalPrice}</div>
                     <div className={styles.discount}>{Math.floor(((orignalPrice-price)/orignalPrice)*100)}%off</div>
                 </div>
-                <div>
+                <div style={{color:'#999999'}}>
                     <i className='fas' style={{fontSize:'24px',color:'#5585F8',margin:'10px'}}>&#xf02c;</i>   &#x20b9;{orignalPrice-price} discount on 1st order
                 </div>
                 <div className={styles.free}>
                     Free Delivery
                 </div>
-                <div className={styles.rating}>
+                <div style={{display:"flex",justifyContent:'space-between'}}>
+                    <div className={styles.rating}>
                     <span className="fa fa-star checked"></span>
                     {rating}
+                    </div>
+                    <AddShoppingCartIcon style={{marginTop:'8px',color:'#5585F8'}}/>
                 </div>
             </div>
         </div>
@@ -51,7 +91,10 @@ const Category = ()=>{
     return (
         <div style={{marginTop:'200px'}}>
         <div className={styles.header}>{data[0]?.category}</div>
-        <div style={{textAlign:'left',marginTop:'20px',marginLeft:'100px'}}>Showing 1-20 out of 168445 Products</div>
+        <div style={{marginTop:'20px',width:"87%",margin:'auto',height:'50px',boxShadow:'4px 4px 4px 4px #F4F4F4',display:'flex',padding:'1rem'}}>
+            <div style={{marginTop:'20px'}}><a style={{color:'#333D5A',fontWeight:'bold',marginRight:'10px'}}>Showing 1-12</a> out of 168445 Products</div>
+            <FilterAltIcon style={{marginLeft:'60%',marginTop:'15px'}}/><BasicSelect params={data[0]?.category}/>
+        </div>
         <div className={styles.container}>
             {data?.map((item)=>(
                 <Card key={item.id} id={item.id} title={item.title} price={item.discounted_price} orignalPrice={item.original_price} url={item.images[0]} rating={item.rating}/>

@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../Components/Navbar"
 import styles from "./home.module.css";
 import { useDispatch } from "react-redux";
 import {getQuery } from "../Redux/action";
@@ -53,7 +52,7 @@ const Home = ()=>{
                     <Link to='/cat'><img onClick={getMenswares} src="https://images.meesho.com/images/marketing/1631611208025.png"/></Link>
                 </div>
             </div>
-            <Link to="/cat"><div onClick={homeCare} className={styles.banner2}>
+            <Link style={{textDecoration:'none'}} to="/cat"><div onClick={homeCare} className={styles.banner2}>
                 <div className={styles.tbox}>
                     <span>Homecare</span>
                     <button>VIEW ALL</button>
