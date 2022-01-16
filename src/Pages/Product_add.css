@@ -65,6 +65,7 @@ padding: 1rem;
  font-size: larger;
  border: 1px solid rgb(211, 204, 204);
  padding-top: 0rem;
+ cursor: pointer;
 }
 .small_image{
     margin-right: 75%;
