@@ -11,6 +11,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import {getQuery } from "../Redux/action";
+import FilterAltIcon from '@mui/icons-material/FilterAlt';
 function BasicSelect({params}) {
   const [filter, setFilter] = React.useState("");
   const dispatch = useDispatch();  
@@ -90,9 +91,9 @@ const Category = ()=>{
     return (
         <div style={{marginTop:'200px'}}>
         <div className={styles.header}>{data[0]?.category}</div>
-        <div style={{marginTop:'20px',width:"87%",margin:'auto',height:'50px',boxShadow:'4px 4px 4px 4px #F4F4F4',display:'flex',justifyContent:'space-between',padding:'1rem'}}>
+        <div style={{marginTop:'20px',width:"87%",margin:'auto',height:'50px',boxShadow:'4px 4px 4px 4px #F4F4F4',display:'flex',padding:'1rem'}}>
             <div style={{marginTop:'20px'}}><a style={{color:'#333D5A',fontWeight:'bold',marginRight:'10px'}}>Showing 1-12</a> out of 168445 Products</div>
-            <BasicSelect params={data[0]?.category}/>
+            <FilterAltIcon style={{marginLeft:'60%',marginTop:'15px'}}/><BasicSelect params={data[0]?.category}/>
         </div>
         <div className={styles.container}>
             {data?.map((item)=>(
