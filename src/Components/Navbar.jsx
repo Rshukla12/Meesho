@@ -84,7 +84,7 @@ const NavBar = () => {
         },
     });
     const logout = ()=>{
-        localStorage.clear();
+        localStorage.clear("phone");
         window.location.replace("/")
     }
     return (
