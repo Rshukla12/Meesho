@@ -91,9 +91,9 @@ const Category = ()=>{
     return (
         <div style={{marginTop:'200px'}}>
         <div className={styles.header}>{data[0]?.category}</div>
-        <div style={{marginTop:'20px',width:"88%",margin:'auto',height:'50px',borderBottom:'1px solid #dfdfdf',display:'flex',padding:'1rem',zIndex:'-2'}}>
+        <div className={styles.subheader}>
             <div style={{marginTop:'20px'}}><a style={{color:'#333D5A',fontWeight:'bold',marginRight:'10px'}}>Showing 1-12</a> out of 168445 Products</div>
-            <FilterAltIcon style={{marginLeft:'60%',marginTop:'15px'}}/><BasicSelect params={data[0]?.category}/>
+            <FilterAltIcon className={styles.filt}/><BasicSelect params={data[0]?.category}/>
         </div>
         <div className={styles.container}>
             {data?.map((item)=>(
