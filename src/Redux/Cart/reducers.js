@@ -8,52 +8,7 @@ const orders = loadData("Orders") || [];
 const initCart = {
     stage: 1,
     address: address,
-    cart: cart || [{
-        "id": 1,
-        "category": "Sarees",
-        "title": "WETLESS RAINBOW ZARI WITH DIGITAL PRINT SATIN BLOUSE",
-        "original_price" : 416,
-        "discounted_price": 316,
-        "sizes": [
-            "Free Size"
-        ],
-        "images": ["https://images.meesho.com/images/products/71034092/roaia_64.jpg"],
-        "details": {
-            "Saree Fabric" : "Georgette",
-            "Blouse" : "Separate Blouse Piece",
-            "Blouse Fabric" : "Satin",
-            "Pattern" : "Woven Design",
-            "Blouse Pattern" : "Foil Printed",
-            "Multipack" : "Single",
-            "Sizes" : "Free Size (Saree Length Size : 5.5 m, Blouse Length Size: 0.8 m)"
-        },
-        "rating": 3.9,
-        "seller_id": 1,
-        "qty": 2
-    },
-    {
-        "id": 3,
-        "category": "Sarees",
-        "title": "Kanchipuram Silk Orange Saree",
-        "original_price" : 676,
-        "discounted_price": 576,
-        "sizes": [
-            "Free Size"
-        ],
-        "images": [
-            "https://images.meesho.com/images/products/71051237/kugr5_64.jpg",
-            "https://images.meesho.com/images/products/71051237/bzflu_64.jpg"
-        ],
-        "details": {
-            "Fabric" : "Chiffon",
-            "Pattern" : "Self Design",
-            "Multipack" : "Single",
-            "Description": "Best qaualtiy "
-        },
-        "rating": 2.9,
-        "seller_id": 3,
-        "qty": 1 
-    }],
+    cart: cart || [],
     orders: orders,
     currentOrder: {},
     margin: 0
@@ -68,10 +23,19 @@ const cartReducer = ( state=initCart, action ) => {
             }
         }
         case cartConstants.ADD_TO_CART: {
-            saveData("Cart", [...state.cart , { ...action.payload.product, qty: 1 } ]);
+            let newItem = true;
+            let newCart = state.cart.map(el => {
+                if ( el.id === action.payload.product.id ) {
+                    newItem = false;
+                    return { ...el, qty: el.qty+1 };
+                }
+                return el;
+            });
+            if ( newItem ) newCart = [...state.cart , { ...action.payload.product, qty: 1 } ]
+            saveData("Cart", newCart);
             return {
                 ...state,
-                cart: [...state.cart , { ...action.payload.product, qty: 1 } ]
+                cart: newCart
             }
         }
         case cartConstants.CHANGE_QTY: {

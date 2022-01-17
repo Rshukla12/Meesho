@@ -121,7 +121,7 @@ const NavBar = () => {
                                     </div>
                                 </div>
                                 <div style={{ width: "2px", height: "40px", backgroundColor: "lightgray" }}></div>
-                                <div>Become A Supplier</div>
+                                <div onClick={()=>history.push("/seller")}>Become A Supplier</div>
                                 <div style={{ width: "2px", height: "40px", backgroundColor: "lightgray" }}></div>
                                 <div className={styles.profileCard}>
                                     <div className={styles.profile}>

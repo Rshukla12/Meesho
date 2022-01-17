@@ -1,0 +1,62 @@
+.root {
+    z-index: -1;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.product {
+    background-color: white;
+    position: fixed;
+    top: -20%;
+    left: 0;
+    right: 0;
+}
+
+.rowParent {
+    padding: 1%;
+    margin: 1%;
+}
+
+.product > *:last-child {
+    top: 12%;
+    position: absolute;
+    right: 5%;
+    z-index: 1021;
+    cursor: pointer;
+    display: flex;
+}
+.product h1 {
+    position: absolute;
+    z-index: 1021;
+    left: 10%;
+    top: 11%;
+}
+.product > *:last-child > h3 {
+    margin-top: 0rem;
+    padding-top: 0rem;
+}
+
+.btn {
+    width: 20rem;
+    margin: 1rem 3rem 1rem 4rem;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0.2rem;
+}
+
+h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0.3rem;
+    margin-left: 1rem;
+}
