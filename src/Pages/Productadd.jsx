@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import { addToCart } from '../Redux/Cart/actions';
 import { useDispatch } from 'react-redux';
-const Productcard = ({ url, title, discountAmt, Amt, rate, d1, d2, d3, d4, handleClick }) => {
+export const Productcard = ({ url, title, discountAmt, Amt, rate, d1, d2, d3, d4, handleClick }) => {
     return (
         <>
             <div className='complete_page'>
