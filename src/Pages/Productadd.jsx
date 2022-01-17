@@ -48,25 +48,25 @@ function TextRating({val}) {
   );
 }
 const Productcard = ({ url, title, discountAmt, Amt, rate, d1, d2, d3, d4, handleClick }) => {
+    const [image,setImage] = React.useState(url[0]);
     return (
         <>
             <div className='complete_page'>
                 <div className='left_side'>
                     <div className='left_small'>
-                        <img src={url} />
-                        <img src={url} />
-                        <img src={url} />
-                        <img src={url} />
+                        {url.map((item)=>(
+                            <img onClick={()=>{setImage(item)}} src={item}/>
+                        ))}
                     </div>
                     <div className='left_big'>
                         <div className='left_big_img'>
-                            <img src={url} />
+                            <img src={image} />
                         </div>
                         <div className='left_big_p'>
                             <button onClick={handleClick} className='Add_to_card'><ShoppingCartIcon style={{marginTop: '5px',marginRight:'10px'}}/>Add To Cart</button>
                             <hr />
                             <p>1 Similar Products</p>
-                            <img className='small_image' src={url} />
+                            <img className='small_image' src={image} />
                         </div>
                     </div>
                 </div>
@@ -150,7 +150,7 @@ export const Productadd = () => {
     }, [id])
     return (
         data ? (
-            <Productcard handleClick={() => dispatch(addToCart(data[0]))} key={data[0]?.id} title={data[0]?.title} discountAmt={data[0]?.discounted_price} Amt={data[0]?.original_price} url={data[0]?.images[0]} rate={data[0]?.rating} d1={data[0]?.details.Fabric} d2={data[0]?.details.Pattern} d3={data[0]?.details.Multipack} d4={data[0]?.details.description} />
+            <Productcard handleClick={() => dispatch(addToCart(data[0]))} key={data[0]?.id} title={data[0]?.title} discountAmt={data[0]?.discounted_price} Amt={data[0]?.original_price} url={data[0]?.images} rate={data[0]?.rating} d1={data[0]?.details.Fabric} d2={data[0]?.details.Pattern} d3={data[0]?.details.Multipack} d4={data[0]?.details.description} />
         ) : (<div></div>)
     )
 }

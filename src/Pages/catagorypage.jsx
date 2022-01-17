@@ -25,7 +25,7 @@ function BasicSelect({params}) {
   return (
     <Box sx={{ minWidth: 250 }}>
       <FormControl fullWidth>
-        <InputLabel id="demo-simple-select-label">Filter</InputLabel>
+        <InputLabel id="demo-simple-select-label">Sort</InputLabel>
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"

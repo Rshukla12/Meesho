@@ -9,7 +9,11 @@
             "sizes": [
                 "Free Size"
             ],
-            "images": ["https://images.meesho.com/images/products/72024275/9cvk9_512.jpg"],
+            "images": ["https://images.meesho.com/images/products/72024275/9cvk9_512.jpg", 
+                "https://images.meesho.com/images/products/72349131/ndz0q_512.jpg",
+                "https://images.meesho.com/images/products/72349131/tzpv8_512.jpg",
+                "https://images.meesho.com/images/products/72349131/9dvpk_512.jpg"
+            ],
             "details": {
                 "Fabric" : "Chiffon",
                 "Pattern" : "Self Design",
@@ -29,6 +33,9 @@
                 "Free Size"
             ],
             "images": [
+                "https://images.meesho.com/images/products/72010202/dgemx_512.jpg",
+                "https://images.meesho.com/images/products/72010202/dgemx_512.jpg",
+                "https://images.meesho.com/images/products/72010202/dgemx_512.jpg",
                 "https://images.meesho.com/images/products/72010202/dgemx_512.jpg"
             ],
             "details": {
