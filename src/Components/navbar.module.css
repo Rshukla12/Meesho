@@ -134,7 +134,7 @@ p {
      gap: 0.4rem;
      min-height: fit-content;
      position: fixed;
-     margin-top: 15%;
+     margin-top: 17%;
 }
 
 .links{
@@ -143,7 +143,7 @@ p {
     border-bottom: 1px solid #DFDFDF;
 }
 .links > *:nth-child(odd) {
-    padding: 1rem 2rem;
+    padding: 0 2rem 1rem;
     text-decoration: none;
     color: #333333;
     border-bottom: 3px solid #fff;
