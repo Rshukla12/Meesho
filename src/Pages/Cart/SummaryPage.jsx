@@ -13,7 +13,7 @@ import CartPayment from "../../Components/Cart Components/CartPayment";
 import AddressCard from "../../Components/Cart Components/AddressCard";
 import { Alert, Slide, Snackbar } from "@mui/material";
 
-function TransitionDown(props) {
+export function TransitionDown(props) {
     return <Slide {...props} direction="down" />;
 }
 

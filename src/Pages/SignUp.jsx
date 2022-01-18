@@ -36,9 +36,9 @@ export const SignUp = () => {
         <p className='country_code'>Country</p>
         <div className='number'>
         <p className='Phone_number'>IN +91</p>
-        <div className="inputField">
+        <div className="numberField">
         <InputField 
-                    className="number_input"
+                    // className="number_input"
                     type="number"
                     name="phone" 
                     required={true} 
