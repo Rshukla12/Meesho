@@ -1,283 +1,1144 @@
-.banner {
-    display: flex;
-    background-color: #F9F9F9;
-    width: 80%;
-    height:340px;
-    margin: auto;
-    margin-top: 250px;
-    padding: 1rem;
-} 
-.title {
-    font-size: 38px;
-    line-height: 50px;
-    color: rgb(51, 51, 51);
-    width: 80%;
-    height:130px;
-    font-weight: bold;
-    padding:2rem;
-    text-align:left;
+@media screen and (min-width:1450px) {
+    .banner {
+        display: flex;
+        background-color: #F9F9F9;
+        width: 80%;
+        height:340px;
+        margin: auto;
+        margin-top: 250px;
+        padding: 1rem;
+    } 
+    .title {
+        font-size: 38px;
+        line-height: 50px;
+        color: rgb(51, 51, 51);
+        width: 80%;
+        height:130px;
+        font-weight: bold;
+        padding:2rem;
+        text-align:left;
+    }
+    .title1 {
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        font-family: "Mier book";
+        margin-left: 20px;
+        width: 50%;
+        height: 28px;
+        background-color: white;
+        padding: 1rem;
+        margin-top: -15px;
+    }
+    .button {
+        width: 50%;
+        height:48px;
+        padding: 1rem;
+        margin-top: 30px;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 10px 28px;
+        background: rgb(244, 51, 151);
+        border-radius: 4px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: "Mier demi";
+        margin-left: 20px;
+        padding: 0px 0px 0px 16px;
+    }
+    .button img {
+        border-style: none;
+        max-width: 30px;
+        margin: 1rem;
+    }
+    .container {
+        width:49%;
+        text-align: center;
+        padding-left: 100px;
+    }
+    .container1 {
+        width:49%;
+        height: 100%;
+        background-image: url(https://images.meesho.com/images/marketing/1641555787389.jpg);
+        background-size: cover;
+    }
+    .line {
+        width: 80%;
+        margin: auto;
+        height: 50px;
+        padding: 1rem;
+        display: flex;
+        margin-top: 50px;
+    }
+    .line .hr {
+        width: 25%;
+        height:1px;
+        background-color: red;
+        margin-top: 25px;
+    }
+    .line .hrtitle {
+        width: 50%;
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .banner1 {
+        width: 80%;
+        height: 500px;
+        background-image: url(https://images.meesho.com/images/marketing/1631612018143.png);
+        background-size: cover;
+        margin: auto;
+        margin-top:50px;
+        display: flex;
+        justify-content:space-around;
+        padding: 1rem;
+    }
+    .banner1 .temp {
+        margin-top: 200px;
+    }
+    .banner1 .img {
+        margin-top: 70px;
+    }
+    .banner1 img {
+        cursor: pointer;
+    }
+    .banner2 {
+        width: 80%;
+        height: 500px;
+        background-image: url(https://images.meesho.com/images/marketing/1629883965347.png);
+        background-size: cover;
+        margin: auto;
+        margin-top:50px;
+        display: flex;
+        justify-content:space-around;
+        padding: 1rem;
+    }
+    .banner2 .tbox {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        width: 25%;
+        color: rgb(3, 141, 99);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 52px;
+        font-family: "Mier bold";
+        margin-top: 110px;
+    }
+    .tbox button {
+        cursor: pointer;
+        font-style: normal;
+        text-align: center;
+        letter-spacing: 0.0015em;
+        font-size: 15px;
+        line-height: 20px;
+        border-radius: 4px;
+        color: rgb(255, 255, 255);
+        background: rgb(3, 141, 99);
+        border: none;
+        width: 145px;
+        height: 50px;
+        margin-top:24px;
+        margin-left: 55px;
+    }
+    .banner2 .card {
+        height: 348px;
+        width: 212px;
+        background: rgb(205, 237, 222);
+        padding: 0.5rem;
+        margin-top: 55px;
+    }
+    .banner2 .card img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .banner2 .cardBox  button {
+        cursor: pointer;
+        font-style: normal;
+        text-align: center;
+        letter-spacing: 0.0015em;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 20px;
+        border-radius: 4px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(3, 141, 99);
+        border: none;
+        width: 145px;
+        height: 50px;
+        margin-top:24px;
+        margin-left: 15px;
+    }
+    .banner3 {
+        width: 80%;
+        height: 500px;
+        background-image: url(https://meesho.com/_next/static/images/download_banner-19ca4d63d9c1dc44bc8cbfae62b60bd7.jpg);
+        background-size: cover;
+        margin: auto;
+        margin-top:50px;
+        display: flex;
+        justify-content:space-around;
+        padding: 1rem;
+        text-align: right;   
+    }
+    .banner3 h4 {
+        color: rgb(85, 133, 248);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        font-family: "Mier bold";
+        margin: 0px 0px 16px;
+        padding: 0px;
+    }
+    .banner3 h1 {
+        color: rgb(244, 51, 151);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 52px;
+        font-family: "Mier bold";
+    }
+    .banner3 .banner3ibox {
+        display: flex;
+        gap: 25px;
+        margin-top:100px;
+        margin-left: 150px;
+    }
+    .banner3 .banner3ibox img {
+        width:170px;
+        height: 50px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .banner3container {
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-left: 40%;
+    }
+    .banner4 {
+        width: 80%;
+        height: 350px;
+        background-image: url(https://miro.medium.com/max/1400/1*fx7ElXTQ-QZh79fs-rVX2Q.png);
+        background-size: cover;
+        margin: auto;
+        margin-top:50px;
+        padding: 1rem;
+        cursor: pointer;
+    }
+    .banner5 {
+        width: 95%;
+        margin-top:100px;
+        padding :1rem;
+        display: flex;
+        gap: 1rem;
+        margin: auto;
+        background-color: #F9F9F9;
+        justify-content:space-around;
+        padding-left: 80px;
+    }
+    .banner5tbox img {
+        width: 185px;
+        height:50px;
+        border-radius: 4px;
+    }
+    .banner5 div {
+        width: 20%;
+        text-align: left;
+        padding: .5rem;
+    }
+    .banner5 h4 {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        font-family: "Mier bold";
+    }
+    .banner5 p {
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: "Mier book";
+    }
+    .footer {
+        width:95%;
+        height:50px;
+        background-color: #FFFFFF;
+        font-size: 25px;
+        color: black;
+        text-align:left;
+        padding:1rem;
+        margin: auto;
+        padding-left: 100px;
+    }
 }
-.title1 {
-    color: rgb(102, 102, 102);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    font-family: "Mier book";
-    margin-left: 20px;
-    width: 50%;
-    height: 28px;
-    background-color: white;
-    padding: 1rem;
-    margin-top: -15px;
+@media screen and (max-width:1450px)
+              and (min-width:1000px){
+    .banner {
+        display: flex;
+        background-color: #F9F9F9;
+        width: 100%;
+        height:340px;
+        margin: auto;
+        margin-top: 250px;
+        padding: 1rem;
+    } 
+    .title {
+        font-size: 32px;
+        line-height: 50px;
+        color: rgb(51, 51, 51);
+        width: 80%;
+        height:130px;
+        font-weight: bold;
+        padding:2rem;
+        text-align:left;
+    }
+    .title1 {
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 28px;
+        font-family: "Mier book";
+        margin-left: 20px;
+        width: 60%;
+        height: fit-content;
+        background-color: white;
+        padding: 1rem;
+        margin-top: -15px;
+    }
+    .button {
+        width: 55%;
+        height:48px;
+        padding: 1rem;
+        margin-top: 30px;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 10px 28px;
+        background: rgb(244, 51, 151);
+        border-radius: 4px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: "Mier demi";
+        margin-left: 20px;
+        padding: 0px 0px 0px 16px;
+    }
+    .button img {
+        border-style: none;
+        max-width: 25px;
+        margin: 1rem;
+    }
+    .container {
+        width:49%;
+        text-align: center;
+        padding-left: 100px;
+    }
+    .container1 {
+        width:49%;
+        height: 100%;
+        background-image: url(https://images.meesho.com/images/marketing/1641555787389.jpg);
+        background-size: cover;
+    }
+    .line {
+        width: 90%;
+        margin: auto;
+        height: 50px;
+        padding: 1rem;
+        display: flex;
+        margin-top: 50px;
+    }
+    .line .hr {
+        width: 25%;
+        height:1px;
+        background-color: red;
+        margin-top: 25px;
+    }
+    .line .hrtitle {
+        width: 50%;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .banner1 {
+        width: 100%;
+        height: 500px;
+        background-image: url(https://images.meesho.com/images/marketing/1631612018143.png);
+        background-size: cover;
+        margin: auto;
+        margin-top:50px;
+        display: flex;
+    }
+    .banner1 .temp {
+        margin-top: 200px;
+    }
+    .banner1 .img {
+        margin-top: 70px;
+    }
+    .banner1 img {
+        cursor: pointer;
+    }
+    .banner2 {
+        width: 100%;
+        height: 500px;
+        background-image: url(https://images.meesho.com/images/marketing/1629883965347.png);
+        background-size: cover;
+        margin: auto;
+        margin-top:50px;
+        display: flex;
+        justify-content:space-around;
+        padding: 1rem;
+    }
+    .banner2 .tbox {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        width: 25%;
+        color: rgb(3, 141, 99);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 52px;
+        font-family: "Mier bold";
+        margin-top: 110px;
+    }
+    .tbox button {
+        cursor: pointer;
+        font-style: normal;
+        text-align: center;
+        letter-spacing: 0.0015em;
+        font-size: 15px;
+        line-height: 20px;
+        border-radius: 4px;
+        color: rgb(255, 255, 255);
+        background: rgb(3, 141, 99);
+        border: none;
+        width: 145px;
+        height: 50px;
+        margin-top:24px;
+        margin-left: 55px;
+    }
+    .banner2 .card {
+        height: 348px;
+        width: 212px;
+        background: rgb(205, 237, 222);
+        padding: 0.5rem;
+        margin-top: 55px;
+    }
+    .banner2 .card img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .banner2 .cardBox  button {
+        cursor: pointer;
+        font-style: normal;
+        text-align: center;
+        letter-spacing: 0.0015em;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 20px;
+        border-radius: 4px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(3, 141, 99);
+        border: none;
+        width: 145px;
+        height: 50px;
+        margin-top:24px;
+        margin-left: 15px;
+    }
+    .banner3 {
+        width: 100%;
+        height: 500px;
+        background-image: url(https://meesho.com/_next/static/images/download_banner-19ca4d63d9c1dc44bc8cbfae62b60bd7.jpg);
+        background-size: cover;
+        margin: auto;
+        margin-top:50px;
+        display: flex;
+        justify-content:space-around;
+        padding: 1rem;
+        text-align: right;   
+    }
+    .banner3 h4 {
+        color: rgb(85, 133, 248);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        font-family: "Mier bold";
+        margin: 0px 0px 16px;
+        padding: 0px;
+    }
+    .banner3 h1 {
+        color: rgb(244, 51, 151);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 52px;
+        font-family: "Mier bold";
+    }
+    .banner3 .banner3ibox {
+        display: flex;
+        gap: 25px;
+        margin-top:100px;
+        margin-left: 150px;
+    }
+    .banner3 .banner3ibox img {
+        width:170px;
+        height: 50px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .banner3container {
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-left: 40%;
+    }
+    .banner4 {
+        width: 100%;
+        height: 350px;
+        background-image: url(https://miro.medium.com/max/1400/1*fx7ElXTQ-QZh79fs-rVX2Q.png);
+        background-size: cover;
+        margin: auto;
+        margin-top:50px;
+        padding: 1rem;
+        cursor: pointer;
+    }
+    .banner5 {
+        width: 95%;
+        margin-top:100px;
+        padding :1rem;
+        display: flex;
+        gap: 1rem;
+        margin: auto;
+        background-color: #F9F9F9;
+        justify-content:space-around;
+        padding-left: 80px;
+    }
+    .banner5tbox img {
+        width: 185px;
+        height:50px;
+        border-radius: 4px;
+    }
+    .banner5 div {
+        width: 20%;
+        text-align: left;
+        padding: .5rem;
+    }
+    .banner5 h4 {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        font-family: "Mier bold";
+    }
+    .banner5 p {
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: "Mier book";
+    }
+    .footer {
+        width:95%;
+        height:50px;
+        background-color: #FFFFFF;
+        font-size: 25px;
+        color: black;
+        text-align:left;
+        padding:1rem;
+        margin: auto;
+        padding-left: 100px;
+    }
 }
-.button {
-    width: 50%;
-    height:48px;
-    padding: 1rem;
-    margin-top: 30px;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    padding: 10px 28px;
-    background: rgb(244, 51, 151);
-    border-radius: 4px;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    color: rgb(255, 255, 255);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    font-family: "Mier demi";
-    margin-left: 20px;
-    padding: 0px 0px 0px 16px;
+@media screen and (max-width:1000px)
+              and (min-width:650px){
+    .banner {
+        display: flex;
+        background-color: #F9F9F9;
+        width: 100%;
+        height:340px;
+        margin: auto;
+        margin-top: 250px;
+        padding: 1rem;
+    } 
+    .title {
+        font-size: 32px;
+        line-height: 50px;
+        color: rgb(51, 51, 51);
+        width: 80%;
+        height:130px;
+        font-weight: bold;
+        padding:2rem;
+        text-align:left;
+    }
+    .title1 {
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 28px;
+        font-family: "Mier book";
+        margin-left: 20px;
+        width: 60%;
+        height: fit-content;
+        background-color: white;
+        padding: 1rem;
+        margin-top: -15px;
+    }
+    .button {
+        width: 80%;
+        height:48px;
+        padding: 1rem;
+        margin-top: 30px;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 10px 28px;
+        background: rgb(244, 51, 151);
+        border-radius: 4px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: "Mier demi";
+        margin-left: 10px;
+        padding: 0px 0px 0px 16px;
+    }
+    .button img {
+        border-style: none;
+        max-width: 25px;
+        margin: 1rem;
+    }
+    .container {
+        width:49%;
+        text-align: center;
+        padding-left: 100px;
+    }
+    .container1 {
+        width:49%;
+        height: 100%;
+        background-image: url(https://images.meesho.com/images/marketing/1641555787389.jpg);
+        background-size: cover;
+    }
+    .line {
+        width: 90%;
+        margin: auto;
+        height: 50px;
+        padding: 1rem;
+        display: flex;
+        margin-top: 50px;
+    }
+    .line .hr {
+        width: 25%;
+        height:1px;
+        background-color: red;
+        margin-top: 25px;
+    }
+    .line .hrtitle {
+        width: 50%;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .banner1 {
+        width: 80%;
+        height: fit-content;
+        background-image: url(https://images.meesho.com/images/marketing/1631612018143.png);
+        background-size: cover;
+        margin: auto;
+        margin-top:50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner1 .temp {
+        margin-top: 200px;
+    }
+    .banner1 .img {
+        margin-top: 70px;
+    }
+    .banner1 img {
+        cursor: pointer;
+    }
+    .banner2 {
+        width: 100%;
+        height: fit-content;
+        background-image: url(https://images.meesho.com/images/marketing/1629883965347.png);
+        background-size: cover;
+        margin: auto;
+        margin-top:50px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        padding: 1rem;
+    }
+    .banner2 .tbox {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        width: 25%;
+        color: rgb(3, 141, 99);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 52px;
+        font-family: "Mier bold";
+        margin-top: 110px;
+    }
+    .tbox button {
+        cursor: pointer;
+        font-style: normal;
+        text-align: center;
+        letter-spacing: 0.0015em;
+        font-size: 15px;
+        line-height: 20px;
+        border-radius: 4px;
+        color: rgb(255, 255, 255);
+        background: rgb(3, 141, 99);
+        border: none;
+        width: 145px;
+        height: 50px;
+        margin-top:24px;
+        margin-left: 55px;
+    }
+    .banner2 .card {
+        height: 348px;
+        width: 212px;
+        background: rgb(205, 237, 222);
+        padding: 0.5rem;
+        margin-top: 55px;
+        margin-left:12%;
+    }
+    .banner2 .card img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .banner2 .cardBox  button {
+        cursor: pointer;
+        font-style: normal;
+        text-align: center;
+        letter-spacing: 0.0015em;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 20px;
+        border-radius: 4px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(3, 141, 99);
+        border: none;
+        width: 145px;
+        height: 50px;
+        margin-left: -35%;
+        margin-top: 25px;
+    }
+    .banner3 {
+        width: 100%;
+        height: 500px;
+        background-image: url(https://meesho.com/_next/static/images/download_banner-19ca4d63d9c1dc44bc8cbfae62b60bd7.jpg);
+        background-size: cover;
+        margin: auto;
+        margin-top:50px;
+        display: flex;
+        padding: 1rem;
+        text-align: center;   
+    }
+    .banner3 h4 {
+        color: rgb(85, 133, 248);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: "Mier bold";
+        margin: 0px 0px 10px;
+        padding: 0px;
+    }
+    .banner3 h1 {
+        color: rgb(244, 51, 151);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        font-family: "Mier bold";
+    }
+    .banner3 .banner3ibox {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top:100px;
+        margin-left: 150px;
+    }
+    .banner3 .banner3ibox img {
+        width:170px;
+        height: 50px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .banner3container {
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-left: 40%;
+    }
+    .banner4 {
+        width: 100%;
+        height: 350px;
+        background-image: url(https://miro.medium.com/max/1400/1*fx7ElXTQ-QZh79fs-rVX2Q.png);
+        background-size: cover;
+        margin: auto;
+        margin-top:50px;
+        padding: 1rem;
+        cursor: pointer;
+    }
+    .banner5 {
+        width: 95%;
+        margin-top:100px;
+        padding :1rem;
+        display: flex;
+        gap: 1rem;
+        margin: auto;
+        background-color: #F9F9F9;
+        justify-content:space-around;
+        padding-left: 80px;
+    }
+    .banner5tbox img {
+        width: 185px;
+        height:50px;
+        border-radius: 4px;
+    }
+    .banner5 div {
+        width: 20%;
+        text-align: left;
+        padding: .5rem;
+    }
+    .banner5 h4 {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        font-family: "Mier bold";
+    }
+    .banner5 p {
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: "Mier book";
+    }
+    .footer {
+        width:95%;
+        height:50px;
+        background-color: #FFFFFF;
+        font-size: 25px;
+        color: black;
+        text-align:left;
+        padding:1rem;
+        margin: auto;
+        padding-left: 100px;
+    }
 }
-.button img {
-    border-style: none;
-    max-width: 30px;
-    margin: 1rem;
+@media screen and (max-width:650px)
+              and (min-width:350px){
+    .banner {
+        display: flex;
+        flex-direction: column;
+        background-color: #F9F9F9;
+        width: 100%;
+        height:fit-content;
+        margin-top: 250px;
+        padding: 1rem;
+    } 
+    .title {
+        font-size: 22px;
+        line-height: 50px;
+        color: rgb(51, 51, 51);
+        width: 90%;
+        height:130px;
+        font-weight: bold;
+        padding:2rem;
+        text-align:left;
+    }
+    .title1 {
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 28px;
+        font-family: "Mier book";
+        margin-left: 20px;
+        width: 90%;
+        height: fit-content;
+        background-color: white;
+        padding: 1rem;
+        margin-top: -15px;
+    }
+    .button {
+        width: 100%;
+        height:48px;
+        padding: 1rem;
+        margin-top: 30px;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 10px 28px;
+        background: rgb(244, 51, 151);
+        border-radius: 4px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: "Mier demi";
+        margin-left: 10px;
+        padding: 0px 0px 0px 16px;
+    }
+    .button img {
+        border-style: none;
+        max-width: 15px;
+        margin: 1rem;
+    }
+    .container {
+        width:49%;
+        text-align: center;
+        padding-left: 100px;
+    }
+    .container1 {
+        width:100%;
+        background-image: url(https://images.meesho.com/images/marketing/1641555787389.jpg);
+        background-size: cover;
+        display:none;
+    }
+    .line {
+        width: 90%;
+        margin: auto;
+        height: 50px;
+        padding: 1rem;
+        display: flex;
+        margin-top: 50px;
+    }
+    .line .hr {
+        width: 25%;
+        height:1px;
+        background-color: red;
+        margin-top: 25px;
+    }
+    .line .hrtitle {
+        width: 50%;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .banner1 {
+        width: 100%;
+        height: fit-content;
+        background-image: url(https://images.meesho.com/images/marketing/1631612018143.png);
+        background-size: cover;
+        margin: auto;
+        margin-top:50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner1 .temp {
+        margin-top: 200px;
+    }
+    .banner1 .img {
+        margin-top: 70px;
+    }
+    .banner1 img {
+        cursor: pointer;
+    }
+    .banner2 {
+        width: 100%;
+        height: fit-content;
+        background-image: url(https://images.meesho.com/images/marketing/1629883965347.png);
+        background-size: cover;
+        margin: auto;
+        margin-top:50px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        padding: 1rem;
+    }
+    .banner2 .tbox {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        width: 25%;
+        color: rgb(3, 141, 99);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 52px;
+        font-family: "Mier bold";
+        margin-top: 110px;
+    }
+    .tbox button {
+        cursor: pointer;
+        font-style: normal;
+        text-align: center;
+        letter-spacing: 0.0015em;
+        font-size: 15px;
+        line-height: 20px;
+        border-radius: 4px;
+        color: rgb(255, 255, 255);
+        background: rgb(3, 141, 99);
+        border: none;
+        width: 145px;
+        height: 50px;
+        margin-top:24px;
+        margin-left: 55px;
+    }
+    .banner2 .card {
+        height: 348px;
+        width: 212px;
+        background: rgb(205, 237, 222);
+        padding: 0.5rem;
+        margin-top: 55px;
+        margin-left:12%;
+    }
+    .banner2 .card img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .banner2 .cardBox  button {
+        cursor: pointer;
+        font-style: normal;
+        text-align: center;
+        letter-spacing: 0.0015em;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 20px;
+        border-radius: 4px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(3, 141, 99);
+        border: none;
+        width: 145px;
+        height: 50px;
+        margin-left: -35%;
+        margin-top: 25px;
+    }
+    .banner3 {
+        width: 100%;
+        height: 500px;
+        background-image: url(https://meesho.com/_next/static/images/download_banner-19ca4d63d9c1dc44bc8cbfae62b60bd7.jpg);
+        background-size: cover;
+        margin: auto;
+        margin-top:50px;
+        display: flex;
+        padding: 1rem;
+        text-align: left;   
+    }
+    .banner3 h4 {
+        color: rgb(85, 133, 248);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 30px;
+        font-family: "Mier bold";
+        margin: 0px 0px 10px;
+        padding: 0px;
+    }
+    .banner3 h1 {
+        color: rgb(244, 51, 151);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+        font-family: "Mier bold";
+    }
+    .banner3 .banner3ibox {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top:100px;
+        margin-left: 10px;
+    }
+    .banner3 .banner3ibox img {
+        width:170px;
+        height: 50px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .banner3container {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-left: 40%;
+    }
+    .banner4 {
+        width: 100%;
+        height: 350px;
+        background-image: url(https://miro.medium.com/max/1400/1*fx7ElXTQ-QZh79fs-rVX2Q.png);
+        background-size: cover;
+        margin: auto;
+        margin-top:50px;
+        padding: 1rem;
+        cursor: pointer;
+    }
+    .banner5 {
+        width: 95%;
+        margin-top:100px;
+        padding :1rem;
+        display: flex;
+        gap: 1rem;
+        margin: auto;
+        background-color: #F9F9F9;
+        justify-content:space-around;
+        padding-left: 80px;
+    }
+    .banner5tbox img {
+        width: 185px;
+        height:50px;
+        border-radius: 4px;
+    }
+    .banner5 div {
+        width: 20%;
+        text-align: left;
+        padding: .5rem;
+    }
+    .banner5 h4 {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        font-family: "Mier bold";
+    }
+    .banner5 p {
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: "Mier book";
+    }
+    .footer {
+        width:95%;
+        height:50px;
+        background-color: #FFFFFF;
+        font-size: 25px;
+        color: black;
+        text-align:left;
+        padding:1rem;
+        margin: auto;
+        padding-left: 100px;
+    }
 }
-.container {
-    width:49%;
-    text-align: center;
-    padding-left: 100px;
-}
-.container1 {
-    width:49%;
-    height: 100%;
-    background-image: url(https://images.meesho.com/images/marketing/1641555787389.jpg);
-    background-size: cover;
-}
-.line {
-    width: 80%;
-    margin: auto;
-    height: 50px;
-    padding: 1rem;
-    display: flex;
-    margin-top: 50px;
-}
-.line .hr {
-    width: 25%;
-    height:1px;
-    background-color: red;
-    margin-top: 25px;
-}
-.line .hrtitle {
-    width: 50%;
-    font-size: 36px;
-    font-weight: bold;
-}
-.banner1 {
-    width: 80%;
-    height: 500px;
-    background-image: url(https://images.meesho.com/images/marketing/1631612018143.png);
-    background-size: cover;
-    margin: auto;
-    margin-top:50px;
-    display: flex;
-    justify-content:space-around;
-    padding: 1rem;
-}
-.banner1 .temp {
-    margin-top: 200px;
-}
-.banner1 .img {
-    margin-top: 70px;
-}
-.banner1 img {
-    cursor: pointer;
-}
-.banner2 {
-    width: 80%;
-    height: 500px;
-    background-image: url(https://images.meesho.com/images/marketing/1629883965347.png);
-    background-size: cover;
-    margin: auto;
-    margin-top:50px;
-    display: flex;
-    justify-content:space-around;
-    padding: 1rem;
-}
-.banner2 .tbox {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    width: 25%;
-    color: rgb(3, 141, 99);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 52px;
-    font-family: "Mier bold";
-    margin-top: 110px;
-}
-.tbox button {
-    cursor: pointer;
-    font-style: normal;
-    text-align: center;
-    letter-spacing: 0.0015em;
-    font-size: 15px;
-    line-height: 20px;
-    border-radius: 4px;
-    color: rgb(255, 255, 255);
-    background: rgb(3, 141, 99);
-    border: none;
-    width: 145px;
-    height: 50px;
-    margin-top:24px;
-    margin-left: 55px;
-}
-.banner2 .card {
-    height: 348px;
-    width: 212px;
-    background: rgb(205, 237, 222);
-    padding: 0.5rem;
-    margin-top: 55px;
-}
-.banner2 .card img {
-    max-width: 100%;
-    max-height: 100%;
-}
-.banner2 .cardBox  button {
-    cursor: pointer;
-    font-style: normal;
-    text-align: center;
-    letter-spacing: 0.0015em;
-    font-size: 15px;
-    font-weight: bold;
-    line-height: 20px;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(3, 141, 99);
-    border: none;
-    width: 145px;
-    height: 50px;
-    margin-top:24px;
-    margin-left: 15px;
-}
-.banner3 {
-    width: 80%;
-    height: 500px;
-    background-image: url(https://meesho.com/_next/static/images/download_banner-19ca4d63d9c1dc44bc8cbfae62b60bd7.jpg);
-    background-size: cover;
-    margin: auto;
-    margin-top:50px;
-    display: flex;
-    justify-content:space-around;
-    padding: 1rem;
-    text-align: right;   
-}
-.banner3 h4 {
-    color: rgb(85, 133, 248);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
-    font-family: "Mier bold";
-    margin: 0px 0px 16px;
-    padding: 0px;
-}
-.banner3 h1 {
-    color: rgb(244, 51, 151);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 52px;
-    font-family: "Mier bold";
-}
-.banner3 .banner3ibox {
-    display: flex;
-    gap: 25px;
-    margin-top:100px;
-    margin-left: 150px;
-}
-.banner3 .banner3ibox img {
-    width:170px;
-    height: 50px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-.banner3container {
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-left: 40%;
-}
-.banner4 {
-    width: 80%;
-    height: 350px;
-    background-image: url(https://miro.medium.com/max/1400/1*fx7ElXTQ-QZh79fs-rVX2Q.png);
-    background-size: cover;
-    margin: auto;
-    margin-top:50px;
-    padding: 1rem;
-    cursor: pointer;
-}
-.banner5 {
-    width: 95%;
-    margin-top:100px;
-    padding :1rem;
-    display: flex;
-    gap: 1rem;
-    margin: auto;
-    background-color: #F9F9F9;
-    justify-content:space-around;
-    padding-left: 80px;
-}
-.banner5tbox img {
-    width: 185px;
-    height:50px;
-    border-radius: 4px;
-}
-.banner5 div {
-    width: 20%;
-    text-align: left;
-    padding: .5rem;
-}
-.banner5 h4 {
-    color: rgb(51, 51, 51);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 28px;
-    font-family: "Mier bold";
-}
-.banner5 p {
-    color: rgb(102, 102, 102);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    font-family: "Mier book";
-}
-.footer {
-    width:95%;
-    height:50px;
-    background-color: #FFFFFF;
-    font-size: 25px;
-    color: black;
-    text-align:left;
-    padding:1rem;
-    margin: auto;
-    padding-left: 100px;
-}
+

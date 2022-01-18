@@ -25,7 +25,7 @@ function BasicSelect({params}) {
   return (
     <Box sx={{ minWidth: 250 }}>
       <FormControl fullWidth>
-        <InputLabel id="demo-simple-select-label">Filter</InputLabel>
+        <InputLabel id="demo-simple-select-label">Sort</InputLabel>
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
@@ -91,9 +91,9 @@ const Category = ()=>{
     return (
         <div style={{marginTop:'200px'}}>
         <div className={styles.header}>{data[0]?.category}</div>
-        <div style={{marginTop:'20px',width:"87%",margin:'auto',height:'50px',boxShadow:'4px 4px 4px 4px #F4F4F4',display:'flex',padding:'1rem'}}>
+        <div className={styles.subheader}>
             <div style={{marginTop:'20px'}}><a style={{color:'#333D5A',fontWeight:'bold',marginRight:'10px'}}>Showing 1-12</a> out of 168445 Products</div>
-            <FilterAltIcon style={{marginLeft:'60%',marginTop:'15px'}}/><BasicSelect params={data[0]?.category}/>
+            <FilterAltIcon className={styles.filt}/><BasicSelect params={data[0]?.category}/>
         </div>
         <div className={styles.container}>
             {data?.map((item)=>(

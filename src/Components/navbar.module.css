@@ -140,6 +140,7 @@ p {
 }
 .downloadCard:hover .cards{color: #f43397;}
  .downloadCard:hover .dropdownContent{
+
     color:black;
     display:flex;
     flex-direction: column;
