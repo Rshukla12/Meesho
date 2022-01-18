@@ -1,5 +1,5 @@
-    {
-        "products":[
+{
+  "products":[
         {
             "id": 1,
             "category": "Sarees",
@@ -2476,4 +2476,166 @@
             "seller_id": 12
         }
     ]
+
+      "details": {
+        "Fabric": "Cotton",
+        "Pattern": "Single",
+        "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+        "description": "Best quality Cotton from assam"
+      },
+      "rating": 4.8,
+      "seller_id": 12
+    },
+    {
+      "id": 53,
+      "category": "Dresses",
+      "title": "Dress",
+      "original_price": 294,
+      "discounted_price": 174,
+      "sizes": [
+        "XL"
+      ],
+      "images": [
+        "https://images.meesho.com/images/products/71036137/b4aq1_512.jpg",
+        "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+      ],
+      "details": {
+        "Fabric": "Cotton",
+        "Pattern": "Single",
+        "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+        "description": "Best quality Cotton from assam"
+      },
+      "rating": 1.6,
+      "seller_id": 9
+    },
+    {
+      "id": 54,
+      "category": "Dresses",
+      "title": "PILI PATTI & BLUE IN RED WHITE PATTI Dresses",
+      "original_price": 560,
+      "discounted_price": 460,
+      "sizes": [
+        "S",
+        "XL",
+        "L",
+        "M",
+        "XXL"
+      ],
+      "images": [
+        "https://images.meesho.com/images/products/71033877/6cl5l_512.jpg",
+        "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+      ],
+      "details": {
+        "Fabric": "Cotton",
+        "Pattern": "Single",
+        "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+        "description": "Best quality Cotton from assam"
+      },
+      "rating": 4.8,
+      "seller_id": 10
+    },
+    {
+      "id": 55,
+      "category": "Dresses",
+      "title": "WOMEN BEAUTIFUL WINE LONG DRESS",
+      "original_price": 394,
+      "discounted_price": 294,
+      "sizes": [
+        "Free Size"
+      ],
+      "images": [
+        "https://images.meesho.com/images/products/71020721/nxtrf_512.jpg"
+      ],
+      "details": {
+        "Fabric": "Cotton",
+        "Pattern": "Single",
+        "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+        "description": "Best quality Cotton from assam"
+      },
+      "rating": 3.6,
+      "seller_id": 11
+    },
+    {
+      "id": 56,
+      "category": "Dresses",
+      "title": "Dress",
+      "original_price": 1060,
+      "discounted_price": 960,
+      "sizes": [
+        "M"
+      ],
+      "images": [
+        "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
+      ],
+      "details": {
+        "Fabric": "Cotton",
+        "Pattern": "Single",
+        "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+        "description": "Best quality Cotton from assam"
+      },
+      "rating": 4.8,
+      "seller_id": 12
+    },
+    {
+      "id": 57,
+      "category": "Dresses",
+      "title": "Dresses",
+      "original_price": 294,
+      "discounted_price": 174,
+      "sizes": [
+        "XL"
+      ],
+      "images": [
+        "https://images.meesho.com/images/products/71036137/b4aq1_512.jpg",
+        "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+      ],
+      "details": {
+        "Fabric": "Cotton",
+        "Pattern": "Single",
+        "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+        "description": "Best quality Cotton from assam"
+      },
+      "rating": 1.6,
+      "seller_id": 9
+    },
+    {
+      "id": 58,
+      "category": "Dresses",
+      "title": "PILI PATTI & BLUE IN RED WHITE PATTI Dresses",
+      "original_price": 560,
+      "discounted_price": 460,
+      "sizes": [
+        "S",
+        "XL",
+        "L",
+        "M",
+        "XXL"
+      ],
+      "images": [
+        "https://images.meesho.com/images/products/71033877/6cl5l_512.jpg",
+        "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+      ],
+      "details": {
+        "Fabric": "Cotton",
+        "Pattern": "Single",
+        "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+        "description": "Best quality Cotton from assam"
+      },
+      "rating": 4.8,
+      "seller_id": 10
+    },
+    {
+      "id": 59,
+      "category": "Dresses",
+      "title": "WOMEN BEAUTIFUL WINE LONG DRESS",
+      "original_price": 394,
+      "discounted_price": 294,
+      "sizes": [
+        "Free Size"
+      ],
+      "images": [
+        "https://images.meesho.com/images/products/71020721/nxtrf_512.jpg"
+      ],
+  }
+]
 }
