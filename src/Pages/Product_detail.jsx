@@ -8,7 +8,7 @@ export const Product_detail = () => {
 
     },[])
      const toset=()=>{
-        axios.get("http://localhost:3001/products").then((x)=>{
+        axios.get("https://fake-rjson-server-pro.herokuapp.com/products").then((x)=>{
             setToshow(x.data)    
         console.log(x)
         })

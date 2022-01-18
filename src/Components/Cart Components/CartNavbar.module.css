@@ -4,8 +4,10 @@
     justify-content: center;    
     width: 99%;
     padding: 0% 0.5% 1.5%;
-    position: sticky;
+    position: fixed;
+    z-index: 100;
     border-bottom: 1px solid #d3d3d3;
+    background-color: white;
 }
 
 .logo {
