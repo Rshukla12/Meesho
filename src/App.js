@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="App">
        {/* <SignUp/>
-      <Otp/> */}
-      {/* <Product_detail/> */}
+      <Otp/> 
+      <Product_detail/> */}
       <BrowserRouter>
         <Provider store={store}>
           <AllRoutes/>
