@@ -1,9 +1,9 @@
 .root {
     position: fixed;
-    left: 10%;
+    left: 8.5%;
     top: 21%;
     width: 100%;
-    max-width: 1250px;
+    max-width: 1300px;
     min-height: 1rem;
     background-color: #fff;
     display: flex;

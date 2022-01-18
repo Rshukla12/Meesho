@@ -152,11 +152,10 @@ p {
 .links{
     display: flex;
     justify-content: center;
-    gap: 3%;
     border-bottom: 1px solid #DFDFDF;
 }
 .links > *:nth-child(odd) {
-    padding: 1.2% 0%;
+    padding: 1.2% 1.5%;
     text-decoration: none;
     color: #333333;
     border-bottom: 3px solid #fff;
