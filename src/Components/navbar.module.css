@@ -6,6 +6,14 @@
     background-color: white;
     overflow: hidden;
 }
+
+.Main_Header > div:first-child {
+    width: 95%;
+    padding: 0.25% 7%;
+    max-width: 1400px;
+    margin: auto;
+}
+
 .header_conatainer{
     display: flex;
     height: 70px;
@@ -15,7 +23,7 @@
 
 .header_logo > *{
     height: 70px;
-    margin: 0.1rem 1.3rem 0rem 5.75rem;
+    margin: 0rem 10% 0% 0%;
 }
 .Search_Input{
     position: relative;
@@ -23,12 +31,17 @@
     border: 1px solid gray;
     border-radius: 5px;
     align-items: center ;
+    left: 2%;
+    top: 10%;
+    width: 100%;
+    max-width: 380px;
+    height: 4rem;
     /* padding: 0.5rem 0px 0px 0px; */
-    margin:1rem 0rem 0rem 0rem;
+    /* margin:1rem 0rem 0rem 0rem; */
 }
 .search_input{
     font-size: 16px;
-    width: 350px;
+    width: 85%;
     border: 0px;
     outline: 0;
 }
@@ -56,7 +69,7 @@
 .cards_container{
     position: relative;
     height: 100%;
-    margin-left: 200px;
+    margin-left: 15%;
     margin-top: 8px;
     gap: 2rem;
     display: flex;
@@ -77,7 +90,6 @@ p {
 }
 .dividerLines{
     margin-top: 20px;
-    margin-bottom: 20px;
     width: 100%;
     height:1px ;
     background-color: lightgray;
@@ -128,25 +140,27 @@ p {
 }
 .downloadCard:hover .cards{color: #f43397;}
  .downloadCard:hover .dropdownContent{
-     color:black;
-     display:flex;
-     flex-direction: column;
-     gap: 0.4rem;
-     min-height: fit-content;
-     position: fixed;
-     margin-top: 15%;
+    color:black;
+    display:flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    min-height: fit-content;
+    position: fixed;
+    margin-top: 18%;
 }
 
 .links{
     display: flex;
     justify-content: center;
+    gap: 3%;
     border-bottom: 1px solid #DFDFDF;
 }
 .links > *:nth-child(odd) {
-    padding: 1rem 2rem;
+    padding: 1.2% 0%;
     text-decoration: none;
     color: #333333;
     border-bottom: 3px solid #fff;
+    font-size: 1rem;
 }
 .links > *:nth-child(odd):hover{
     border-bottom: 3px solid #f43397;
@@ -173,11 +187,17 @@ p {
     color: rgb(102, 102, 102);
     cursor: pointer;
 }
+
+.cart {
+    position: relative;
+    top: -1%;
+}
+
 .cartTotal {
-    position: fixed;
+    position: absolute;
     background-color: #f43397;
-    right: 11.1rem;
-    top: 0.4rem;
+    top: -23%;
+    right: -17%;
     font-size: 0.75rem;
     padding: 0.2rem 0.5rem;
     color: #fff;
@@ -196,4 +216,44 @@ p {
 .dividerLines + h3 {
     display: flex;
     gap: 1rem;
+}
+
+
+@media screen and ( max-width: 1000px ) {
+    .Search_Input {
+        display: none;
+    }
+    .cards_container {
+        font-size: 14px;
+    }   
+    .Main_Header > div:first-child {
+        width: 95%;
+        padding: 0.25% 3% 0.25% 6%;
+    }
+    .links {
+        gap: 1%;
+    }
+    .links > *:nth-child(odd) {
+        padding: 2% 0%;
+        font-size: 1rem;
+    }
+    .downloadCard:hover .cards{color: #f43397;}
+    .downloadCard:hover .dropdownContent{
+        margin-top: 27%;
+    }
+
+}
+
+@media screen and ( max-width: 600px ) {
+    .hideOnSm{
+        display: none;
+    }    
+    .links {
+        display: none;
+    }
+    .profileContent {
+        position: fixed;
+        left: 40%;
+        width: 13rem;
+    }
 }

@@ -1,8 +1,9 @@
 .root {
     position: fixed;
-    left: 3%;
-    top: 19.446%;
-    width: 94%;
+    left: 10%;
+    top: 21%;
+    width: 100%;
+    max-width: 1250px;
     min-height: 1rem;
     background-color: #fff;
     display: flex;
@@ -39,4 +40,12 @@
 
 .body {
     cursor: pointer;
+}
+
+@media screen and ( max-width: 1000px ) {
+    .root {
+        position: fixed;
+        left: 0%;
+        top: 21%;
+    }   
 }

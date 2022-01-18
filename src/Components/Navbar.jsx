@@ -105,7 +105,7 @@ const NavBar = () => {
                                 <input onClick={() => { setView(!view); setResults(null) }} onChange={(e) => { setParms(e.target.value) }} className={styles.search_input} type="text" placeholder="Try Saree, Kurti or Search by Product Code" />
                             </div>
                             <div className={styles.cards_container}>
-                                <div className={styles.downloadCard}>
+                                <div className={`${styles.downloadCard} ${styles.hideOnSm}`}>
                                     <div className={styles.cards}>
                                         <PhoneAndroidIcon className={styles.android} />
                                         <p>Download App</p>
@@ -120,9 +120,9 @@ const NavBar = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div style={{ width: "2px", height: "40px", backgroundColor: "lightgray" }}></div>
-                                <div onClick={()=>history.push("/seller")}>Become A Supplier</div>
-                                <div style={{ width: "2px", height: "40px", backgroundColor: "lightgray" }}></div>
+                                <div className={styles.hideOnSm} style={{ width: "2px", height: "40px", backgroundColor: "lightgray" }}></div>
+                                <div className={styles.hideOnSm} onClick={()=>history.push("/seller")}>Become A Supplier</div>
+                                <div className={styles.hideOnSm} style={{ width: "2px", height: "40px", backgroundColor: "lightgray" }}></div>
                                 <div className={styles.profileCard}>
                                     <div className={styles.profile}>
                                         <PermIdentityIcon />
@@ -163,10 +163,10 @@ const NavBar = () => {
                                     </div>
                                 </div>
 
-                                <div onClick={()=>history.push("/cart")}>
-                                    <div className={styles.cartTotal}>{cartTotal}</div>
+                                <div className={styles.cart} onClick={()=>history.push("/cart")}>
                                     <ShoppingCartIcon />
                                     <p>Cart</p>
+                                    <div className={styles.cartTotal}>{cartTotal}</div>
                                 </div>
                             </div>
                         </div>
