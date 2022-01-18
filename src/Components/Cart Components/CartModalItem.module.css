@@ -2,6 +2,14 @@
     height: 100%;
 }
 
+.meta > *:first-child {
+    width: 4rem;
+}
+
+.meta > *:nth-child(2) {
+    margin-left: 4rem;
+}
+
 .meta:nth-child(2)::before {
     display: none;
 }
@@ -47,6 +55,7 @@
     background-color: #dfdfdf6b;
     display: flex;
     gap: 1rem;
+    min-width: 4.5rem;
     cursor: pointer;
 }
 
