@@ -42,7 +42,7 @@ export const addProductFailure = ( err ) => ({
 
 export const addProduct = ( product ) => ( dispatch ) => {
     dispatch( addProductRequest );
-    axios.post("http://localhost:3001/products", product)
+    axios.post("https://fake-rjson-server-pro.herokuapp.com/products", product)
     .then( res => {
         dispatch(addProductSuccess());
     })

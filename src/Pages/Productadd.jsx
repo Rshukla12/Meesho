@@ -141,7 +141,7 @@ export const Productadd = () => {
     React.useEffect(() => {
         const config = {
             method: 'get',
-            url: `http://localhost:3001/products?id=${id}`
+            url: `https://fake-rjson-server-pro.herokuapp.com/products?id=${id}`
         }
         axios(config)
             .then((res) => {

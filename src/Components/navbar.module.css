@@ -124,7 +124,7 @@ p {
 }
 .profileCard{
     display: inline;
-
+    text-decoration: none;
 }
 .profileCard:hover .profileContent{
     color: gray;

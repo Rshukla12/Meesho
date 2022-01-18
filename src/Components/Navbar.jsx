@@ -47,7 +47,7 @@ const NavBar = () => {
     React.useEffect(() => {
         const config = {
             method: 'get',
-            url: `http://localhost:3001/products?q=${params}&_limit=5&_page=1`
+            url: `https://fake-rjson-server-pro.herokuapp.com/products?q=${params}&_limit=5&_page=1`
         }
         axios(config)
             .then((res) => {
@@ -149,7 +149,7 @@ const NavBar = () => {
                                                 <>
                                             <p style={{ fontSize: "18px", marginBlockStart: "0.5em", marginBlockEnd: "0.2em", fontWeight: "bold" }}>Hello User</p>
                                             <p style={{ fontSize: "12px", marginBlockEnd: "0.5em" }}>To access your Meesho account</p>
-                                            <Link to="/signup">
+                                            <Link style={{ textDecoration: "none" }} to="/signup">
                                             <SignUpButton variant="contained">SIGN UP</SignUpButton>
                                             </Link>
                                             <div className={styles.dividerLines}></div>

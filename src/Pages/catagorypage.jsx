@@ -83,7 +83,7 @@ const Category = ()=>{
     const [count,setCount] = React.useState(1);
     const config = {
         method: "GET",
-        url:`http://localhost:3001/products?category=${query}&_limit=12&_page=${count}`
+        url:`https://fake-rjson-server-pro.herokuapp.com/products?category=${query}&_limit=12&_page=${count}`
     }
     React.useEffect(()=>{
         dispatch(getData(config))
