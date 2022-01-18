@@ -6,14 +6,14 @@
   right: 0;
   background: rgba(15, 15, 15, 0.8);
   display: none;
-  z-index: 2;
+  z-index: 2000;
 }
 
 .rootMain {
   position: fixed;
   background: white;
   width: 100%;
-  max-width: 33rem;
+  max-width: 35rem;
   height: auto;
   top: 0%;
   right: 0%;

@@ -2,10 +2,11 @@ import React, { useState } from 'react'
 import "./SignUp.css"
 import TextField from '@mui/material/TextField'
 import styled from '@emotion/styled';
-import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import InputField from "../Components/Cart Components/Input/InputField"
 export const SignUp = () => {
     const [number,setNumber] = useState(""); 
+    const history = useHistory();
     const setMobileNumber = (e) => {
       setNumber(
           e.target.value);
@@ -15,7 +16,7 @@ export const SignUp = () => {
     if(number.length == 10){
       localStorage.setItem("phone",number)
           console.log(number)
-          window.location.replace("/otp")
+          history.push("/otp")
     }
     else{
         window.alert("Enter Valid Number")
