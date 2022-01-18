@@ -37,7 +37,7 @@ const initData = {
 }
 
 
-const TransitionDown = (props) => {
+export const TransitionDown = (props) => {
     return <Slide {...props} direction="down" />;
 }
 

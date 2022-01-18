@@ -9,7 +9,7 @@
 
 .Main_Header > div:first-child {
     width: 95%;
-    padding: 0.25% 7%;
+    padding: 0.25% 6.5%;
     max-width: 1400px;
     margin: auto;
 }
@@ -31,7 +31,7 @@
     border: 1px solid gray;
     border-radius: 5px;
     align-items: center ;
-    left: 2%;
+    left: 1%;
     top: 10%;
     width: 100%;
     max-width: 380px;
@@ -46,13 +46,15 @@
     outline: 0;
 }
 .url {
-    width:390px;
-    margin-Top:-160px;
-    margin-Left:267px;
+    width:380px;
+    margin-Top:-172px;
+    margin-Left:270px;
     background-color:#FFFFFF;
     border:0.2px solid #F9F9F9;
     position: fixed;
     overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .icon{
     left: 5px;

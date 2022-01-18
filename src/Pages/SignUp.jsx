@@ -41,7 +41,7 @@ export const SignUp = () => {
                     // className="number_input"
                     type="number"
                     name="phone" 
-                    required={true} 
+                    required={true}            
                     val={number} 
                     isError={false}
                     maxLen={10}
@@ -50,7 +50,7 @@ export const SignUp = () => {
                 />
           </div>
         </div>
-        <button onClick={handleSubmit} className='otp'>Send OTP</button>
+        <button style={{cursor:"pointer"}} onClick={handleSubmit} className='otp'>Send OTP</button>
 
         </div>
         </div>
