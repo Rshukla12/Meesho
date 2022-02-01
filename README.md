@@ -22,7 +22,7 @@ Meesho is an indian e-commerce company, We tried core functionalities of Meesho 
 
 ### [Ravi Shukla](https://github.com/Rshukla12) - [LinkedIn](https://www.linkedin.com/in/ravi-shukla-94036693/)
 
-### [Vandana Tiwari] (https://github.com/vandna0906) [LinkedIn] (https://www.linkedin.com/in/vandna-tiwari/)
+### [Vandana Tiwari](https://github.com/vandna0906) - [LinkedIn](https://www.linkedin.com/in/vandna-tiwari/)
 
 ## Deploy Locally
 
