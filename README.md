@@ -16,13 +16,13 @@ Meesho is an indian e-commerce company, We tried core functionalities of Meesho 
 
 ## Contributions:-
 
-### Nikhil Kumar
+### [Nikhil Kumar](https://github.com/12NikhilKumar) - [LinkedIn](https://www.linkedin.com/in/nikhil-kumar-520300218)
 
-### Pratham Agrawal
+### [Pratham Agrawal](https://github.com/pratham2002) - [LinkedIn](https://www.linkedin.com/in/pratham-agrawal-940590174)
 
-### [Ravi Shukla](https://github.com/Rshukla12) - [LinkedIn](https://www.linkedin.com/in/ravi-shukla-94036693/)
+### [Ravi Shukla](https://github.com/Rshukla12) - [LinkedIn](https://www.linkedin.com/in/ravi-shukla-94036693)
 
-### [Vandana Tiwari](https://github.com/vandna0906) - [LinkedIn](https://www.linkedin.com/in/vandna-tiwari/)
+### [Vandana Tiwari](https://github.com/vandna0906) - [LinkedIn](https://www.linkedin.com/in/vandna-tiwari)
 
 ## Deploy Locally
 
