@@ -266,7 +266,7 @@ const AddProductPage = () => {
                         <Modal open={test} onClose={()=>setTest(false)} >
                             <div className={styles.product}>
                                 <h1>Test View</h1>
-                                <Productcard url={state.images[0]} title={state.title} discountAmt={state.discounted_price} Amt={state.original_price} rate={state.rating} d1={state.details.Fabric} d2={state.details.Multipack} d3={state.details.Multipack} d4={state.details.Description} handleClick={()=>setTest(false)}  />
+                                <Productcard url={state.images} title={state.title} discountAmt={state.discounted_price} Amt={state.original_price} rate={state.rating} d1={state.details.Fabric} d2={state.details.Multipack} d3={state.details.Multipack} d4={state.details.Description} handleClick={()=>setTest(false)}  />
                                 <div onClick={()=>setTest(false)}>
                                     <ReactLogo />
                                     <h3>Close</h3>
