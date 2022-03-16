@@ -17,6 +17,8 @@
     top: -20%;
     left: 0;
     right: 0;
+    height: 120vh;
+    overflow: scroll;
 }
 
 .rowParent {
@@ -25,7 +27,7 @@
 }
 
 .product > *:last-child {
-    top: 12%;
+    top: 17%;
     position: absolute;
     right: 5%;
     z-index: 1021;
@@ -36,7 +38,7 @@
     position: absolute;
     z-index: 1021;
     left: 10%;
-    top: 11%;
+    top: 16%;
 }
 .product > *:last-child > h3 {
     margin-top: 0rem;
