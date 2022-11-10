@@ -19,7 +19,7 @@ const CartRoutes = () => {
             <Route exact path="/cart/summary">
                 <SummaryPage />
             </Route>
-            <Route>
+            <Route>yar
                 <div>Not Found</div>
             </Route>
         </Switch>
